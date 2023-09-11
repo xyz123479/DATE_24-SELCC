@@ -1,13 +1,12 @@
 Information: Propagating switching activity (high effort zero delay simulation). (PWR-6)
 Warning: Design has unannotated primary inputs. (PWR-414)
-Warning: Design has unannotated black box outputs. (PWR-428)
  
 ****************************************
 Report : power
         -analysis_effort high
 Design : SCC_4LC_decoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:03:43 2023
+Date   : Mon Sep 11 21:13:47 2023
 ****************************************
 
 
@@ -22,7 +21,6 @@ Wire Load Model Mode: enclosed
 Design        Wire Load Model            Library
 ------------------------------------------------
 SCC_4LC_decoder        ZeroWLM           um28nchslogl35hsl140f_ssgwc0p9v125c
-SCC_4LC_syndrome_gen   ZeroWLM           um28nchslogl35hsl140f_ssgwc0p9v125c
 
 
 Global Operating Voltage = 0.9  
@@ -34,12 +32,12 @@ Power-specific unit information :
     Leakage Power Units = 1nW
 
 
-  Cell Internal Power  = 134.0706 uW   (77%)
-  Net Switching Power  =  40.8946 uW   (23%)
+  Cell Internal Power  = 601.5287 uW   (56%)
+  Net Switching Power  = 463.9673 uW   (44%)
                          ---------
-Total Dynamic Power    = 174.9652 uW  (100%)
+Total Dynamic Power    =   1.0655 mW  (100%)
 
-Cell Leakage Power     =   3.8682 uW
+Cell Leakage Power     =  12.0970 uW
 
 Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
 
@@ -52,7 +50,7 @@ black_box          0.0000            0.0000            0.0000            0.0000 
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
 register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational      0.1341        4.0895e-02        3.8681e+03            0.1788  ( 100.00%)
+combinational      0.6015            0.4640        1.2097e+04            1.0776  ( 100.00%)
 --------------------------------------------------------------------------------------------------
-Total              0.1341 mW     4.0895e-02 mW     3.8681e+03 nW         0.1788 mW
+Total              0.6015 mW         0.4640 mW     1.2097e+04 nW         1.0776 mW
 1

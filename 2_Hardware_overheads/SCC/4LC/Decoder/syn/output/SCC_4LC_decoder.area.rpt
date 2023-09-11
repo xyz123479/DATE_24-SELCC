@@ -3,32 +3,30 @@
 Report : area
 Design : SCC_4LC_decoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:03:43 2023
+Date   : Mon Sep 11 21:13:47 2023
 ****************************************
 
 Library(s) Used:
 
     um28nchslogl35hsl140f_ssgwc0p9v125c (File: /media/0/LogicLibraries/UMC/28nm/35hs/hsl/svt/latest/liberty/logic_synth/um28nchslogl35hsl140f_ssgwc0p9v125c.db)
 
-Number of ports:                          215
-Number of nets:                           471
-Number of cells:                          314
-Number of combinational cells:            312
-Number of sequential cells:                 1
+Number of ports:                          137
+Number of nets:                           665
+Number of cells:                          594
+Number of combinational cells:            594
+Number of sequential cells:                 0
 Number of macros/black boxes:               0
-Number of buf/inv:                         15
-Number of references:                      22
+Number of buf/inv:                         99
+Number of references:                      90
 
-Combinational area:                284.423998
-Buf/Inv area:                        5.040000
+Combinational area:                598.079992
+Buf/Inv area:                       40.992000
 Noncombinational area:               0.000000
 Macro/Black Box area:                0.000000
 Net Interconnect area:      undefined  (Wire load has zero net area)
 
-Total cell area:                   284.423998
+Total cell area:                   598.079992
 Total area:                 undefined
-
-Information: This design contains black box (unknown) components. (RPT-8)
 
 The above information was reported from the logical library. The following are from the physical library:
 
@@ -39,10 +37,9 @@ Hierarchical area distribution
                                   ------------------  --------------------------- 
 Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
                                   Total      Total    national  national   boxes   Design
---------------------------------  ---------  -------  --------  ---------  ------  --------------------
-SCC_4LC_decoder                    284.4240    100.0  168.6720     0.0000  0.0000  SCC_4LC_decoder
-syndrome_gen                       115.7520     40.7  115.7520     0.0000  0.0000  SCC_4LC_syndrome_gen
---------------------------------  ---------  -------  --------  ---------  ------  --------------------
-Total                                                 284.4240     0.0000  0.0000
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+SCC_4LC_decoder                    598.0800    100.0  598.0800     0.0000  0.0000  SCC_4LC_decoder
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 598.0800     0.0000  0.0000
 
 1

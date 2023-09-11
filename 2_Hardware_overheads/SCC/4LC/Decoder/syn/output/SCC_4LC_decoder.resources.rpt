@@ -3,7 +3,7 @@
 Report : resources
 Design : SCC_4LC_decoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:03:43 2023
+Date   : Mon Sep 11 21:13:47 2023
 ****************************************
 
 
@@ -12,10 +12,10 @@ Resource Report for this hierarchy in file
 =============================================================================
 | Cell           | Module         | Parameters | Contained Operations       |
 =============================================================================
-| ash_1          | DW_leftsh      | A_width=71 | sll_151 (SCC_4LC_decoder.sv:151) |
-           |                | SH_width=8 |                            |
-| ash_2          | DW_leftsh      | A_width=71 | sll_154 (SCC_4LC_decoder.sv:154) |
-           |                | SH_width=8 |                            |
+| ash_1          | DW_leftsh      | A_width=71 | sll_18 (SCC_4LC_decoder.sv:18) |
+             |                | SH_width=7 |                            |
+| ash_2          | DW_leftsh      | A_width=71 | sll_22 (SCC_4LC_decoder.sv:22) |
+             |                | SH_width=7 |                            |
 =============================================================================
 
 

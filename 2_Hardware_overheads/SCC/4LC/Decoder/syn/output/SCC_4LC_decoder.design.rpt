@@ -3,7 +3,7 @@
 Report : design
 Design : SCC_4LC_decoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:03:43 2023
+Date   : Mon Sep 11 21:13:47 2023
 ****************************************
 
 Design allows ideal nets on clock nets.
@@ -90,6 +90,4 @@ Required Licenses:
 Design Parameters:
 
     None specified.
-
-Information: This design contains black box (unknown) components. (RPT-8)
 1

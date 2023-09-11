@@ -1,6 +1,6 @@
 ###################################################################
 
-# Created by write_sdc on Mon Sep 11 18:03:43 2023
+# Created by write_sdc on Mon Sep 11 21:13:47 2023
 
 ###################################################################
 set sdc_version 2.1
@@ -143,8 +143,8 @@ set_output_delay -clock vclk  0  [get_ports {message[3]}]
 set_output_delay -clock vclk  0  [get_ports {message[2]}]
 set_output_delay -clock vclk  0  [get_ports {message[1]}]
 set_output_delay -clock vclk  0  [get_ports {message[0]}]
-set_output_delay -clock vclk  0  [get_ports {error_type[1]}]
-set_output_delay -clock vclk  0  [get_ports {error_type[0]}]
+set_output_delay -clock vclk  0  [get_ports {error_type_result[1]}]
+set_output_delay -clock vclk  0  [get_ports {error_type_result[0]}]
 set_input_transition -max 0.1  [get_ports {codeword[70]}]
 set_input_transition -min 0.1  [get_ports {codeword[70]}]
 set_input_transition -max 0.1  [get_ports {codeword[69]}]

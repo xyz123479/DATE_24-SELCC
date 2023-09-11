@@ -1,38 +1,42 @@
 module TB();
 
-wire [79:0] codeword_in;
-wire [3:0] error_location_out;
-wire decode_result_out;
-wire [63:0] data_out;
-//wire [7:0] error_value_out;
-//wire [7:0] syndrome0_out;
-//wire [7:0] syndrome1_out;
- 
-reg [79:0] codeword;
+wire [70:0] codeword;
+wire [63:0] message;
+wire [1:0]  error_type;
+reg [70:0] codeword_test;
 
 initial begin
-    codeword[79:72]  = 8'b1010_0011; // error value
-    codeword[71:0]   = 72'b0;  
+    //SE
+    //codeword_test[70]    = 1'b1; // error value
+    //codeword_test[69:0]  = 70'b0;  
 
-    //codeword[79:72] = 8'b0000_0000;
-    //codeword[71:64] = 8'b1010_0011;
-    //codeword[63:0]  = 64'b0;
+    // DE
+    //codeword_test[70:69]    = 2'b11; // error value
+    //codeword_test[68:0]     = 69'b0;  
+
+    // SE + SE
+    //codeword_test[70]       = 1'b1; // error value
+    //codeword_test[69:65]    = 5'b0;
+    //codeword_test[64]       = 1'b1; // error value
+    //codeword_test[63:0]     = 64'b0;  
+
+    // SE + DE
+    codeword_test[70]       = 1'b1; // error value
+    codeword_test[69:65]    = 5'b0;
+    codeword_test[64:63]    = 2'b11; // error value
+    codeword_test[62:0]     = 63'b0; 
 end
 
-assign codeword_in = codeword;
+assign codeword = codeword_test;
 
   //AMDCHIPKILL_decodeR(codeword_in, error_location_out, decode_result_out, data_out, error_value_out,syndrome0_out,syndrome1_out);
-  AMDCHIPKILL_DECODER decoder(codeword_in, error_location_out, decode_result_out, data_out);
+  SCC_4LC_decoder decoder(codeword, message, error_type);
 
   initial begin
     # 20;
-    $display("codeword :           %b",codeword_in);
-    //$display("syndrome_0 :         %b",syndrome0_out);
-    //$display("syndrome_1 :         %b",syndrome1_out);
-    $display("error_location :     %b",error_location_out);
-    //$display("error_value :        %b",error_value_out);
-    $display("decode_result_out :  %b",decode_result_out);
-    $display("data :               %b",data_out);
+    $display("codeword   :         %b",codeword);
+    $display("message    :         %b",message);
+    $display("error_type :         %b",error_type);
   end
 
 endmodule

@@ -1,8 +1,4 @@
-/home/xyz123479/verilog/AMDCHIPKILL/Decoder/rtl/AMDCHIPKILL_DECODER.sv
-/home/xyz123479/verilog/AMDCHIPKILL/Decoder/rtl/ERROR_INFORMATION.sv
-/home/xyz123479/verilog/AMDCHIPKILL/Decoder/rtl/ERROR_LOCATION.sv
-/home/xyz123479/verilog/AMDCHIPKILL/Decoder/rtl/GFDIV.sv
-/home/xyz123479/verilog/AMDCHIPKILL/Decoder/rtl/GFEXP.sv
-/home/xyz123479/verilog/AMDCHIPKILL/Decoder/rtl/GFMULT.sv
-/home/xyz123479/verilog/AMDCHIPKILL/Decoder/rtl/SYNDROME_GENERATOR.sv
-/home/xyz123479/verilog/AMDCHIPKILL/Decoder/sim/tb/TB_testbench.sv
+/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SCC/4LC/Decoder/rtl/SCC_4LC_decoder.sv
+/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SCC/4LC/Decoder/rtl/SCC_4LC_errorinfo_gen.sv
+/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SCC/4LC/Decoder/rtl/SCC_4LC_syndrome_gen.sv
+/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SCC/4LC/Decoder/sim/tb/TB_testbench.sv

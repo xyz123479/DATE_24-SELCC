@@ -6,7 +6,7 @@ Report : constraint
         -verbose
 Design : SCC_4LC_decoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:03:43 2023
+Date   : Mon Sep 11 21:13:47 2023
 ****************************************
 
 
@@ -514,55 +514,7 @@ Date   : Mon Sep 11 18:03:43 2023
     Slack              -0.0000775500  (VIOLATED)
 
 
-    Net: syndrome[0]
-
-    Capacitance        0.0000000000
-  - min_capacitance    0.0000775500
-  ------------------------------
-    Slack              -0.0000775500  (VIOLATED)
-
-
-    Net: syndrome[1]
-
-    Capacitance        0.0000000000
-  - min_capacitance    0.0000775500
-  ------------------------------
-    Slack              -0.0000775500  (VIOLATED)
-
-
-    Net: syndrome[2]
-
-    Capacitance        0.0000000000
-  - min_capacitance    0.0000775500
-  ------------------------------
-    Slack              -0.0000775500  (VIOLATED)
-
-
-    Net: syndrome[3]
-
-    Capacitance        0.0000000000
-  - min_capacitance    0.0000775500
-  ------------------------------
-    Slack              -0.0000775500  (VIOLATED)
-
-
-    Net: syndrome[4]
-
-    Capacitance        0.0000000000
-  - min_capacitance    0.0000775500
-  ------------------------------
-    Slack              -0.0000775500  (VIOLATED)
-
-
-    Net: syndrome[5]
-
-    Capacitance        0.0000000000
-  - min_capacitance    0.0000775500
-  ------------------------------
-    Slack              -0.0000775500  (VIOLATED)
-
-
-    Net: syndrome[6]
+    Net: message[63]
 
     Capacitance        0.0000000000
   - min_capacitance    0.0000775500
@@ -573,17 +525,17 @@ Date   : Mon Sep 11 18:03:43 2023
     Design: SCC_4LC_decoder
 
     max_area           0.0000000000
-  - Current Area       284.4240112305
+  - Current Area       598.0800170898
   ------------------------------
-    Slack              -284.4240112305  (VIOLATED)
+    Slack              -598.0800170898  (VIOLATED)
 
 
     Design: SCC_4LC_decoder
 
     max_leakage_power      0.0000000000
-  - Current Leakage Power  5583.1538085938
+  - Current Leakage Power  14011.0244140625
   ----------------------------------
-    Slack                  -5583.1538085938  (VIOLATED)
+    Slack                  -14011.0244140625  (VIOLATED)
 
 
 1
