@@ -3,12 +3,12 @@
 Report : resources
 Design : SCC_8LC_decoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 16:36:43 2023
+Date   : Mon Sep 11 18:05:20 2023
 ****************************************
 
 
 Resource Report for this hierarchy in file
-        /home/xyz123479/verilog/DATE24_SC_ECC/SCC/8LC/Decoder/rtl/SCC_8LC_decoder.sv
+        /home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SCC/8LC/Decoder/rtl/SCC_8LC_decoder.sv
 =============================================================================
 | Cell           | Module         | Parameters | Contained Operations       |
 =============================================================================

@@ -1,0 +1,27 @@
+Error: Width mismatch on port 'error_addr' of reference to 'SCC_4LC_errorinfo_gen' in 'SCC_4LC_decoder'. (LINK-3)
+Warning: Unable to resolve reference 'SCC_4LC_errorinfo_gen' in 'SCC_4LC_decoder'. (LINK-5)
+ 
+****************************************
+check_design summary:
+Version:     Q-2019.12-SP5-5
+Date:        Mon Sep 11 18:03:43 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      1
+    Constant outputs (LINT-52)                                      1
+
+Tristate                                                            7
+    A tristate bus has a non tri-state driver (LINT-34)             7
+--------------------------------------------------------------------------------
+
+Warning: In design 'SCC_4LC_decoder', three-state bus 'syndrome[0]' has non three-state driver 'syndrome_gen/U46/X'. (LINT-34)
+Warning: In design 'SCC_4LC_decoder', three-state bus 'syndrome[1]' has non three-state driver 'syndrome_gen/U19/X'. (LINT-34)
+Warning: In design 'SCC_4LC_decoder', three-state bus 'syndrome[2]' has non three-state driver 'syndrome_gen/U57/X'. (LINT-34)
+Warning: In design 'SCC_4LC_decoder', three-state bus 'syndrome[3]' has non three-state driver 'syndrome_gen/U65/X'. (LINT-34)
+Warning: In design 'SCC_4LC_decoder', three-state bus 'syndrome[4]' has non three-state driver 'syndrome_gen/U33/X'. (LINT-34)
+Warning: In design 'SCC_4LC_decoder', three-state bus 'syndrome[5]' has non three-state driver 'syndrome_gen/U74/X'. (LINT-34)
+Warning: In design 'SCC_4LC_decoder', three-state bus 'syndrome[6]' has non three-state driver 'syndrome_gen/U84/X'. (LINT-34)
+Warning: In design 'SCC_4LC_decoder', output port 'message[63]' is connected directly to 'logic 0'. (LINT-52)
+1

@@ -1,0 +1,34 @@
+ 
+****************************************
+Report : resources
+Design : SEC_DAEC_TAEC_decoder
+Version: Q-2019.12-SP5-5
+Date   : Mon Sep 11 18:06:15 2023
+****************************************
+
+
+Resource Report for this hierarchy in file
+        /home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SEC-DAEC-TAEC/Decoder/rtl/SEC_DAEC_TAEC_decoder.sv
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| ash_1          | DW_leftsh      | A_width=72 | sll_261 (SEC_DAEC_TAEC_decoder.sv:261) |
+     |                | SH_width=7 |                            |
+| ash_2          | DW_leftsh      | A_width=72 | sll_264 (SEC_DAEC_TAEC_decoder.sv:264) |
+     |                | SH_width=7 |                            |
+| ash_3          | DW_leftsh      | A_width=72 | sll_267 (SEC_DAEC_TAEC_decoder.sv:267) |
+     |                | SH_width=7 |                            |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| ash_1              | DW_leftsh        | astr (area)        |                |
+| ash_2              | DW_leftsh        | astr (area)        |                |
+| ash_3              | DW_leftsh        | astr (area)        |                |
+===============================================================================
+
+1

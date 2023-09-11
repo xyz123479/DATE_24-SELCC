@@ -1,0 +1,327 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 10
+        -max_paths 10
+Design : SCC_4LC_decoder
+Version: Q-2019.12-SP5-5
+Date   : Mon Sep 11 18:03:43 2023
+****************************************
+
+Operating Conditions: SSGWC0P9V125C   Library: um28nchslogl35hsl140f_ssgwc0p9v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: codeword[18]
+              (input port clocked by vclk)
+  Endpoint: message[10]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SCC_4LC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 f
+  codeword[18] (in)                        0.00       0.00 f
+  U413/X (STP_AO2BB2_0P5)                  0.05       0.05 f
+  message[10] (out)                        0.00       0.05 f
+  data arrival time                                   0.05
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.05
+  -----------------------------------------------------------
+  slack (MET)                                         0.55
+
+
+  Startpoint: codeword[17]
+              (input port clocked by vclk)
+  Endpoint: message[9] (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SCC_4LC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 f
+  codeword[17] (in)                        0.00       0.00 f
+  U401/X (STP_AO2BB2_0P5)                  0.05       0.05 f
+  message[9] (out)                         0.00       0.05 f
+  data arrival time                                   0.05
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.05
+  -----------------------------------------------------------
+  slack (MET)                                         0.55
+
+
+  Startpoint: codeword[16]
+              (input port clocked by vclk)
+  Endpoint: message[8] (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SCC_4LC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 f
+  codeword[16] (in)                        0.00       0.00 f
+  U420/X (STP_AO2BB2_0P5)                  0.05       0.05 f
+  message[8] (out)                         0.00       0.05 f
+  data arrival time                                   0.05
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.05
+  -----------------------------------------------------------
+  slack (MET)                                         0.55
+
+
+  Startpoint: codeword[15]
+              (input port clocked by vclk)
+  Endpoint: message[7] (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SCC_4LC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 f
+  codeword[15] (in)                        0.00       0.00 f
+  U423/X (STP_AO2BB2_0P5)                  0.05       0.05 f
+  message[7] (out)                         0.00       0.05 f
+  data arrival time                                   0.05
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.05
+  -----------------------------------------------------------
+  slack (MET)                                         0.55
+
+
+  Startpoint: codeword[14]
+              (input port clocked by vclk)
+  Endpoint: message[6] (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SCC_4LC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 f
+  codeword[14] (in)                        0.00       0.00 f
+  U426/X (STP_AO2BB2_0P5)                  0.05       0.05 f
+  message[6] (out)                         0.00       0.05 f
+  data arrival time                                   0.05
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.05
+  -----------------------------------------------------------
+  slack (MET)                                         0.55
+
+
+  Startpoint: codeword[13]
+              (input port clocked by vclk)
+  Endpoint: message[5] (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SCC_4LC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 f
+  codeword[13] (in)                        0.00       0.00 f
+  U429/X (STP_AO2BB2_0P5)                  0.05       0.05 f
+  message[5] (out)                         0.00       0.05 f
+  data arrival time                                   0.05
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.05
+  -----------------------------------------------------------
+  slack (MET)                                         0.55
+
+
+  Startpoint: codeword[12]
+              (input port clocked by vclk)
+  Endpoint: message[4] (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SCC_4LC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 f
+  codeword[12] (in)                        0.00       0.00 f
+  U431/X (STP_AO2BB2_0P5)                  0.05       0.05 f
+  message[4] (out)                         0.00       0.05 f
+  data arrival time                                   0.05
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.05
+  -----------------------------------------------------------
+  slack (MET)                                         0.55
+
+
+  Startpoint: codeword[11]
+              (input port clocked by vclk)
+  Endpoint: message[3] (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SCC_4LC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 f
+  codeword[11] (in)                        0.00       0.00 f
+  U416/X (STP_AO2BB2_0P5)                  0.05       0.05 f
+  message[3] (out)                         0.00       0.05 f
+  data arrival time                                   0.05
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.05
+  -----------------------------------------------------------
+  slack (MET)                                         0.55
+
+
+  Startpoint: codeword[10]
+              (input port clocked by vclk)
+  Endpoint: message[2] (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SCC_4LC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 f
+  codeword[10] (in)                        0.00       0.00 f
+  U396/X (STP_AO2BB2_0P5)                  0.05       0.05 f
+  message[2] (out)                         0.00       0.05 f
+  data arrival time                                   0.05
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.05
+  -----------------------------------------------------------
+  slack (MET)                                         0.55
+
+
+  Startpoint: codeword[9]
+              (input port clocked by vclk)
+  Endpoint: message[1] (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SCC_4LC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 f
+  codeword[9] (in)                         0.00       0.00 f
+  U398/X (STP_AO2BB2_0P5)                  0.05       0.05 f
+  message[1] (out)                         0.00       0.05 f
+  data arrival time                                   0.05
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.05
+  -----------------------------------------------------------
+  slack (MET)                                         0.55
+
+
+1

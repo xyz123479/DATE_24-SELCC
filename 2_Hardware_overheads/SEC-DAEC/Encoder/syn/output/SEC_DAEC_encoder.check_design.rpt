@@ -1,0 +1,78 @@
+ 
+****************************************
+check_design summary:
+Version:     Q-2019.12-SP5-5
+Date:        Mon Sep 11 18:05:05 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     64
+    Feedthrough (LINT-29)                                          64
+--------------------------------------------------------------------------------
+
+Warning: In design 'SEC_DAEC_encoder', input port 'message[63]' is connected directly to output port 'codeword[71]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[62]' is connected directly to output port 'codeword[70]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[61]' is connected directly to output port 'codeword[69]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[60]' is connected directly to output port 'codeword[68]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[59]' is connected directly to output port 'codeword[67]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[58]' is connected directly to output port 'codeword[66]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[57]' is connected directly to output port 'codeword[65]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[56]' is connected directly to output port 'codeword[64]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[55]' is connected directly to output port 'codeword[63]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[54]' is connected directly to output port 'codeword[62]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[53]' is connected directly to output port 'codeword[61]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[52]' is connected directly to output port 'codeword[60]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[51]' is connected directly to output port 'codeword[59]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[50]' is connected directly to output port 'codeword[58]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[49]' is connected directly to output port 'codeword[57]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[48]' is connected directly to output port 'codeword[56]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[47]' is connected directly to output port 'codeword[55]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[46]' is connected directly to output port 'codeword[54]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[45]' is connected directly to output port 'codeword[53]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[44]' is connected directly to output port 'codeword[52]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[43]' is connected directly to output port 'codeword[51]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[42]' is connected directly to output port 'codeword[50]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[41]' is connected directly to output port 'codeword[49]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[40]' is connected directly to output port 'codeword[48]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[39]' is connected directly to output port 'codeword[47]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[38]' is connected directly to output port 'codeword[46]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[37]' is connected directly to output port 'codeword[45]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[36]' is connected directly to output port 'codeword[44]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[35]' is connected directly to output port 'codeword[43]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[34]' is connected directly to output port 'codeword[42]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[33]' is connected directly to output port 'codeword[41]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[32]' is connected directly to output port 'codeword[40]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[31]' is connected directly to output port 'codeword[39]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[30]' is connected directly to output port 'codeword[38]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[29]' is connected directly to output port 'codeword[37]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[28]' is connected directly to output port 'codeword[36]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[27]' is connected directly to output port 'codeword[35]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[26]' is connected directly to output port 'codeword[34]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[25]' is connected directly to output port 'codeword[33]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[24]' is connected directly to output port 'codeword[32]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[23]' is connected directly to output port 'codeword[31]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[22]' is connected directly to output port 'codeword[30]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[21]' is connected directly to output port 'codeword[29]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[20]' is connected directly to output port 'codeword[28]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[19]' is connected directly to output port 'codeword[27]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[18]' is connected directly to output port 'codeword[26]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[17]' is connected directly to output port 'codeword[25]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[16]' is connected directly to output port 'codeword[24]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[15]' is connected directly to output port 'codeword[23]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[14]' is connected directly to output port 'codeword[22]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[13]' is connected directly to output port 'codeword[21]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[12]' is connected directly to output port 'codeword[20]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[11]' is connected directly to output port 'codeword[19]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[10]' is connected directly to output port 'codeword[18]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[9]' is connected directly to output port 'codeword[17]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[8]' is connected directly to output port 'codeword[16]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[7]' is connected directly to output port 'codeword[15]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[6]' is connected directly to output port 'codeword[14]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[5]' is connected directly to output port 'codeword[13]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[4]' is connected directly to output port 'codeword[12]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[3]' is connected directly to output port 'codeword[11]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[2]' is connected directly to output port 'codeword[10]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[1]' is connected directly to output port 'codeword[9]'. (LINT-29)
+Warning: In design 'SEC_DAEC_encoder', input port 'message[0]' is connected directly to output port 'codeword[8]'. (LINT-29)
+1

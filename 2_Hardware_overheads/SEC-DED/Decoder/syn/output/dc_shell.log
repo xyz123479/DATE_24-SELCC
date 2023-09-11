@@ -41,17 +41,17 @@ set target_library [list /media/0/LogicLibraries/UMC/28nm/35hs/hsl/svt/latest/li
 # Read Source Codes
 # ---------------------------------------
 set RTL_PATH            $env(RTL_PATH)
-/home/xyz123479/verilog/DATE24_SC_ECC/SEC-DED/Decoder/syn/..//rtl/
+/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SEC-DED/Decoder/syn/..//rtl/
 read_file $RTL_PATH -autoread -recursive -format sverilog -top $topmodule_name
 == READ_FILE autoread for top design 'SEC_DED_decoder' ==
 
 Starting READ_FILE autoread mode...
-Information: Adding '/home/xyz123479/verilog/DATE24_SC_ECC/SEC-DED/Decoder/rtl/'.  (AUTOREAD-100)
-Warning: Adding missing directory to search_path - '/home/xyz123479/verilog/DATE24_SC_ECC/SEC-DED/Decoder/rtl/'. (AUTOREAD-105)
-Information: Adding '/home/xyz123479/verilog/DATE24_SC_ECC/SEC-DED/Decoder/rtl/SEC_DED_decoder.sv'.  (AUTOREAD-100)
+Information: Adding '/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SEC-DED/Decoder/rtl/'.  (AUTOREAD-100)
+Warning: Adding missing directory to search_path - '/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SEC-DED/Decoder/rtl/'. (AUTOREAD-105)
+Information: Adding '/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SEC-DED/Decoder/rtl/SEC_DED_decoder.sv'.  (AUTOREAD-100)
 Information: Source filelist.f ignored by autoread due to filtering.  (AUTOREAD-102)
 Information: Scanning file { SEC_DED_decoder.sv }. (AUTOREAD-303)
-Compiling source file /home/xyz123479/verilog/DATE24_SC_ECC/SEC-DED/Decoder/rtl/SEC_DED_decoder.sv
+Compiling source file /home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SEC-DED/Decoder/rtl/SEC_DED_decoder.sv
 Presto compilation completed successfully.
 Elaborating top design SEC_DED_decoder
 Loading db file '/media/0/LogicLibraries/UMC/28nm/35hs/hsl/svt/latest/liberty/logic_synth/um28nchslogl35hsl140f_ssgwc0p9v125c.db'
@@ -60,7 +60,7 @@ Loading db file '/usr/synopsys/syn/Q-2019.12-SP5-5/libraries/syn/standard.sldb'
   Loading link library 'um28nchslogl35hsl140f_ssgwc0p9v125c'
   Loading link library 'gtech'
 Running PRESTO HDLC
-Warning:  /home/xyz123479/verilog/DATE24_SC_ECC/SEC-DED/Decoder/rtl/SEC_DED_decoder.sv:116: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SEC-DED/Decoder/rtl/SEC_DED_decoder.sv:116: signed to unsigned conversion occurs. (VER-318)
 Presto compilation completed successfully. (SEC_DED_decoder)
 Elaborated 1 design.
 Current design is now 'SEC_DED_decoder'.
@@ -69,7 +69,7 @@ Presto compilation completed successfully. (SEC_DED_syndrome_gen)
 Information: Building the design 'SEC_DED_errorinfo_gen'. (HDL-193)
 
 Statistics for case statements in always block at line 17 in file
-	'/home/xyz123479/verilog/DATE24_SC_ECC/SEC-DED/Decoder/rtl/SEC_DED_decoder.sv'
+	'/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SEC-DED/Decoder/rtl/SEC_DED_decoder.sv'
 ===============================================
 |           Line           |  full/ parallel  |
 ===============================================
@@ -257,25 +257,25 @@ Threshold voltage group cell usage:
     0:00:14     561.6      0.00       0.0       0.0                           14300.2754
     0:00:14     561.6      0.00       0.0       0.0                           14300.2754
     0:00:14     561.6      0.00       0.0       0.0                           14300.2754
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
 
 
   Beginning Design Rule Fixing  (min_capacitance)
@@ -285,7 +285,7 @@ Threshold voltage group cell usage:
    ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
   --------- --------- --------- --------- --------- ------------------------- ---------
-    0:00:15     547.0      0.00       0.0       0.0                           12026.7041
+    0:00:14     547.0      0.00       0.0       0.0                           12026.7041
   Global Optimization (Phase 29)
   Global Optimization (Phase 30)
   Global Optimization (Phase 31)
@@ -344,7 +344,7 @@ Threshold voltage group cell usage:
    ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
   --------- --------- --------- --------- --------- ------------------------- ---------
-    0:00:16     527.2      0.00       0.0       0.0                           11780.0342
+    0:00:15     527.2      0.00       0.0       0.0                           11780.0342
     0:00:16     479.8      0.00       0.0       0.0                           9280.6338
     0:00:16     479.8      0.00       0.0       0.0                           9280.6338
     0:00:16     479.8      0.00       0.0       0.0                           9280.6338
@@ -353,8 +353,8 @@ Threshold voltage group cell usage:
     0:00:16     478.6      0.00       0.0       0.0                           9233.5449
     0:00:16     478.6      0.00       0.0       0.0                           9233.5449
     0:00:16     478.6      0.00       0.0       0.0                           9233.5449
-    0:00:17     478.6      0.00       0.0       0.0                           9233.5449
-    0:00:17     478.6      0.00       0.0       0.0                           9233.5449
+    0:00:16     478.6      0.00       0.0       0.0                           9233.5449
+    0:00:16     478.6      0.00       0.0       0.0                           9233.5449
     0:00:17     456.0      0.00       0.0       0.0                           8212.5234
 Loading db file '/media/0/LogicLibraries/UMC/28nm/35hs/hsl/svt/latest/liberty/logic_synth/um28nchslogl35hsl140f_ssgwc0p9v125c.db'
 
@@ -390,13 +390,13 @@ write -hierarchy -format ddc -output      $topmodule_name.ddc
 Writing ddc file 'SEC_DED_decoder.ddc'.
 1
 write -hierarchy -format verilog -output  $topmodule_name.netlist.v
-Writing verilog file '/home/xyz123479/verilog/DATE24_SC_ECC/SEC-DED/Decoder/syn/output/SEC_DED_decoder.netlist.v'.
+Writing verilog file '/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SEC-DED/Decoder/syn/output/SEC_DED_decoder.netlist.v'.
 1
 exit
 
 Memory usage for this session 647 Mbytes.
 Memory usage for this session including child processes 647 Mbytes.
-CPU usage for this session 118 seconds ( 0.03 hours ).
-Elapsed time for this session 121 seconds ( 0.03 hours ).
+CPU usage for this session 120 seconds ( 0.03 hours ).
+Elapsed time for this session 122 seconds ( 0.03 hours ).
 
 Thank you...

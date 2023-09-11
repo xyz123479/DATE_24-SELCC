@@ -1,0 +1,520 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 10
+        -max_paths 10
+Design : IP_DAEC_decoder
+Version: Q-2019.12-SP5-5
+Date   : Mon Sep 11 19:11:27 2023
+****************************************
+
+Operating Conditions: SSGWC0P9V125C   Library: um28nchslogl35hsl140f_ssgwc0p9v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: codeword[35]
+              (input port clocked by vclk)
+  Endpoint: message[40]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IP_DAEC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 f
+  codeword[35] (in)                        0.00       0.00 f
+  U1339/X (STP_EO3_1)                      0.10       0.10 r
+  U1851/X (STP_EN3_3)                      0.04       0.14 f
+  U1856/X (STP_EO3_3)                      0.08       0.22 f
+  U1391/X (STP_INV_3P5)                    0.02       0.24 r
+  U1389/X (STP_NR2_G_2)                    0.02       0.26 f
+  U1813/X (STP_ND2_G_1)                    0.01       0.27 r
+  U1734/X (STP_OAOI211_0P5)                0.02       0.29 f
+  U1458/X (STP_AOI211_0P75)                0.02       0.31 r
+  U1870/X (STP_OAI211_1)                   0.03       0.34 f
+  U1454/X (STP_NR2_1)                      0.02       0.36 r
+  U1350/X (STP_ND2_G_2)                    0.03       0.40 f
+  U1597/X (STP_NR2B_3)                     0.03       0.43 f
+  U1601/X (STP_NR2_G_2)                    0.02       0.44 r
+  U1301/X (STP_BUF_S_3)                    0.02       0.46 r
+  U1370/X (STP_ND2_S_2)                    0.02       0.48 f
+  U1663/X (STP_AOI21_1)                    0.02       0.50 r
+  U1799/X (STP_OAI21_0P5)                  0.02       0.52 f
+  U1798/X (STP_MUX2AN2_MG_1)               0.05       0.56 f
+  U1598/X (STP_AO21_1)                     0.03       0.60 f
+  message[40] (out)                        0.00       0.60 f
+  data arrival time                                   0.60
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+  Startpoint: codeword[35]
+              (input port clocked by vclk)
+  Endpoint: message[40]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IP_DAEC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 f
+  codeword[35] (in)                        0.00       0.00 f
+  U1339/X (STP_EO3_1)                      0.10       0.10 r
+  U1851/X (STP_EN3_3)                      0.04       0.14 f
+  U1856/X (STP_EO3_3)                      0.08       0.22 f
+  U1391/X (STP_INV_3P5)                    0.02       0.24 r
+  U1389/X (STP_NR2_G_2)                    0.02       0.26 f
+  U1813/X (STP_ND2_G_1)                    0.01       0.27 r
+  U1734/X (STP_OAOI211_0P5)                0.02       0.29 f
+  U1458/X (STP_AOI211_0P75)                0.02       0.31 r
+  U1870/X (STP_OAI211_1)                   0.03       0.34 f
+  U1454/X (STP_NR2_1)                      0.02       0.36 r
+  U1350/X (STP_ND2_G_2)                    0.03       0.40 f
+  U1597/X (STP_NR2B_3)                     0.03       0.43 f
+  U1601/X (STP_NR2_G_2)                    0.02       0.44 r
+  U1301/X (STP_BUF_S_3)                    0.02       0.46 r
+  U1370/X (STP_ND2_S_2)                    0.02       0.48 f
+  U1663/X (STP_AOI21_1)                    0.02       0.50 r
+  U1799/X (STP_OAI21_0P5)                  0.02       0.52 f
+  U1798/X (STP_MUX2AN2_MG_1)               0.05       0.56 f
+  U1598/X (STP_AO21_1)                     0.03       0.60 f
+  message[40] (out)                        0.00       0.60 f
+  data arrival time                                   0.60
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+  Startpoint: codeword[35]
+              (input port clocked by vclk)
+  Endpoint: message[40]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IP_DAEC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 f
+  codeword[35] (in)                        0.00       0.00 f
+  U1339/X (STP_EO3_1)                      0.10       0.10 r
+  U1851/X (STP_EN3_3)                      0.04       0.14 f
+  U1856/X (STP_EO3_3)                      0.08       0.22 f
+  U1391/X (STP_INV_3P5)                    0.02       0.24 r
+  U1389/X (STP_NR2_G_2)                    0.02       0.26 f
+  U1813/X (STP_ND2_G_1)                    0.01       0.27 r
+  U1734/X (STP_OAOI211_0P5)                0.02       0.29 f
+  U1458/X (STP_AOI211_0P75)                0.02       0.31 r
+  U1870/X (STP_OAI211_1)                   0.03       0.34 f
+  U1454/X (STP_NR2_1)                      0.02       0.36 r
+  U1350/X (STP_ND2_G_2)                    0.03       0.40 f
+  U1597/X (STP_NR2B_3)                     0.03       0.43 f
+  U1601/X (STP_NR2_G_2)                    0.02       0.44 r
+  U1301/X (STP_BUF_S_3)                    0.02       0.46 r
+  U1370/X (STP_ND2_S_2)                    0.02       0.48 f
+  U1663/X (STP_AOI21_1)                    0.02       0.50 r
+  U1799/X (STP_OAI21_0P5)                  0.02       0.52 f
+  U1798/X (STP_MUX2AN2_MG_1)               0.05       0.56 f
+  U1598/X (STP_AO21_1)                     0.03       0.60 f
+  message[40] (out)                        0.00       0.60 f
+  data arrival time                                   0.60
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+  Startpoint: codeword[20]
+              (input port clocked by vclk)
+  Endpoint: message[40]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IP_DAEC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 r
+  codeword[20] (in)                        0.00       0.00 r
+  U1537/X (STP_EN2_3)                      0.05       0.05 f
+  U1854/X (STP_EO3_2)                      0.04       0.09 r
+  U1331/X (STP_EN3_2)                      0.05       0.14 f
+  U1856/X (STP_EO3_3)                      0.08       0.22 f
+  U1391/X (STP_INV_3P5)                    0.02       0.24 r
+  U1389/X (STP_NR2_G_2)                    0.02       0.26 f
+  U1813/X (STP_ND2_G_1)                    0.01       0.27 r
+  U1734/X (STP_OAOI211_0P5)                0.02       0.29 f
+  U1458/X (STP_AOI211_0P75)                0.02       0.31 r
+  U1870/X (STP_OAI211_1)                   0.03       0.34 f
+  U1454/X (STP_NR2_1)                      0.02       0.36 r
+  U1350/X (STP_ND2_G_2)                    0.03       0.40 f
+  U1597/X (STP_NR2B_3)                     0.03       0.43 f
+  U1601/X (STP_NR2_G_2)                    0.02       0.44 r
+  U1301/X (STP_BUF_S_3)                    0.02       0.46 r
+  U1370/X (STP_ND2_S_2)                    0.02       0.48 f
+  U1663/X (STP_AOI21_1)                    0.02       0.50 r
+  U1799/X (STP_OAI21_0P5)                  0.02       0.52 f
+  U1798/X (STP_MUX2AN2_MG_1)               0.05       0.56 f
+  U1598/X (STP_AO21_1)                     0.03       0.60 f
+  message[40] (out)                        0.00       0.60 f
+  data arrival time                                   0.60
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+  Startpoint: codeword[20]
+              (input port clocked by vclk)
+  Endpoint: message[40]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IP_DAEC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 r
+  codeword[20] (in)                        0.00       0.00 r
+  U1537/X (STP_EN2_3)                      0.05       0.05 f
+  U1854/X (STP_EO3_2)                      0.04       0.09 r
+  U1331/X (STP_EN3_2)                      0.05       0.14 f
+  U1856/X (STP_EO3_3)                      0.08       0.22 f
+  U1391/X (STP_INV_3P5)                    0.02       0.24 r
+  U1389/X (STP_NR2_G_2)                    0.02       0.26 f
+  U1813/X (STP_ND2_G_1)                    0.01       0.27 r
+  U1734/X (STP_OAOI211_0P5)                0.02       0.29 f
+  U1458/X (STP_AOI211_0P75)                0.02       0.31 r
+  U1870/X (STP_OAI211_1)                   0.03       0.34 f
+  U1454/X (STP_NR2_1)                      0.02       0.36 r
+  U1350/X (STP_ND2_G_2)                    0.03       0.40 f
+  U1597/X (STP_NR2B_3)                     0.03       0.43 f
+  U1601/X (STP_NR2_G_2)                    0.02       0.44 r
+  U1301/X (STP_BUF_S_3)                    0.02       0.46 r
+  U1370/X (STP_ND2_S_2)                    0.02       0.48 f
+  U1663/X (STP_AOI21_1)                    0.02       0.50 r
+  U1799/X (STP_OAI21_0P5)                  0.02       0.52 f
+  U1798/X (STP_MUX2AN2_MG_1)               0.05       0.56 f
+  U1598/X (STP_AO21_1)                     0.03       0.60 f
+  message[40] (out)                        0.00       0.60 f
+  data arrival time                                   0.60
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+  Startpoint: codeword[20]
+              (input port clocked by vclk)
+  Endpoint: message[40]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IP_DAEC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 r
+  codeword[20] (in)                        0.00       0.00 r
+  U1537/X (STP_EN2_3)                      0.05       0.05 f
+  U1854/X (STP_EO3_2)                      0.04       0.09 r
+  U1331/X (STP_EN3_2)                      0.05       0.14 f
+  U1856/X (STP_EO3_3)                      0.08       0.22 f
+  U1391/X (STP_INV_3P5)                    0.02       0.24 r
+  U1389/X (STP_NR2_G_2)                    0.02       0.26 f
+  U1813/X (STP_ND2_G_1)                    0.01       0.27 r
+  U1734/X (STP_OAOI211_0P5)                0.02       0.29 f
+  U1458/X (STP_AOI211_0P75)                0.02       0.31 r
+  U1870/X (STP_OAI211_1)                   0.03       0.34 f
+  U1454/X (STP_NR2_1)                      0.02       0.36 r
+  U1350/X (STP_ND2_G_2)                    0.03       0.40 f
+  U1597/X (STP_NR2B_3)                     0.03       0.43 f
+  U1601/X (STP_NR2_G_2)                    0.02       0.44 r
+  U1301/X (STP_BUF_S_3)                    0.02       0.46 r
+  U1370/X (STP_ND2_S_2)                    0.02       0.48 f
+  U1663/X (STP_AOI21_1)                    0.02       0.50 r
+  U1799/X (STP_OAI21_0P5)                  0.02       0.52 f
+  U1798/X (STP_MUX2AN2_MG_1)               0.05       0.56 f
+  U1598/X (STP_AO21_1)                     0.03       0.60 f
+  message[40] (out)                        0.00       0.60 f
+  data arrival time                                   0.60
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+  Startpoint: codeword[18]
+              (input port clocked by vclk)
+  Endpoint: message[40]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IP_DAEC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 r
+  codeword[18] (in)                        0.00       0.00 r
+  U1854/X (STP_EO3_2)                      0.09       0.09 r
+  U1331/X (STP_EN3_2)                      0.05       0.14 f
+  U1856/X (STP_EO3_3)                      0.08       0.22 f
+  U1391/X (STP_INV_3P5)                    0.02       0.24 r
+  U1389/X (STP_NR2_G_2)                    0.02       0.26 f
+  U1813/X (STP_ND2_G_1)                    0.01       0.27 r
+  U1734/X (STP_OAOI211_0P5)                0.02       0.29 f
+  U1458/X (STP_AOI211_0P75)                0.02       0.31 r
+  U1870/X (STP_OAI211_1)                   0.03       0.34 f
+  U1454/X (STP_NR2_1)                      0.02       0.36 r
+  U1350/X (STP_ND2_G_2)                    0.03       0.39 f
+  U1597/X (STP_NR2B_3)                     0.03       0.43 f
+  U1601/X (STP_NR2_G_2)                    0.02       0.44 r
+  U1301/X (STP_BUF_S_3)                    0.02       0.46 r
+  U1370/X (STP_ND2_S_2)                    0.02       0.48 f
+  U1663/X (STP_AOI21_1)                    0.02       0.50 r
+  U1799/X (STP_OAI21_0P5)                  0.02       0.52 f
+  U1798/X (STP_MUX2AN2_MG_1)               0.05       0.56 f
+  U1598/X (STP_AO21_1)                     0.03       0.60 f
+  message[40] (out)                        0.00       0.60 f
+  data arrival time                                   0.60
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+  Startpoint: codeword[18]
+              (input port clocked by vclk)
+  Endpoint: message[40]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IP_DAEC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 r
+  codeword[18] (in)                        0.00       0.00 r
+  U1854/X (STP_EO3_2)                      0.09       0.09 r
+  U1331/X (STP_EN3_2)                      0.05       0.14 f
+  U1856/X (STP_EO3_3)                      0.08       0.22 f
+  U1391/X (STP_INV_3P5)                    0.02       0.24 r
+  U1389/X (STP_NR2_G_2)                    0.02       0.26 f
+  U1813/X (STP_ND2_G_1)                    0.01       0.27 r
+  U1734/X (STP_OAOI211_0P5)                0.02       0.29 f
+  U1458/X (STP_AOI211_0P75)                0.02       0.31 r
+  U1870/X (STP_OAI211_1)                   0.03       0.34 f
+  U1454/X (STP_NR2_1)                      0.02       0.36 r
+  U1350/X (STP_ND2_G_2)                    0.03       0.39 f
+  U1597/X (STP_NR2B_3)                     0.03       0.43 f
+  U1601/X (STP_NR2_G_2)                    0.02       0.44 r
+  U1301/X (STP_BUF_S_3)                    0.02       0.46 r
+  U1370/X (STP_ND2_S_2)                    0.02       0.48 f
+  U1663/X (STP_AOI21_1)                    0.02       0.50 r
+  U1799/X (STP_OAI21_0P5)                  0.02       0.52 f
+  U1798/X (STP_MUX2AN2_MG_1)               0.05       0.56 f
+  U1598/X (STP_AO21_1)                     0.03       0.60 f
+  message[40] (out)                        0.00       0.60 f
+  data arrival time                                   0.60
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+  Startpoint: codeword[18]
+              (input port clocked by vclk)
+  Endpoint: message[40]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IP_DAEC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 r
+  codeword[18] (in)                        0.00       0.00 r
+  U1854/X (STP_EO3_2)                      0.09       0.09 r
+  U1331/X (STP_EN3_2)                      0.05       0.14 f
+  U1856/X (STP_EO3_3)                      0.08       0.22 f
+  U1391/X (STP_INV_3P5)                    0.02       0.24 r
+  U1389/X (STP_NR2_G_2)                    0.02       0.26 f
+  U1813/X (STP_ND2_G_1)                    0.01       0.27 r
+  U1734/X (STP_OAOI211_0P5)                0.02       0.29 f
+  U1458/X (STP_AOI211_0P75)                0.02       0.31 r
+  U1870/X (STP_OAI211_1)                   0.03       0.34 f
+  U1454/X (STP_NR2_1)                      0.02       0.36 r
+  U1350/X (STP_ND2_G_2)                    0.03       0.39 f
+  U1597/X (STP_NR2B_3)                     0.03       0.43 f
+  U1601/X (STP_NR2_G_2)                    0.02       0.44 r
+  U1301/X (STP_BUF_S_3)                    0.02       0.46 r
+  U1370/X (STP_ND2_S_2)                    0.02       0.48 f
+  U1663/X (STP_AOI21_1)                    0.02       0.50 r
+  U1799/X (STP_OAI21_0P5)                  0.02       0.52 f
+  U1798/X (STP_MUX2AN2_MG_1)               0.05       0.56 f
+  U1598/X (STP_AO21_1)                     0.03       0.60 f
+  message[40] (out)                        0.00       0.60 f
+  data arrival time                                   0.60
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+  Startpoint: codeword[42]
+              (input port clocked by vclk)
+  Endpoint: message[40]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IP_DAEC_decoder    ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 f
+  codeword[42] (in)                        0.00       0.00 f
+  U1343/X (STP_EO2_S_2)                    0.07       0.07 r
+  U1508/X (STP_INV_2)                      0.01       0.08 f
+  U1851/X (STP_EN3_3)                      0.06       0.14 f
+  U1856/X (STP_EO3_3)                      0.08       0.22 f
+  U1391/X (STP_INV_3P5)                    0.02       0.24 r
+  U1389/X (STP_NR2_G_2)                    0.02       0.26 f
+  U1813/X (STP_ND2_G_1)                    0.01       0.27 r
+  U1734/X (STP_OAOI211_0P5)                0.02       0.29 f
+  U1458/X (STP_AOI211_0P75)                0.02       0.31 r
+  U1870/X (STP_OAI211_1)                   0.03       0.34 f
+  U1454/X (STP_NR2_1)                      0.02       0.36 r
+  U1350/X (STP_ND2_G_2)                    0.03       0.39 f
+  U1597/X (STP_NR2B_3)                     0.03       0.43 f
+  U1601/X (STP_NR2_G_2)                    0.02       0.44 r
+  U1301/X (STP_BUF_S_3)                    0.02       0.46 r
+  U1370/X (STP_ND2_S_2)                    0.02       0.48 f
+  U1663/X (STP_AOI21_1)                    0.02       0.50 r
+  U1799/X (STP_OAI21_0P5)                  0.02       0.52 f
+  U1798/X (STP_MUX2AN2_MG_1)               0.05       0.56 f
+  U1598/X (STP_AO21_1)                     0.03       0.60 f
+  message[40] (out)                        0.00       0.60 f
+  data arrival time                                   0.60
+
+  clock vclk (rise edge)                   0.60       0.60
+  clock network delay (ideal)              0.00       0.60
+  output external delay                    0.00       0.60
+  data required time                                  0.60
+  -----------------------------------------------------------
+  data required time                                  0.60
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1

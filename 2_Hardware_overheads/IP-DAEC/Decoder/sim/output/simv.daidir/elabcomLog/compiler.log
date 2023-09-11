@@ -1,3 +1,6 @@
 *design* DebussyLib (btIdent Verdi_R-2020.12-SP1-1)
 Command arguments:  -lib  simv.daidir/work  -saveLevel  -elab  simv.daidir/kdb  -simflow  -simdir  simv.daidir/kdb_libs  -topfile  simv.daidir/.elabcomTopFile  -pkgfile  simv.daidir/.elabcomPkgFile  -ssv  -ssy  -Lf  work  +disable_message+C00380+C00381  +disable_message+C00388+C00389  -SNPS_ELABCOM  -saveElab 
-Total	0 error(s),   0 warning(s)
+
+*Warning* too few port instance connections on instance 'decoder'
+"/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/IP-DAEC/Decoder/sim/..//sim/tb/TB_testbench.sv", 25: 
+Total	0 error(s),   1 warning(s)

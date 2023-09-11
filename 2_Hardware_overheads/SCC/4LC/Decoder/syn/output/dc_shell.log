@@ -22,142 +22,80 @@ Initializing...
 # ---------------------------------------
 # DESIGN PROFILE
 # ---------------------------------------
-set topmodule_name      AMDCHIPKILL_DECODER
-AMDCHIPKILL_DECODER
+set topmodule_name      SCC_4LC_decoder
+SCC_4LC_decoder
 set clk_port_name       clk
 clk
-set clk_freq            2400
-2400
+set clk_freq            1000
+1000
 # ---------------------------------------
 # Read Libraries
 # ---------------------------------------
 #set LIBLIST_PATH        $env(LIBLIST_PATH)
 #source $LIBLIST_PATH
-set link_library [list   /media/0/LogicLibraries/UMC/28nm/35hs/hsl/lvt/latest/liberty/logic_synth/um28nchllogl35hsl140f_ssgwc0p9v125c.db ]
-/media/0/LogicLibraries/UMC/28nm/35hs/hsl/lvt/latest/liberty/logic_synth/um28nchllogl35hsl140f_ssgwc0p9v125c.db
-set target_library [list /media/0/LogicLibraries/UMC/28nm/35hs/hsl/lvt/latest/liberty/logic_synth/um28nchllogl35hsl140f_ssgwc0p9v125c.db ]
-/media/0/LogicLibraries/UMC/28nm/35hs/hsl/lvt/latest/liberty/logic_synth/um28nchllogl35hsl140f_ssgwc0p9v125c.db
+set link_library [list   /media/0/LogicLibraries/UMC/28nm/35hs/hsl/svt/latest/liberty/logic_synth/um28nchslogl35hsl140f_ssgwc0p9v125c.db ]
+/media/0/LogicLibraries/UMC/28nm/35hs/hsl/svt/latest/liberty/logic_synth/um28nchslogl35hsl140f_ssgwc0p9v125c.db
+set target_library [list /media/0/LogicLibraries/UMC/28nm/35hs/hsl/svt/latest/liberty/logic_synth/um28nchslogl35hsl140f_ssgwc0p9v125c.db ]
+/media/0/LogicLibraries/UMC/28nm/35hs/hsl/svt/latest/liberty/logic_synth/um28nchslogl35hsl140f_ssgwc0p9v125c.db
 # ---------------------------------------
 # Read Source Codes
 # ---------------------------------------
 set RTL_PATH            $env(RTL_PATH)
-/home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/syn/..//rtl/
+/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SCC/4LC/Decoder/syn/..//rtl/
 read_file $RTL_PATH -autoread -recursive -format sverilog -top $topmodule_name
-== READ_FILE autoread for top design 'AMDCHIPKILL_DECODER' ==
+== READ_FILE autoread for top design 'SCC_4LC_decoder' ==
 
 Starting READ_FILE autoread mode...
-Information: Adding '/home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/'.  (AUTOREAD-100)
-Warning: Adding missing directory to search_path - '/home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/'. (AUTOREAD-105)
-Information: Adding '/home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/ERROR_LOCATION.sv'.  (AUTOREAD-100)
-Information: Adding '/home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/GFDIV.sv'.  (AUTOREAD-100)
-Information: Adding '/home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/ERROR_INFORMATION.sv'.  (AUTOREAD-100)
-Information: Adding '/home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/AMDCHIPKILL_DECODER.sv'.  (AUTOREAD-100)
-Information: Adding '/home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/GFMULT.sv'.  (AUTOREAD-100)
-Information: Adding '/home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/SYNDROME_GENERATOR.sv'.  (AUTOREAD-100)
-Information: Adding '/home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/GFEXP.sv'.  (AUTOREAD-100)
+Information: Adding '/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SCC/4LC/Decoder/rtl/'.  (AUTOREAD-100)
+Warning: Adding missing directory to search_path - '/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SCC/4LC/Decoder/rtl/'. (AUTOREAD-105)
 Information: Source filelist.f ignored by autoread due to filtering.  (AUTOREAD-102)
-Information: Scanning file { ERROR_LOCATION.sv }. (AUTOREAD-303)
-Information: Scanning file { GFDIV.sv }. (AUTOREAD-303)
-Information: Scanning file { ERROR_INFORMATION.sv }. (AUTOREAD-303)
-Information: Scanning file { AMDCHIPKILL_DECODER.sv }. (AUTOREAD-303)
-Information: Scanning file { GFMULT.sv }. (AUTOREAD-303)
-Information: Scanning file { SYNDROME_GENERATOR.sv }. (AUTOREAD-303)
-Information: Scanning file { GFEXP.sv }. (AUTOREAD-303)
-Compiling source file /home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/GFMULT.sv
+Information: Adding '/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SCC/4LC/Decoder/rtl/SCC_4LC_decoder.sv'.  (AUTOREAD-100)
+Information: Scanning file { SCC_4LC_decoder.sv }. (AUTOREAD-303)
+Compiling source file /home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SCC/4LC/Decoder/rtl/SCC_4LC_decoder.sv
+Warning:  /home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SCC/4LC/Decoder/rtl/SCC_4LC_decoder.sv:19: The value 00000000 is too large for the numeric data type being used (VER-1)
 Presto compilation completed successfully.
-Compiling source file /home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/SYNDROME_GENERATOR.sv
-Presto compilation completed successfully.
-Compiling source file /home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/GFEXP.sv
-Presto compilation completed successfully.
-Compiling source file /home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/ERROR_LOCATION.sv
-Presto compilation completed successfully.
-Compiling source file /home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/ERROR_INFORMATION.sv
-Presto compilation completed successfully.
-Compiling source file /home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/AMDCHIPKILL_DECODER.sv
-Presto compilation completed successfully.
-Elaborating top design AMDCHIPKILL_DECODER
-Loading db file '/media/0/LogicLibraries/UMC/28nm/35hs/hsl/lvt/latest/liberty/logic_synth/um28nchllogl35hsl140f_ssgwc0p9v125c.db'
+Elaborating top design SCC_4LC_decoder
+Loading db file '/media/0/LogicLibraries/UMC/28nm/35hs/hsl/svt/latest/liberty/logic_synth/um28nchslogl35hsl140f_ssgwc0p9v125c.db'
 Loading db file '/usr/synopsys/syn/Q-2019.12-SP5-5/libraries/syn/gtech.db'
 Loading db file '/usr/synopsys/syn/Q-2019.12-SP5-5/libraries/syn/standard.sldb'
-  Loading link library 'um28nchllogl35hsl140f_ssgwc0p9v125c'
+  Loading link library 'um28nchslogl35hsl140f_ssgwc0p9v125c'
   Loading link library 'gtech'
 Running PRESTO HDLC
-
-Statistics for case statements in always block at line 46 in file
-	'/home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/AMDCHIPKILL_DECODER.sv'
-===============================================
-|           Line           |  full/ parallel  |
-===============================================
-|            53            |    auto/auto     |
-===============================================
-
-Inferred memory devices in process
-	in routine AMDCHIPKILL_DECODER line 46 in file
-		'/home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/AMDCHIPKILL_DECODER.sv'.
-===========================================================================
-|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
-===========================================================================
-|      data_reg       | Latch |  64   |  Y  | N  | N  | N  | -  | -  | -  |
-===========================================================================
-Warning:  /home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/AMDCHIPKILL_DECODER.sv:46: Netlist for always_comb block contains a latch. (ELAB-974)
-Presto compilation completed successfully. (AMDCHIPKILL_DECODER)
+Warning:  /home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SCC/4LC/Decoder/rtl/SCC_4LC_decoder.sv:151: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SCC/4LC/Decoder/rtl/SCC_4LC_decoder.sv:154: signed to unsigned conversion occurs. (VER-318)
+Presto compilation completed successfully. (SCC_4LC_decoder)
 Elaborated 1 design.
-Current design is now 'AMDCHIPKILL_DECODER'.
-Information: Building the design 'SYNDROME_GENERATOR'. (HDL-193)
-Presto compilation completed successfully. (SYNDROME_GENERATOR)
-Information: Building the design 'ERROR_INFORMATION'. (HDL-193)
+Current design is now 'SCC_4LC_decoder'.
+Information: Building the design 'SCC_4LC_syndrome_gen'. (HDL-193)
+Presto compilation completed successfully. (SCC_4LC_syndrome_gen)
+Information: Building the design 'SCC_4LC_errorinfo_gen'. (HDL-193)
 
-Inferred memory devices in process
-	in routine ERROR_INFORMATION line 49 in file
-		'/home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/ERROR_INFORMATION.sv'.
-==============================================================================
-|     Register Name      | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
-==============================================================================
-|   Decode_result_reg    | Latch |   2   |  Y  | N  | N  | N  | -  | -  | -  |
-| Error_location_reg_reg | Latch |   4   |  Y  | N  | N  | N  | -  | -  | -  |
-|    Error_value_reg     | Latch |   8   |  Y  | N  | N  | N  | -  | -  | -  |
-==============================================================================
-Warning:  /home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/ERROR_INFORMATION.sv:49: Netlist for always_comb block contains a latch. (ELAB-974)
-Presto compilation completed successfully. (ERROR_INFORMATION)
-Information: Building the design 'GFMULT'. (HDL-193)
-Presto compilation completed successfully. (GFMULT)
-Information: Building the design 'GFEXP'. (HDL-193)
-
-Statistics for case statements in always block at line 13 in file
-	'/home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/GFEXP.sv'
+Statistics for case statements in always block at line 16 in file
+	'/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SCC/4LC/Decoder/rtl/SCC_4LC_decoder.sv'
 ===============================================
 |           Line           |  full/ parallel  |
 ===============================================
-|            14            |     no/auto      |
+|            17            |    auto/auto     |
 ===============================================
-
-Inferred memory devices in process
-	in routine GFEXP line 13 in file
-		'/home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/GFEXP.sv'.
-===========================================================================
-|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
-===========================================================================
-|      binv_reg       | Latch |   8   |  Y  | N  | N  | N  | -  | -  | -  |
-===========================================================================
-Warning:  /home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/rtl/GFEXP.sv:13: Netlist for always_comb block contains a latch. (ELAB-974)
-Presto compilation completed successfully. (GFEXP)
-Information: Building the design 'ERROR_LOCATION'. (HDL-193)
-Presto compilation completed successfully. (ERROR_LOCATION)
+Presto compilation completed successfully. (SCC_4LC_errorinfo_gen)
+Error: Width mismatch on port 'error_addr' of reference to 'SCC_4LC_errorinfo_gen' in 'SCC_4LC_decoder'. (LINK-3)
 Autoread command completed successfully.
 # ---------------------------------------
 # 1. Environments Setting
 # ---------------------------------------
 link
 
-  Linking design 'AMDCHIPKILL_DECODER'
+  Linking design 'SCC_4LC_decoder'
   Using the following designs and libraries:
   --------------------------------------------------------------------------
-  um28nchllogl35hsl140f_ssgwc0p9v125c (library) /media/0/LogicLibraries/UMC/28nm/35hs/hsl/lvt/latest/liberty/logic_synth/um28nchllogl35hsl140f_ssgwc0p9v125c.db
+  um28nchslogl35hsl140f_ssgwc0p9v125c (library) /media/0/LogicLibraries/UMC/28nm/35hs/hsl/svt/latest/liberty/logic_synth/um28nchslogl35hsl140f_ssgwc0p9v125c.db
 
-1
+Error: Width mismatch on port 'error_addr' of reference to 'SCC_4LC_errorinfo_gen' in 'SCC_4LC_decoder'. (LINK-3)
+Warning: Unable to resolve reference 'SCC_4LC_errorinfo_gen' in 'SCC_4LC_decoder'. (LINK-5)
+0
 uniquify
-Information: Uniquified 9 instances of design 'GFMULT'. (OPT-1056)
-Information: Uniquified 2 instances of design 'GFEXP'. (OPT-1056)
+Error: Width mismatch on port 'error_addr' of reference to 'SCC_4LC_errorinfo_gen' in 'SCC_4LC_decoder'. (LINK-3)
+Warning: Unable to resolve reference 'SCC_4LC_errorinfo_gen' in 'SCC_4LC_decoder'. (LINK-5)
 1
 # ---------------------------------------
 # 2. Constraints Setting
@@ -167,9 +105,9 @@ Information: Uniquified 2 instances of design 'GFEXP'. (OPT-1056)
 set delay_percentage 0.6
 0.6
 set clk_period [expr 1000 / double($clk_freq)]
-0.416666666667
+1.0
 set clk_period [expr $clk_period * $delay_percentage]
-0.25
+0.6
 if {[sizeof_collection [get_ports $clk_port_name]] > 0} {
   # Create real clock if clock port is found
   set clk_name $clk_port_name
@@ -181,8 +119,8 @@ if {[sizeof_collection [get_ports $clk_port_name]] > 0} {
   set clk_name vclk
   create_clock -period $clk_period -name $clk_name
 }
-Warning: Can't find port 'clk' in design 'AMDCHIPKILL_DECODER'. (UID-95)
-Warning: Can't find port 'clk' in design 'AMDCHIPKILL_DECODER'. (UID-95)
+Warning: Can't find port 'clk' in design 'SCC_4LC_decoder'. (UID-95)
+Warning: Can't find port 'clk' in design 'SCC_4LC_decoder'. (UID-95)
 Warning: Creating virtual clock named 'vclk' with no sources. (UID-348)
 1
 # Apply default timing constraints for modules
@@ -205,8 +143,10 @@ set_max_area 0
 compile_ultra
 Loading db file '/usr/synopsys/syn/Q-2019.12-SP5-5/libraries/syn/dw_foundation.sldb'
 Warning: DesignWare synthetic library dw_foundation.sldb is added to the synthetic_library in the current command. (UISN-40)
+Error: Width mismatch on port 'error_addr' of reference to 'SCC_4LC_errorinfo_gen' in 'SCC_4LC_decoder'. (LINK-3)
+Warning: Unable to resolve reference 'SCC_4LC_errorinfo_gen' in 'SCC_4LC_decoder'. (LINK-5)
 Information: Performing power optimization. (PWR-850)
-Analyzing: "/media/0/LogicLibraries/UMC/28nm/35hs/hsl/lvt/latest/liberty/logic_synth/um28nchllogl35hsl140f_ssgwc0p9v125c.db"
+Analyzing: "/media/0/LogicLibraries/UMC/28nm/35hs/hsl/svt/latest/liberty/logic_synth/um28nchslogl35hsl140f_ssgwc0p9v125c.db"
 Library analysis succeeded.
 Information: Evaluating DesignWare library utilization. (UISN-27)
 
@@ -219,68 +159,57 @@ Information: Evaluating DesignWare library utilization. (UISN-27)
 
 Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
 
-Information: There are 83 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+Information: There are 10 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
 
-  Simplifying Design 'AMDCHIPKILL_DECODER'
+  Simplifying Design 'SCC_4LC_decoder'
 
-Loaded alib file './alib-52/um28nchllogl35hsl140f_ssgwc0p9v125c.db.alib'
+Error: Width mismatch on port 'error_addr' of reference to 'SCC_4LC_errorinfo_gen' in 'SCC_4LC_decoder'. (LINK-3)
+Warning: Unable to resolve reference 'SCC_4LC_errorinfo_gen' in 'SCC_4LC_decoder'. (LINK-5)
+Loaded alib file './alib-52/um28nchslogl35hsl140f_ssgwc0p9v125c.db.alib'
   Building model 'DW01_NAND2'
-Information: Ungrouping hierarchy syndrome_generator before Pass 1 (OPT-776)
-Information: Ungrouping hierarchy syndrome_generator/gmult_00 before Pass 1 (OPT-776)
-Information: Ungrouping hierarchy error_information/error_location before Pass 1 (OPT-776)
-Information: Ungrouping hierarchy syndrome_generator/gmult_08 before Pass 1 (OPT-776)
-Information: Ungrouping hierarchy syndrome_generator/gmult_07 before Pass 1 (OPT-776)
-Information: Ungrouping hierarchy syndrome_generator/gmult_06 before Pass 1 (OPT-776)
-Information: Ungrouping hierarchy syndrome_generator/gmult_05 before Pass 1 (OPT-776)
-Information: Ungrouping hierarchy syndrome_generator/gmult_04 before Pass 1 (OPT-776)
-Information: Ungrouping hierarchy syndrome_generator/gmult_03 before Pass 1 (OPT-776)
-Information: Ungrouping hierarchy syndrome_generator/gmult_02 before Pass 1 (OPT-776)
-Information: Ungrouping hierarchy syndrome_generator/gmult_01 before Pass 1 (OPT-776)
-Information: Ungrouping 11 of 15 hierarchies before Pass 1 (OPT-775)
+Information: Ungrouping 0 of 2 hierarchies before Pass 1 (OPT-775)
 Information: State dependent leakage is now switched from on to off.
 
   Beginning Pass 1 Mapping
   ------------------------
-  Processing 'GFEXP_0'
-  Processing 'AMDCHIPKILL_DECODER'
-  Processing 'ERROR_INFORMATION'
-Information: Added key list 'DesignWare' to design 'ERROR_INFORMATION'. (DDB-72)
- Implement Synthetic for 'ERROR_INFORMATION'.
+  Processing 'SCC_4LC_decoder'
+ Implement Synthetic for 'SCC_4LC_decoder'.
+Information: Added key list 'DesignWare' to design 'SCC_4LC_decoder'. (DDB-72)
+  Processing 'SCC_4LC_syndrome_gen'
+Error: Width mismatch on port 'error_addr' of reference to 'SCC_4LC_errorinfo_gen' in 'SCC_4LC_decoder'. (LINK-3)
+Warning: Unable to resolve reference 'SCC_4LC_errorinfo_gen' in 'SCC_4LC_decoder'. (LINK-5)
 
   Updating timing information
 Information: Updating design information... (UID-85)
-Information: The library cell 'STQ_TIE1_1' in the library 'um28nchllogl35hsl140f_ssgwc0p9v125c' is not characterized for internal power. (PWR-536)
-Information: The library cell 'STQ_TIE0_1' in the library 'um28nchllogl35hsl140f_ssgwc0p9v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'STP_TIE1_1' in the library 'um28nchslogl35hsl140f_ssgwc0p9v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'STP_TIE0_1' in the library 'um28nchslogl35hsl140f_ssgwc0p9v125c' is not characterized for internal power. (PWR-536)
 Information: The target library(s) contains cell(s), other than black boxes, that are not characterized for internal power. (PWR-24)
 
 Threshold voltage group cell usage:
->> LVT35 100.00%
+>> SVT35 100.00%
 
   Beginning Mapping Optimizations  (Ultra High effort)
   -------------------------------
-Information: Ungrouping hierarchy error_information/gfexp_00 'GFEXP_1' #insts = 386. (OPT-777)
-Information: Ungrouping hierarchy error_information/gfexp_01 'GFEXP_0' #insts = 386. (OPT-777)
+Information: There is no timing violation in design SCC_4LC_decoder. Delay-based auto_ungroup will not be performed. (OPT-780)
   Mapping Optimization (Phase 1)
-  Mapping Optimization (Phase 2)
-  Mapping Optimization (Phase 3)
 
                                   TOTAL                                                
    ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
   --------- --------- --------- --------- --------- ------------------------- ---------
-    0:00:21    1420.9      0.09       5.6       0.0                           156311.7500
-    0:00:21    1420.9      0.09       5.6       0.0                           156311.7500
+    0:00:11     292.3      0.00       0.0       0.0                           4664.8496
+    0:00:11     292.3      0.00       0.0       0.0                           4664.8496
 
 Threshold voltage group cell usage:
->> LVT35 100.00%
+>> SVT35 100.00%
 
   Beginning Constant Register Removal
   -----------------------------------
-    0:00:21    1420.9      0.09       5.6       0.0                           156311.7500
-    0:00:21    1420.9      0.09       5.6       0.0                           156311.7500
+    0:00:11     292.3      0.00       0.0       0.0                           4664.8496
+    0:00:11     292.3      0.00       0.0       0.0                           4664.8496
 
 Threshold voltage group cell usage:
->> LVT35 100.00%
+>> SVT35 100.00%
 
   Beginning Global Optimizations
   ------------------------------
@@ -315,54 +244,52 @@ Threshold voltage group cell usage:
   Global Optimization (Phase 27)
   Global Optimization (Phase 28)
   Global Optimization (Phase 29)
-  Global Optimization (Phase 30)
-  Global Optimization (Phase 31)
 
 Threshold voltage group cell usage:
->> LVT35 100.00%
+>> SVT35 100.00%
 
   Beginning Isolate Ports
   -----------------------
 
 Threshold voltage group cell usage:
->> LVT35 100.00%
+>> SVT35 100.00%
 
   Beginning Delay Optimization
   ----------------------------
-    0:00:22     969.7      0.15       9.6       0.0                           77989.0078
-    0:00:25    1086.3      0.08       5.3       0.0                           92870.4844
-    0:00:25    1086.3      0.08       5.3       0.0                           92870.4844
-    0:00:25    1086.3      0.08       5.3       0.0                           92870.4844
+    0:00:12     285.9      0.00       0.0       0.0                           4470.9565
+    0:00:12     285.9      0.00       0.0       0.0                           4470.9565
+    0:00:12     285.9      0.00       0.0       0.0                           4470.9565
+    0:00:12     285.9      0.00       0.0       0.0                           4470.9565
 
 Threshold voltage group cell usage:
->> LVT35 100.00%
-    0:00:25    1086.3      0.08       5.3       0.0                           92870.4844
-    0:00:25    1082.1      0.09       5.6       0.0                           92576.9531
+>> SVT35 100.00%
+    0:00:12     285.3      0.00       0.0       0.0                           4470.9219
+    0:00:12     285.3      0.00       0.0       0.0                           4470.9219
 
   Beginning WLM Backend Optimization
   --------------------------------------
-    0:00:25    1075.0      0.09       5.6       0.0                           91173.0234
-    0:00:25    1085.8      0.08       5.3       0.0                           93015.2734
-    0:00:25    1085.8      0.08       5.3       0.0                           93015.2734
-    0:00:26    1096.2      0.08       5.3       0.0                           92592.9844
-    0:00:26    1096.2      0.08       5.3       0.0                           92592.9844
-    0:00:30    1156.2      0.07       4.7       0.0                           104449.9531
-    0:00:31    1156.2      0.07       4.7       0.0                           104449.9531
-    0:00:31    1155.7      0.07       4.7       0.0                           104307.0156
-    0:00:31    1155.7      0.07       4.7       0.0                           104307.0156
-    0:00:34    1162.6      0.07       4.6       0.0                           105610.5547
-    0:00:34    1162.6      0.07       4.6       0.0                           105610.5547
-    0:00:36    1181.7      0.07       4.3       0.0                           110152.7656
-    0:00:36    1181.7      0.07       4.3       0.0                           110152.7656
-    0:00:43    1187.3      0.07       4.2       0.0                           110726.6250
-    0:00:43    1187.3      0.07       4.2       0.0                           110726.6250
-    0:00:44    1188.1      0.07       4.2       0.0                           110898.9062
-    0:00:44    1188.1      0.07       4.2       0.0                           110898.9062
-    0:00:46    1188.1      0.07       4.2       0.0                           110898.9062
-    0:00:46    1188.1      0.07       4.2       0.0                           110898.9062
-    0:00:47    1188.1      0.07       4.2       0.0                           110898.9062
-    0:00:47    1188.1      0.07       4.2       0.0                           110898.9062
-    0:00:49    1188.1      0.07       4.2       0.0                           110898.9062
+    0:00:12     285.6      0.00       0.0       0.0                           4451.9375
+    0:00:12     285.6      0.00       0.0       0.0                           4451.9375
+    0:00:12     285.6      0.00       0.0       0.0                           4451.9375
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
 
 
   Beginning Design Rule Fixing  (min_capacitance)
@@ -372,15 +299,15 @@ Threshold voltage group cell usage:
    ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
   --------- --------- --------- --------- --------- ------------------------- ---------
-    0:00:49    1188.1      0.07       4.2       0.0                           110898.9062
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+  Global Optimization (Phase 30)
+  Global Optimization (Phase 31)
   Global Optimization (Phase 32)
-  Global Optimization (Phase 33)
-  Global Optimization (Phase 34)
-    0:00:50    1239.7      0.06       3.8       0.0                           122908.0234
-    0:00:51    1244.9      0.06       3.8       0.0                           123974.0703
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
 
 Threshold voltage group cell usage:
->> LVT35 100.00%
+>> SVT35 100.00%
 
 
   Beginning Leakage Power Optimization  (max_leakage_power 0)
@@ -390,7 +317,9 @@ Threshold voltage group cell usage:
    ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
   --------- --------- --------- --------- --------- ------------------------- ---------
-    0:00:51    1244.9      0.06       3.8       0.0                           123974.0703
+    0:00:13     284.8      0.00       0.0       0.0                           4346.6318
+  Global Optimization (Phase 33)
+  Global Optimization (Phase 34)
   Global Optimization (Phase 35)
   Global Optimization (Phase 36)
   Global Optimization (Phase 37)
@@ -400,52 +329,45 @@ Threshold voltage group cell usage:
   Global Optimization (Phase 41)
   Global Optimization (Phase 42)
   Global Optimization (Phase 43)
-  Global Optimization (Phase 44)
-  Global Optimization (Phase 45)
-  Global Optimization (Phase 46)
-  Global Optimization (Phase 47)
-  Global Optimization (Phase 48)
-  Global Optimization (Phase 49)
-    0:00:52    1221.0      0.06       3.8       0.0                           119869.6875
-    0:01:04    1223.9      0.06       3.7       0.0                           120138.8672
-    0:01:04    1223.9      0.06       3.7       0.0                           120138.8672
-    0:01:05    1248.2      0.06       3.7       0.0                           126212.2266
-    0:01:05    1248.2      0.06       3.7       0.0                           126212.2266
-    0:01:06    1248.2      0.06       3.7       0.0                           126212.2266
-    0:01:07    1248.2      0.06       3.7       0.0                           126212.2266
-    0:01:07    1248.2      0.06       3.7       0.0                           126212.2266
-    0:01:07    1248.2      0.06       3.7       0.0                           126212.2266
-    0:01:08    1248.2      0.06       3.7       0.0                           126212.2266
-    0:01:08    1248.2      0.06       3.7       0.0                           126212.2266
-    0:01:11    1255.0      0.06       3.7       0.0                           127157.4219
-    0:01:11    1255.0      0.06       3.7       0.0                           127157.4219
-    0:01:14    1255.0      0.06       3.7       0.0                           127157.4219
-    0:01:14    1255.0      0.06       3.7       0.0                           127157.4219
-    0:01:14    1255.0      0.06       3.7       0.0                           127157.4219
-    0:01:14    1255.0      0.06       3.7       0.0                           127157.4219
-    0:01:17    1255.0      0.06       3.7       0.0                           127157.4219
-    0:01:17    1255.0      0.06       3.7       0.0                           127157.4219
-    0:01:18    1255.0      0.06       3.7       0.0                           127157.4219
-    0:01:18    1255.0      0.06       3.7       0.0                           127157.4219
-    0:01:20    1255.0      0.06       3.7       0.0                           127157.4219
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
 
                                   TOTAL                                                
    ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
   --------- --------- --------- --------- --------- ------------------------- ---------
-    0:01:20    1255.0      0.06       3.7       0.0                           127157.4219
-    0:01:21    1203.2      0.06       3.7       0.0                           114711.5938
-    0:01:21    1203.6      0.06       3.7       0.0                           114768.8125
-    0:01:21    1203.6      0.06       3.7       0.0                           114768.8125
-    0:01:21    1247.1      0.06       3.7       0.0                           125644.1953
-    0:01:21    1232.6      0.06       3.7       0.0                           122409.8125
-    0:01:24    1240.0      0.06       3.7       0.0                           123556.4688
-    0:01:24    1240.0      0.06       3.7       0.0                           123556.4688
-    0:01:24    1240.0      0.06       3.7       0.0                           123556.4688
-    0:01:25    1240.0      0.06       3.7       0.0                           123556.4688
-    0:01:25    1240.0      0.06       3.7       0.0                           123556.4688
-    0:01:25    1184.7      0.06       3.7       0.0                           109103.6484
-Loading db file '/media/0/LogicLibraries/UMC/28nm/35hs/hsl/lvt/latest/liberty/logic_synth/um28nchllogl35hsl140f_ssgwc0p9v125c.db'
+    0:00:13     284.4      0.00       0.0       0.0                           4336.1665
+    0:00:14     284.4      0.00       0.0       0.0                           4327.2026
+    0:00:14     284.4      0.00       0.0       0.0                           4327.2026
+    0:00:14     284.4      0.00       0.0       0.0                           4327.2026
+    0:00:14     284.4      0.00       0.0       0.0                           4327.2026
+    0:00:14     284.4      0.00       0.0       0.0                           4327.2026
+    0:00:14     284.4      0.00       0.0       0.0                           4327.2026
+    0:00:14     284.4      0.00       0.0       0.0                           4327.2026
+    0:00:14     284.4      0.00       0.0       0.0                           4327.2026
+    0:00:14     284.4      0.00       0.0       0.0                           4327.2026
+    0:00:14     284.4      0.00       0.0       0.0                           4327.2026
+Loading db file '/media/0/LogicLibraries/UMC/28nm/35hs/hsl/svt/latest/liberty/logic_synth/um28nchslogl35hsl140f_ssgwc0p9v125c.db'
 
 
 Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
@@ -453,8 +375,11 @@ Note: Symbol # after min delay cost means estimated hold TNS across all active s
 
   Optimization Complete
   ---------------------
+Error: Width mismatch on port 'error_addr' of reference to 'SCC_4LC_errorinfo_gen' in 'SCC_4LC_decoder'. (LINK-3)
+Warning: Unable to resolve reference 'SCC_4LC_errorinfo_gen' in 'SCC_4LC_decoder'. (LINK-5)
 Information: State dependent leakage is now switched from off to on.
 Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated black box outputs. (PWR-428)
 1
 # ---------------------------------------
 # 4. Design Reports
@@ -476,16 +401,16 @@ write_sdc $topmodule_name.constraints.sdc
 1
 # Dump out the synthesized database and gate-level-netlist
 write -hierarchy -format ddc -output      $topmodule_name.ddc
-Writing ddc file 'AMDCHIPKILL_DECODER.ddc'.
+Writing ddc file 'SCC_4LC_decoder.ddc'.
 1
 write -hierarchy -format verilog -output  $topmodule_name.netlist.v
-Writing verilog file '/home/kkh/SSC_DSD/AMDCHIPKILL/Decoder/syn/output/AMDCHIPKILL_DECODER.netlist.v'.
+Writing verilog file '/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/SCC/4LC/Decoder/syn/output/SCC_4LC_decoder.netlist.v'.
 1
 exit
 
-Memory usage for this session 646 Mbytes.
-Memory usage for this session including child processes 646 Mbytes.
-CPU usage for this session 175 seconds ( 0.05 hours ).
-Elapsed time for this session 178 seconds ( 0.05 hours ).
+Memory usage for this session 651 Mbytes.
+Memory usage for this session including child processes 651 Mbytes.
+CPU usage for this session 118 seconds ( 0.03 hours ).
+Elapsed time for this session 120 seconds ( 0.03 hours ).
 
 Thank you...

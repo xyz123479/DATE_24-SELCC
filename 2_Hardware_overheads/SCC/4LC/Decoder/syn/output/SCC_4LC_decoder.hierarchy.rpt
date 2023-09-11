@@ -1,0 +1,40 @@
+ 
+****************************************
+Report : hierarchy
+        -full
+Design : SCC_4LC_decoder
+Version: Q-2019.12-SP5-5
+Date   : Mon Sep 11 18:03:43 2023
+****************************************
+
+Warning: 1 unresolved references are not included in this report. (RPT-2)
+
+Attributes:
+    r - licensed design
+
+SCC_4LC_decoder    r
+    SCC_4LC_syndrome_gen
+        STP_ADDH_0P5              um28nchslogl35hsl140f_ssgwc0p9v125c
+        STP_AO2BB2_0P5            um28nchslogl35hsl140f_ssgwc0p9v125c
+        STP_EO3_0P5               um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_AN2_S_0P5                 um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_AN3_0P5                   um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_AO2BB2_0P5                um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_AOAI211_0P5               um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_AOI22_0P5                 um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_INV_S_0P65                um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_ND2_G_1                   um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_ND2_S_0P8                 um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_ND2_S_1                   um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_ND3_0P5                   um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_ND4_MM_1                  um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_NR2B_V1DG_1               um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_NR2_G_0P5                 um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_NR3_G_0P65                um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_OAI21_0P5                 um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_OAI21_0P75                um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_OAI31_G_0P5               um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_OAI211_0P5                um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_OAOI211_0P5               um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_TIE0_1                    um28nchslogl35hsl140f_ssgwc0p9v125c
+1

@@ -1,0 +1,45 @@
+ 
+****************************************
+Report : area
+Design : IP_DAEC_8LC_encoder
+Version: Q-2019.12-SP5-5
+Date   : Mon Sep 11 18:01:55 2023
+****************************************
+
+Library(s) Used:
+
+    um28nchslogl35hsl140f_ssgwc0p9v125c (File: /media/0/LogicLibraries/UMC/28nm/35hs/hsl/svt/latest/liberty/logic_synth/um28nchslogl35hsl140f_ssgwc0p9v125c.db)
+
+Number of ports:                          136
+Number of nets:                           125
+Number of cells:                           61
+Number of combinational cells:             61
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          1
+Number of references:                       8
+
+Combinational area:                 77.447999
+Buf/Inv area:                        0.336000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                    77.447999
+Total area:                 undefined
+
+The above information was reported from the logical library. The following are from the physical library:
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+IP_DAEC_8LC_encoder                 77.4480    100.0   77.4480     0.0000  0.0000  IP_DAEC_8LC_encoder
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                  77.4480     0.0000  0.0000
+
+1

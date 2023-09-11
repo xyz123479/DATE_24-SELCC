@@ -3,7 +3,7 @@
 Report : qor
 Design : SEC_DED_decoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 17:00:45 2023
+Date   : Mon Sep 11 18:06:37 2023
 ****************************************
 
 
@@ -63,12 +63,12 @@ Date   : Mon Sep 11 17:00:45 2023
 
   Compile CPU Statistics
   -----------------------------------------
-  Resource Sharing:                    0.22
-  Logic Optimization:                  1.06
-  Mapping Optimization:                2.84
+  Resource Sharing:                    0.23
+  Logic Optimization:                  1.07
+  Mapping Optimization:                2.86
   -----------------------------------------
-  Overall Compile Time:               23.51
-  Overall Compile Wall Clock Time:    24.24
+  Overall Compile Time:               23.56
+  Overall Compile Wall Clock Time:    23.78
 
   --------------------------------------------------------------------
 

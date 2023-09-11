@@ -1,0 +1,93 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : SCC_8LC_encoder
+Version: Q-2019.12-SP5-5
+Date   : Mon Sep 11 18:04:06 2023
+****************************************
+
+
+    Net: codeword[0]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword[1]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword[2]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword[3]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword[4]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword[5]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword[6]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword[7]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Design: SCC_8LC_encoder
+
+    max_area           0.0000000000
+  - Current Area       127.3440017700
+  ------------------------------
+    Slack              -127.3440017700  (VIOLATED)
+
+
+    Design: SCC_8LC_encoder
+
+    max_leakage_power      0.0000000000
+  - Current Leakage Power  3370.2324218750
+  ----------------------------------
+    Slack                  -3370.2324218750  (VIOLATED)
+
+
+1

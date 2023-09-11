@@ -1,6 +1,6 @@
 psSimBaseName                      	simv
 psLogFileName                      	NULL
-pDaiDir                            	/home/xyz123479/verilog/AMDCHIPKILL/Decoder/sim/output/simv.daidir
+pDaiDir                            	/home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/IP-DAEC/Decoder/sim/output/simv.daidir
 destPath                           	csrc/
 fSharedMaster                      	0
 fHsimPCSharedLibSpecified          	0
@@ -361,7 +361,7 @@ fVpdDeltaCycleInDesign             	0
 fHsimAllowVecGateInVpd             	1
 fHsimAllowAllVecGateInVpd          	0
 fHsimAllowUdpInVpd                 	1
-fHsimAllowAlwaysCombInVpd          	1
+fHsimAllowAlwaysCombInVpd          	0
 fHsimAllowAlwaysCombCmpDvcSimv     	0
 fHsimAllowAlwaysCombDbg            	0
 fHsimMakeAllP2SPrimary             	0

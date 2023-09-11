@@ -22,7 +22,7 @@ end
 assign codeword_in = codeword;
 
   //AMDCHIPKILL_decodeR(codeword_in, error_location_out, decode_result_out, data_out, error_value_out,syndrome0_out,syndrome1_out);
-  AMDCHIPKILL_DECODER decoder(codeword_in, error_location_out, decode_result_out, data_out);
+  IP_DAEC_decoder decoder(codeword_in, error_location_out, decode_result_out, data_out);
 
   initial begin
     # 20;

@@ -1,13 +1,13 @@
 ###################################################################
 
-# Created by write_sdc on Mon Sep 11 16:36:44 2023
+# Created by write_sdc on Mon Sep 11 18:05:20 2023
 
 ###################################################################
 set sdc_version 2.1
 
 set_units -time ns -resistance kOhm -capacitance pF -voltage V -current mA
 set_max_area 0
-create_clock -name vclk  -period 0.5  -waveform {0 0.25}
+create_clock -name vclk  -period 0.6  -waveform {0 0.3}
 set_input_delay -clock vclk  0  [get_ports {codeword[71]}]
 set_input_delay -clock vclk  0  [get_ports {codeword[70]}]
 set_input_delay -clock vclk  0  [get_ports {codeword[69]}]

@@ -7,7 +7,7 @@ Report : timing
         -max_paths 10
 Design : SEC_DED_decoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 17:00:45 2023
+Date   : Mon Sep 11 18:06:37 2023
 ****************************************
 
 Operating Conditions: SSGWC0P9V125C   Library: um28nchslogl35hsl140f_ssgwc0p9v125c

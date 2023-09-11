@@ -23,7 +23,7 @@ module IP_DAEC_8LC_errorinfo_gen(input [6:0] syndrome, output reg [6:0] error_ad
     always @(syndrome) begin
         case (syndrome)
             // No error
-            7'b00000000 : begin error_type = 3'b000; error_addr = 7'd0; end
+            7'b0000000 : begin error_type = 3'b000; error_addr = 7'd0; end
 
             // SE
             7'b1001100 : begin error_type = 3'b001; error_addr = 7'd70; end
@@ -112,11 +112,15 @@ module IP_DAEC_8LC_errorinfo_gen(input [6:0] syndrome, output reg [6:0] error_ad
 endmodule
 
 
-module IP_DAEC_8LC_SEC_DAEC_decoder(input [21:0] IP_word, input [48:0] codeword, input IP, output reg [71:0] SEC_DAEC_decoded, output reg [6:0] error_addr, output reg [2:0] error_type, output IP_syndrome);
+module IP_DAEC_8LC_SEC_DAEC_decoder(input [21:0] IP_word, input [48:0] codeword, output [71:0] SEC_DAEC_decoded_result, output [6:0] error_addr_result, output [2:0] error_type_result, output IP_syndrome_result);
     
     wire [6:0] syndrome;
+    reg [71:0] decoded;
+    wire [6:0] error_addr;
+    wire [2:0] error_type;
+    wire IP;
 
-    IP_DAEC_8LC_IP_syndrome_gen(.IP_word(IP_word), .IP(IP), .IP_syndrome(IP_syndrome))
+    IP_DAEC_8LC_IP_syndrome_gen ip_syndrome_gen(.IP_word(IP_word), .IP(IP), .IP_syndrome(IP_syndrome));
     IP_DAEC_8LC_syndrome_gen syndrome_gen(.codeword(codeword), .syndrome(syndrome));
     IP_DAEC_8LC_errorinfo_gen errorinfo_gen(.syndrome(syndrome), .error_addr(error_addr), .error_type(error_type));
 
@@ -176,187 +180,136 @@ module IP_DAEC_8LC_SEC_DAEC_decoder(input [21:0] IP_word, input [48:0] codeword,
         end
     end
 
+    assign IP_syndrome_result = IP_syndrome;
+    assign error_addr_result = error_addr;
+    assign error_type_result = error_type;
+    assign SEC_DAEC_decoded_result = decoded;
+
 endmodule
 
 
-module IP_DAEC_8LC_IP_decoder(input [2:0] error_type, input [6:0] error_addr, input [71:0] SEC_DAEC_decoded, output reg [71:0] decoded);
+module IP_DAEC_8LC_IP_decoder(input [2:0] error_type, input [6:0] error_addr, input IP_syndrome, input [71:0] SEC_DAEC_decoded_input, output [71:0] decoded_result);
     
-    case (error_type)
-        3'b001 :   // SE
-            if (IP_syndrome == 1) begin
-                case (error_addr)
-                    7'd70 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 71);
-                    7'd69 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 71);
-                    7'd67 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 68);
-                    7'd66 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 68);
-                    7'd64 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 65);
-                    7'd63 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 65);
-                    7'd61 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 62);
-                    7'd60 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 62);
-                    7'd58 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 59);
-                    7'd57 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 59);
-                    7'd55 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 56);
-                    7'd54 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 56);
-                    7'd52 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 53);
-                    7'd51 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 53);
-                    7'd49 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 50);
-                    7'd48 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 50);
-                    7'd46 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 47);
-                    7'd45 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 47);
-                    7'd43 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 44);
-                    7'd42 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 44);
-                    7'd40 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 41);
-                    7'd39 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 41);
-                    7'd37 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 38);
-                    7'd36 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 38);
-                    7'd34 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 35);
-                    7'd33 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 35);
-                    7'd31 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 32);
-                    7'd30 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 32);
-                    7'd28 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 29);
-                    7'd27 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 29);
-                    7'd25 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 26);
-                    7'd24 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 26);
-                    7'd22 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 23);
-                    7'd21 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 23);
-                    7'd19 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 20);
-                    7'd18 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 20);
-                    7'd16 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 17);
-                    7'd15 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 17);
-                    7'd13 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 14);
-                    7'd12 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 14);
-                    7'd10 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 11);
-                    7'd9 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 11);
-                    7'd7 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 8);
-                    7'd6 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 8);
-                    7'd2 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 0);
-                    7'd1 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 0);
-                    default :
-                        decoded = SEC_DAEC_decoded;
-                endcase   
+    reg [71:0] decoded;
+    reg [71:0] SEC_DAEC_decoded;
+
+    always_comb begin
+        SEC_DAEC_decoded = SEC_DAEC_decoded_input;
+        case (error_type)
+            3'b001 :   begin // SE
+                if (IP_syndrome == 1) begin
+                    case (error_addr)
+                        7'd70 :decoded = SEC_DAEC_decoded ^ (1 << 71);
+                        7'd69 :decoded = SEC_DAEC_decoded ^ (1 << 71);
+                        7'd67 :decoded = SEC_DAEC_decoded ^ (1 << 68);
+                        7'd66 :decoded = SEC_DAEC_decoded ^ (1 << 68);
+                        7'd64 :decoded = SEC_DAEC_decoded ^ (1 << 65);
+                        7'd63 :decoded = SEC_DAEC_decoded ^ (1 << 65);
+                        7'd61 :decoded = SEC_DAEC_decoded ^ (1 << 62);
+                        7'd60 :decoded = SEC_DAEC_decoded ^ (1 << 62);
+                        7'd58 :decoded = SEC_DAEC_decoded ^ (1 << 59);
+                        7'd57 :decoded = SEC_DAEC_decoded ^ (1 << 59);
+                        7'd55 :decoded = SEC_DAEC_decoded ^ (1 << 56);
+                        7'd54 :decoded = SEC_DAEC_decoded ^ (1 << 56);
+                        7'd52 :decoded = SEC_DAEC_decoded ^ (1 << 53);
+                        7'd51 :decoded = SEC_DAEC_decoded ^ (1 << 53);
+                        7'd49 :decoded = SEC_DAEC_decoded ^ (1 << 50);
+                        7'd48 :decoded = SEC_DAEC_decoded ^ (1 << 50);
+                        7'd46 :decoded = SEC_DAEC_decoded ^ (1 << 47);
+                        7'd45 :decoded = SEC_DAEC_decoded ^ (1 << 47);
+                        7'd43 :decoded = SEC_DAEC_decoded ^ (1 << 44);
+                        7'd42 :decoded = SEC_DAEC_decoded ^ (1 << 44);
+                        7'd40 :decoded = SEC_DAEC_decoded ^ (1 << 41);
+                        7'd39 :decoded = SEC_DAEC_decoded ^ (1 << 41);
+                        7'd37 :decoded = SEC_DAEC_decoded ^ (1 << 38);
+                        7'd36 :decoded = SEC_DAEC_decoded ^ (1 << 38);
+                        7'd34 :decoded = SEC_DAEC_decoded ^ (1 << 35);
+                        7'd33 :decoded = SEC_DAEC_decoded ^ (1 << 35);
+                        7'd31 :decoded = SEC_DAEC_decoded ^ (1 << 32);
+                        7'd30 :decoded = SEC_DAEC_decoded ^ (1 << 32);
+                        7'd28 :decoded = SEC_DAEC_decoded ^ (1 << 29);
+                        7'd27 :decoded = SEC_DAEC_decoded ^ (1 << 29);
+                        7'd25 :decoded = SEC_DAEC_decoded ^ (1 << 26);
+                        7'd24 :decoded = SEC_DAEC_decoded ^ (1 << 26);
+                        7'd22 :decoded = SEC_DAEC_decoded ^ (1 << 23);
+                        7'd21 :decoded = SEC_DAEC_decoded ^ (1 << 23);
+                        7'd19 :decoded = SEC_DAEC_decoded ^ (1 << 20);
+                        7'd18 :decoded = SEC_DAEC_decoded ^ (1 << 20);
+                        7'd16 :decoded = SEC_DAEC_decoded ^ (1 << 17);
+                        7'd15 :decoded = SEC_DAEC_decoded ^ (1 << 17);
+                        7'd13 :decoded = SEC_DAEC_decoded ^ (1 << 14);
+                        7'd12 :decoded = SEC_DAEC_decoded ^ (1 << 14);
+                        7'd10 :decoded = SEC_DAEC_decoded ^ (1 << 11);
+                        7'd9 :decoded = SEC_DAEC_decoded ^ (1 << 11);
+                        7'd7 :decoded = SEC_DAEC_decoded ^ (1 << 8);
+                        7'd6 :decoded = SEC_DAEC_decoded ^ (1 << 8);
+                        7'd2 :decoded = SEC_DAEC_decoded ^ (1 << 0);
+                        7'd1 :decoded = SEC_DAEC_decoded ^ (1 << 0);
+                        default :decoded = SEC_DAEC_decoded;
+                    endcase   
+                end
+                else begin
+                    decoded = SEC_DAEC_decoded;
+                end
             end
-            else begin
+            3'b010 :   begin // DAE
+                if (IP_syndrome == 1) begin
+                    case (error_addr)
+                        7'd69 :decoded = SEC_DAEC_decoded ^ (1 << 71);
+                        7'd66 :decoded = SEC_DAEC_decoded ^ (1 << 68);
+                        7'd63 :decoded = SEC_DAEC_decoded ^ (1 << 65);
+                        7'd60 :decoded = SEC_DAEC_decoded ^ (1 << 62);
+                        7'd57 :decoded = SEC_DAEC_decoded ^ (1 << 59);
+                        7'd54 :decoded = SEC_DAEC_decoded ^ (1 << 56);
+                        7'd51 :decoded = SEC_DAEC_decoded ^ (1 << 53);
+                        7'd48 :decoded = SEC_DAEC_decoded ^ (1 << 50);
+                        7'd45 :decoded = SEC_DAEC_decoded ^ (1 << 47);
+                        7'd42 :decoded = SEC_DAEC_decoded ^ (1 << 44);
+                        7'd39 :decoded = SEC_DAEC_decoded ^ (1 << 41);
+                        7'd36 :decoded = SEC_DAEC_decoded ^ (1 << 38);
+                        7'd33 :decoded = SEC_DAEC_decoded ^ (1 << 35);
+                        7'd30 :decoded = SEC_DAEC_decoded ^ (1 << 32);
+                        7'd27 :decoded = SEC_DAEC_decoded ^ (1 << 29);
+                        7'd24 :decoded = SEC_DAEC_decoded ^ (1 << 26);
+                        7'd21 :decoded = SEC_DAEC_decoded ^ (1 << 23);
+                        7'd18 :decoded = SEC_DAEC_decoded ^ (1 << 20);
+                        7'd15 :decoded = SEC_DAEC_decoded ^ (1 << 17);
+                        7'd12 :decoded = SEC_DAEC_decoded ^ (1 << 14);
+                        7'd9 :decoded = SEC_DAEC_decoded ^ (1 << 11);
+                        7'd6 :decoded = SEC_DAEC_decoded ^ (1 << 8);
+                        7'd1 :decoded = SEC_DAEC_decoded ^ (1 << 0);         
+                        default :
+                            decoded = SEC_DAEC_decoded;
+                    endcase
+                end
+                else begin
+                    decoded = SEC_DAEC_decoded;
+                end
+            end
+            default :  // No error / Uncorrectable / TE / non-DAE
                 decoded = SEC_DAEC_decoded;
-            end
-        3'b010 :   // DAE
-            if (IP_syndrome == 1) begin
-                case (error_addr)
-                    7'd69 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 71);
-                    7'd66 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 68);
-                    7'd63 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 65);
-                    7'd60 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 62);
-                    7'd57 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 59);
-                    7'd54 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 56);
-                    7'd51 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 53);
-                    7'd48 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 50);
-                    7'd45 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 47);
-                    7'd42 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 44);
-                    7'd39 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 41);
-                    7'd36 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 38);
-                    7'd33 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 35);
-                    7'd30 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 32);
-                    7'd27 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 29);
-                    7'd24 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 26);
-                    7'd21 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 23);
-                    7'd18 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 20);
-                    7'd15 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 17);
-                    7'd12 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 14);
-                    7'd9 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 11);
-                    7'd6 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 8);
-                    7'd1 :
-                        decoded = SEC_DAEC_decoded ^ (1 << 0);         
-                    default :
-                        decoded = SEC_DAEC_decoded;
-                endcase
-            end
-            else begin
-                decoded = SEC_DAEC_decoded;
-            end
-        default :  // No error / Uncorrectable / TE / non-DAE
-            decoded = SEC_DAEC_decoded;
-    endcase
+        endcase
+    end
+
+    assign decoded_result = decoded;
 
 endmodule
 
 
-module IP_DAEC_decoder(input [21:0] IP_word, input [48:0] codeword, input IP, output [2:0] error_type, output [63:0] message);
+module IP_DAEC_decoder(input [21:0] IP_word, input [48:0] codeword, input IP, output [2:0] error_type_result, output [63:0] message);
 
     wire [6:0] error_addr;
     wire [71:0] SEC_DAEC_decoded;
-    wire IP_syndrome;
+    wire [2:0] error_type;
     reg [71:0] decoded;
+    wire [71:0] decoded_result;
+    wire IP_syndrome;
+    
 
-    IP_DAEC_8LC_SEC_DAEC_decoder(.IP_word(IP_word), .codeword(codeword), .IP(IP), .SEC_DAEC_decoded(SEC_DAEC_decoded), .error_addr(error_addr), .error_type(error_type), .IP_syndrome(IP_syndrome));
-    IP_DAEC_8LC_IP_decoder(.error_type(error_type), .error_addr(error_addr), .SEC_DAEC_decoded(SEC_DAEC_decoded), .decoded(decoded));
+    IP_DAEC_8LC_SEC_DAEC_decoder ip_daec_8lc_daec_decoder (.IP_word(IP_word), .codeword(codeword), .SEC_DAEC_decoded_result(SEC_DAEC_decoded), .error_addr_result(error_addr), .error_type_result(error_type), .IP_syndrome_result(IP_syndrome));
+    IP_DAEC_8LC_IP_decoder ip_daec_8lc_ip_decoder (.error_type(error_type), .error_addr(error_addr), .IP_syndrome(IP_syndrome), .SEC_DAEC_decoded_input(SEC_DAEC_decoded), .decoded_result(decoded_result));
 
-    assign message = decoded[71:8];
+    assign error_type_result = error_type;
+    assign message = decoded_result[71:8];
 
 endmodule

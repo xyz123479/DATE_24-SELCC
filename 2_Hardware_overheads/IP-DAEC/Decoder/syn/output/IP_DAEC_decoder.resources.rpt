@@ -1,0 +1,37 @@
+ 
+****************************************
+Report : resources
+Design : IP_DAEC_decoder
+Version: Q-2019.12-SP5-5
+Date   : Mon Sep 11 19:11:27 2023
+****************************************
+
+
+Resource Report for this hierarchy in file
+        /home/xyz123479/verilog/DATE24_SC_ECC/2_Hardware_overheads/IP-DAEC/Decoder/rtl/IP_DAEC_8LC_decoder.sv
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| ash_1          | DW_leftsh      | A_width=72 | ip_daec_8lc_daec_decoder/sll_139 (IP_DAEC_8LC_decoder.sv:139) |
+| SH_width=7 |                           |
+| ash_2          | DW_leftsh      | A_width=72 | ip_daec_8lc_daec_decoder/sll_149 (IP_DAEC_8LC_decoder.sv:149) |
+| SH_width=7 |                           |
+| ash_3          | DW_leftsh      | A_width=72 | ip_daec_8lc_daec_decoder/sll_159 (IP_DAEC_8LC_decoder.sv:159) |
+| SH_width=7 |                           |
+| ash_4          | DW_leftsh      | A_width=72 | ip_daec_8lc_daec_decoder/sll_169 (IP_DAEC_8LC_decoder.sv:169) |
+| SH_width=7 |                           |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| ash_1              | DW_leftsh        | astr (area)        |                |
+| ash_2              | DW_leftsh        | astr (area)        |                |
+| ash_3              | DW_leftsh        | astr (area)        |                |
+| ash_4              | DW_leftsh        | astr (area)        |                |
+===============================================================================
+
+1

@@ -1,0 +1,18 @@
+ 
+****************************************
+Report : hierarchy
+        -full
+Design : SEC_DAEC_encoder
+Version: Q-2019.12-SP5-5
+Date   : Mon Sep 11 18:05:05 2023
+****************************************
+
+SEC_DAEC_encoder
+    STP_AO2BB2_0P5         um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_EO3_0P5            um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_EO3_1              um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_EO3_2              um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_INV_S_0P65         um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_OA2BB2_0P5         um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_OA2BB2_1           um28nchslogl35hsl140f_ssgwc0p9v125c
+1
