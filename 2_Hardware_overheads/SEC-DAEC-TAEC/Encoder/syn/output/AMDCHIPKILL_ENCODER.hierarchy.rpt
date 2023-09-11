@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : hierarchy
+        -full
+Design : AMDCHIPKILL_ENCODER
+Version: Q-2019.12-SP5-5
+Date   : Mon Sep 11 13:26:56 2023
+****************************************
+
+AMDCHIPKILL_ENCODER
+    STQ_EN2_6             um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_EN2_8             um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_EN2_S_2           um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_EN3_1             um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_EN3_2             um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_EN3_3             um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_EN3_6             um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_EO2_1             um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_EO2_2             um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_EO2_3             um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_EO2_S_0P5         um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_EO2_S_2           um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_EO3_0P5           um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_EO3_1             um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_EO3_2             um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_EO3_3             um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_INV_1P5           um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_INV_2P5           um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_INV_4             um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_INV_S_1           um28nchllogl35hsl140f_ssgwc0p9v125c
+    STQ_INV_S_14          um28nchllogl35hsl140f_ssgwc0p9v125c
+1

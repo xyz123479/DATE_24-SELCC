@@ -1,0 +1,531 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : AMDCHIPKILL_ENCODER
+Version: Q-2019.12-SP5-5
+Date   : Mon Sep 11 13:26:56 2023
+****************************************
+
+
+  Startpoint: data_in[55]
+              (input port clocked by vclk)
+  Endpoint: codeword_out[3]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  AMDCHIPKILL_ENCODER
+                     ZeroWLM               um28nchllogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)               0.0000000000
+                                                  0.0000000000
+  clock network delay (ideal)          0.0000000000
+                                                  0.0000000000
+  input external delay                 0.0000000000
+                                                  0.0000000000 r
+  data_in[55] (in)                     0.0000000000
+                                                  0.0000000000 r
+  U154/X (STQ_EN3_6)                   0.0661203787
+                                                  0.0661203787 r
+  U142/X (STQ_EN3_3)                   0.0331998840
+                                                  0.0993202627 f
+  U148/X (STQ_EN2_6)                   0.0358426571
+                                                  0.1351629198 r
+  U131/X (STQ_EN3_3)                   0.0237429291
+                                                  0.1589058489 f
+  codeword_out[3] (out)                0.0000000000
+                                                  0.1589058489 f
+  data arrival time                               0.1589058489
+
+  clock vclk (rise edge)               0.1199999973
+                                                  0.1199999973
+  clock network delay (ideal)          0.0000000000
+                                                  0.1199999973
+  output external delay                0.0000000000
+                                                  0.1199999973
+  data required time                              0.1199999973
+  -----------------------------------------------------------
+  data required time                              0.1199999973
+  data arrival time                               -0.1589058489
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -0.0389058515
+
+
+  Startpoint: data_in[55]
+              (input port clocked by vclk)
+  Endpoint: codeword_out[1]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  AMDCHIPKILL_ENCODER
+                     ZeroWLM               um28nchllogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)               0.0000000000
+                                                  0.0000000000
+  clock network delay (ideal)          0.0000000000
+                                                  0.0000000000
+  input external delay                 0.0000000000
+                                                  0.0000000000 r
+  data_in[55] (in)                     0.0000000000
+                                                  0.0000000000 r
+  U154/X (STQ_EN3_6)                   0.0661203787
+                                                  0.0661203787 r
+  U142/X (STQ_EN3_3)                   0.0331998840
+                                                  0.0993202627 f
+  U148/X (STQ_EN2_6)                   0.0358426571
+                                                  0.1351629198 r
+  U153/X (STQ_EN3_3)                   0.0237429291
+                                                  0.1589058489 f
+  codeword_out[1] (out)                0.0000000000
+                                                  0.1589058489 f
+  data arrival time                               0.1589058489
+
+  clock vclk (rise edge)               0.1199999973
+                                                  0.1199999973
+  clock network delay (ideal)          0.0000000000
+                                                  0.1199999973
+  output external delay                0.0000000000
+                                                  0.1199999973
+  data required time                              0.1199999973
+  -----------------------------------------------------------
+  data required time                              0.1199999973
+  data arrival time                               -0.1589058489
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -0.0389058515
+
+
+  Startpoint: data_in[38]
+              (input port clocked by vclk)
+  Endpoint: codeword_out[2]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  AMDCHIPKILL_ENCODER
+                     ZeroWLM               um28nchllogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)               0.0000000000
+                                                  0.0000000000
+  clock network delay (ideal)          0.0000000000
+                                                  0.0000000000
+  input external delay                 0.0000000000
+                                                  0.0000000000 r
+  data_in[38] (in)                     0.0000000000
+                                                  0.0000000000 r
+  U150/X (STQ_EN2_8)                   0.0414901599
+                                                  0.0414901599 f
+  U137/X (STQ_EN3_3)                   0.0566075966
+                                                  0.0980977565 r
+  U148/X (STQ_EN2_6)                   0.0362172723
+                                                  0.1343150288 f
+  U159/X (STQ_EO3_3)                   0.0244411081
+                                                  0.1587561369 r
+  codeword_out[2] (out)                0.0000000000
+                                                  0.1587561369 r
+  data arrival time                               0.1587561369
+
+  clock vclk (rise edge)               0.1199999973
+                                                  0.1199999973
+  clock network delay (ideal)          0.0000000000
+                                                  0.1199999973
+  output external delay                0.0000000000
+                                                  0.1199999973
+  data required time                              0.1199999973
+  -----------------------------------------------------------
+  data required time                              0.1199999973
+  data arrival time                               -0.1587561369
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -0.0387561396
+
+
+  Startpoint: data_in[10]
+              (input port clocked by vclk)
+  Endpoint: codeword_out[4]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  AMDCHIPKILL_ENCODER
+                     ZeroWLM               um28nchllogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)               0.0000000000
+                                                  0.0000000000
+  clock network delay (ideal)          0.0000000000
+                                                  0.0000000000
+  input external delay                 0.0000000000
+                                                  0.0000000000 r
+  data_in[10] (in)                     0.0000000000
+                                                  0.0000000000 r
+  U143/X (STQ_EN2_8)                   0.0406490937
+                                                  0.0406490937 f
+  U130/X (STQ_EO3_1)                   0.0775983781
+                                                  0.1182474717 f
+  U138/X (STQ_EO3_1)                   0.0390257314
+                                                  0.1572732031 r
+  codeword_out[4] (out)                0.0000000000
+                                                  0.1572732031 r
+  data arrival time                               0.1572732031
+
+  clock vclk (rise edge)               0.1199999973
+                                                  0.1199999973
+  clock network delay (ideal)          0.0000000000
+                                                  0.1199999973
+  output external delay                0.0000000000
+                                                  0.1199999973
+  data required time                              0.1199999973
+  -----------------------------------------------------------
+  data required time                              0.1199999973
+  data arrival time                               -0.1572732031
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -0.0372732058
+
+
+  Startpoint: data_in[10]
+              (input port clocked by vclk)
+  Endpoint: codeword_out[0]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  AMDCHIPKILL_ENCODER
+                     ZeroWLM               um28nchllogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)               0.0000000000
+                                                  0.0000000000
+  clock network delay (ideal)          0.0000000000
+                                                  0.0000000000
+  input external delay                 0.0000000000
+                                                  0.0000000000 r
+  data_in[10] (in)                     0.0000000000
+                                                  0.0000000000 r
+  U143/X (STQ_EN2_8)                   0.0406490937
+                                                  0.0406490937 f
+  U130/X (STQ_EO3_1)                   0.0775983781
+                                                  0.1182474717 f
+  U156/X (STQ_EO3_1)                   0.0390257314
+                                                  0.1572732031 r
+  codeword_out[0] (out)                0.0000000000
+                                                  0.1572732031 r
+  data arrival time                               0.1572732031
+
+  clock vclk (rise edge)               0.1199999973
+                                                  0.1199999973
+  clock network delay (ideal)          0.0000000000
+                                                  0.1199999973
+  output external delay                0.0000000000
+                                                  0.1199999973
+  data required time                              0.1199999973
+  -----------------------------------------------------------
+  data required time                              0.1199999973
+  data arrival time                               -0.1572732031
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -0.0372732058
+
+
+  Startpoint: data_in[45]
+              (input port clocked by vclk)
+  Endpoint: codeword_out[7]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  AMDCHIPKILL_ENCODER
+                     ZeroWLM               um28nchllogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)               0.0000000000
+                                                  0.0000000000
+  clock network delay (ideal)          0.0000000000
+                                                  0.0000000000
+  input external delay                 0.0000000000
+                                                  0.0000000000 r
+  data_in[45] (in)                     0.0000000000
+                                                  0.0000000000 r
+  U141/X (STQ_EO2_3)                   0.0399915390
+                                                  0.0399915390 f
+  U161/X (STQ_EO3_0P5)                 0.0769701451
+                                                  0.1169616878 f
+  U140/X (STQ_EO3_1)                   0.0380251706
+                                                  0.1549868584 r
+  codeword_out[7] (out)                0.0000000000
+                                                  0.1549868584 r
+  data arrival time                               0.1549868584
+
+  clock vclk (rise edge)               0.1199999973
+                                                  0.1199999973
+  clock network delay (ideal)          0.0000000000
+                                                  0.1199999973
+  output external delay                0.0000000000
+                                                  0.1199999973
+  data required time                              0.1199999973
+  -----------------------------------------------------------
+  data required time                              0.1199999973
+  data arrival time                               -0.1549868584
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -0.0349868611
+
+
+  Startpoint: data_in[13]
+              (input port clocked by vclk)
+  Endpoint: codeword_out[6]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  AMDCHIPKILL_ENCODER
+                     ZeroWLM               um28nchllogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)               0.0000000000
+                                                  0.0000000000
+  clock network delay (ideal)          0.0000000000
+                                                  0.0000000000
+  input external delay                 0.0000000000
+                                                  0.0000000000 r
+  data_in[13] (in)                     0.0000000000
+                                                  0.0000000000 r
+  U128/X (STQ_EO2_3)                   0.0425620824
+                                                  0.0425620824 f
+  U145/X (STQ_EN3_3)                   0.0566765964
+                                                  0.0992386788 f
+  U164/X (STQ_EO3_2)                   0.0557280481
+                                                  0.1549667269 f
+  codeword_out[6] (out)                0.0000000000
+                                                  0.1549667269 f
+  data arrival time                               0.1549667269
+
+  clock vclk (rise edge)               0.1199999973
+                                                  0.1199999973
+  clock network delay (ideal)          0.0000000000
+                                                  0.1199999973
+  output external delay                0.0000000000
+                                                  0.1199999973
+  data required time                              0.1199999973
+  -----------------------------------------------------------
+  data required time                              0.1199999973
+  data arrival time                               -0.1549667269
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -0.0349667296
+
+
+  Startpoint: data_in[38]
+              (input port clocked by vclk)
+  Endpoint: codeword_out[5]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  AMDCHIPKILL_ENCODER
+                     ZeroWLM               um28nchllogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)               0.0000000000
+                                                  0.0000000000
+  clock network delay (ideal)          0.0000000000
+                                                  0.0000000000
+  input external delay                 0.0000000000
+                                                  0.0000000000 r
+  data_in[38] (in)                     0.0000000000
+                                                  0.0000000000 r
+  U150/X (STQ_EN2_8)                   0.0414901599
+                                                  0.0414901599 f
+  U136/X (STQ_EN3_3)                   0.0525974408
+                                                  0.0940876007 f
+  U139/X (STQ_EO3_1)                   0.0606497675
+                                                  0.1547373682 f
+  codeword_out[5] (out)                0.0000000000
+                                                  0.1547373682 f
+  data arrival time                               0.1547373682
+
+  clock vclk (rise edge)               0.1199999973
+                                                  0.1199999973
+  clock network delay (ideal)          0.0000000000
+                                                  0.1199999973
+  output external delay                0.0000000000
+                                                  0.1199999973
+  data required time                              0.1199999973
+  -----------------------------------------------------------
+  data required time                              0.1199999973
+  data arrival time                               -0.1547373682
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -0.0347373709
+
+
+    Net: codeword_out[0]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword_out[1]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword_out[2]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword_out[3]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword_out[4]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword_out[5]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword_out[6]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword_out[7]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword_out[8]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword_out[9]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword_out[10]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword_out[11]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword_out[12]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword_out[13]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword_out[14]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Net: codeword_out[15]
+
+    Capacitance        0.0000000000
+  - min_capacitance    0.0000775500
+  ------------------------------
+    Slack              -0.0000775500  (VIOLATED)
+
+
+    Design: AMDCHIPKILL_ENCODER
+
+    max_area           0.0000000000
+  - Current Area       256.8720092773
+  ------------------------------
+    Slack              -256.8720092773  (VIOLATED)
+
+
+    Design: AMDCHIPKILL_ENCODER
+
+    max_leakage_power      0.0000000000
+  - Current Leakage Power  37908.1953125000
+  ----------------------------------
+    Slack                  -37908.1953125000  (VIOLATED)
+
+
+1
