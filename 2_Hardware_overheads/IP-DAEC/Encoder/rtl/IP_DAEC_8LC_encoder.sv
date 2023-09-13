@@ -1,8 +1,8 @@
 module IP_DAEC_8LC_encoder(input [63:0] message, output [21:0] IP_word, output IP, output [48:0] codeword);
 
-    assign IP = message[63] & message[60] & message[57] & message[54] & message[51] & message[48] & message[45] &
-                message[42] & message[39] & message[36] & message[33] & message[30] & message[27] & message[24] &
-                message[21] & message[18] & message[15] & message[12] & message[9] & message[6] & message[3] & message[0];
+    assign IP = message[63] ^ message[60] ^ message[57] ^ message[54] ^ message[51] ^ message[48] ^ message[45] ^
+                message[42] ^ message[39] ^ message[36] ^ message[33] ^ message[30] ^ message[27] ^ message[24] ^
+                message[21] ^ message[18] ^ message[15] ^ message[12] ^ message[9] ^ message[6] ^ message[3] ^ message[0];
     
     assign IP_word[21] = message[63];
     assign IP_word[20] = message[60];

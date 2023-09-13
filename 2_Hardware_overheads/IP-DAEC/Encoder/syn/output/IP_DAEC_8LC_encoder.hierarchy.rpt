@@ -4,16 +4,13 @@ Report : hierarchy
         -full
 Design : IP_DAEC_8LC_encoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:01:55 2023
+Date   : Wed Sep 13 22:51:54 2023
 ****************************************
 
 IP_DAEC_8LC_encoder
-    STP_AN4B_0P5           um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_ADDH_0P5           um28nchslogl35hsl140f_ssgwc0p9v125c
     STP_AO2BB2_0P5         um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_AOI22_0P5          um28nchslogl35hsl140f_ssgwc0p9v125c
     STP_EO3_0P5            um28nchslogl35hsl140f_ssgwc0p9v125c
     STP_INV_S_0P65         um28nchslogl35hsl140f_ssgwc0p9v125c
-    STP_ND4_0P5            um28nchslogl35hsl140f_ssgwc0p9v125c
-    STP_ND4_MM_1           um28nchslogl35hsl140f_ssgwc0p9v125c
-    STP_NR4_0P5            um28nchslogl35hsl140f_ssgwc0p9v125c
-    STP_OA2BB2_0P5         um28nchslogl35hsl140f_ssgwc0p9v125c
 1

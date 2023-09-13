@@ -3,7 +3,7 @@
 Report : reference
 Design : IP_DAEC_8LC_encoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:01:55 2023
+Date   : Wed Sep 13 22:51:54 2023
 ****************************************
 
 Attributes:
@@ -19,22 +19,16 @@ Attributes:
 
 Reference          Library       Unit Area   Count    Total Area   Attributes
 -----------------------------------------------------------------------------
-STP_AN4B_0P5       um28nchslogl35hsl140f_ssgwc0p9v125c
-                                  1.008000       1      1.008000  
+STP_ADDH_0P5       um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  1.176000       1      1.176000  r
 STP_AO2BB2_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                  1.008000      16     16.128000  
-STP_EO3_0P5        um28nchslogl35hsl140f_ssgwc0p9v125c
-                                  1.512000      35     52.919999  
-STP_INV_S_0P65     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                  0.336000       1      0.336000  
-STP_ND4_0P5        um28nchslogl35hsl140f_ssgwc0p9v125c
-                                  0.840000       3      2.520000  
-STP_ND4_MM_1       um28nchslogl35hsl140f_ssgwc0p9v125c
-                                  0.840000       2      1.680000  
-STP_NR4_0P5        um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  1.008000      17     17.136000  
+STP_AOI22_0P5      um28nchslogl35hsl140f_ssgwc0p9v125c
                                   0.840000       1      0.840000  
-STP_OA2BB2_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                  1.008000       2      2.016000  
+STP_EO3_0P5        um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  1.512000      44     66.527998  
+STP_INV_S_0P65     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  0.336000       3      1.008000  
 -----------------------------------------------------------------------------
-Total 8 references                                     77.447999
+Total 5 references                                     86.687999
 1

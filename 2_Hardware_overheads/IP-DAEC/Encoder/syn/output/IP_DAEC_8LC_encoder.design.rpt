@@ -3,7 +3,7 @@
 Report : design
 Design : IP_DAEC_8LC_encoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:01:55 2023
+Date   : Wed Sep 13 22:51:54 2023
 ****************************************
 
 Design allows ideal nets on clock nets.

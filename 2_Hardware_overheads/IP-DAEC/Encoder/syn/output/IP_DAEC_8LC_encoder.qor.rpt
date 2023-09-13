@@ -3,15 +3,15 @@
 Report : qor
 Design : IP_DAEC_8LC_encoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:01:55 2023
+Date   : Wed Sep 13 22:51:54 2023
 ****************************************
 
 
   Timing Path Group 'vclk'
   -----------------------------------
-  Levels of Logic:               6.00
-  Critical Path Length:          0.49
-  Critical Path Slack:           0.11
+  Levels of Logic:               7.00
+  Critical Path Length:          0.57
+  Critical Path Slack:           0.03
   Critical Path Clk Period:      0.60
   Total Negative Slack:          0.00
   No. of Violating Paths:        0.00
@@ -25,12 +25,12 @@ Date   : Mon Sep 11 18:01:55 2023
   -----------------------------------
   Hierarchical Cell Count:          0
   Hierarchical Port Count:          0
-  Leaf Cell Count:                 61
-  Buf/Inv Cell Count:               1
+  Leaf Cell Count:                 66
+  Buf/Inv Cell Count:               3
   Buf Cell Count:                   0
-  Inv Cell Count:                   1
+  Inv Cell Count:                   3
   CT Buf/Inv Cell Count:            0
-  Combinational Cell Count:        61
+  Combinational Cell Count:        66
   Sequential Cell Count:            0
   Macro Count:                      0
   -----------------------------------
@@ -38,21 +38,21 @@ Date   : Mon Sep 11 18:01:55 2023
 
   Area
   -----------------------------------
-  Combinational Area:       77.447999
+  Combinational Area:       86.687999
   Noncombinational Area:     0.000000
-  Buf/Inv Area:              0.336000
+  Buf/Inv Area:              1.008000
   Total Buffer Area:             0.00
-  Total Inverter Area:           0.34
+  Total Inverter Area:           1.01
   Macro/Black Box Area:      0.000000
   Net Area:                  0.000000
   -----------------------------------
-  Cell Area:                77.447999
-  Design Area:              77.447999
+  Cell Area:                86.687999
+  Design Area:              86.687999
 
 
   Design Rules
   -----------------------------------
-  Total Number of Nets:           125
+  Total Number of Nets:           130
   Nets With Violations:             0
   Max Trans Violations:             0
   Max Cap Violations:               0
@@ -67,8 +67,8 @@ Date   : Mon Sep 11 18:01:55 2023
   Logic Optimization:                  0.24
   Mapping Optimization:                1.91
   -----------------------------------------
-  Overall Compile Time:               19.69
-  Overall Compile Wall Clock Time:    20.43
+  Overall Compile Time:               19.68
+  Overall Compile Wall Clock Time:    20.04
 
   --------------------------------------------------------------------
 
