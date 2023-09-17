@@ -6,7 +6,7 @@ Report : constraint
         -verbose
 Design : SEC_DAEC_TAEC_encoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:05:40 2023
+Date   : Sun Sep 17 23:43:09 2023
 ****************************************
 
 
@@ -77,17 +77,17 @@ Date   : Mon Sep 11 18:05:40 2023
     Design: SEC_DAEC_TAEC_encoder
 
     max_area           0.0000000000
-  - Current Area       94.2480010986
+  - Current Area       102.6479949951
   ------------------------------
-    Slack              -94.2480010986  (VIOLATED)
+    Slack              -102.6479949951  (VIOLATED)
 
 
     Design: SEC_DAEC_TAEC_encoder
 
     max_leakage_power      0.0000000000
-  - Current Leakage Power  2552.9682617188
+  - Current Leakage Power  2762.7873535156
   ----------------------------------
-    Slack                  -2552.9682617188  (VIOLATED)
+    Slack                  -2762.7873535156  (VIOLATED)
 
 
 1

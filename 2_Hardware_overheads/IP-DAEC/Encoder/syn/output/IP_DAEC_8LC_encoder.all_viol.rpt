@@ -6,7 +6,7 @@ Report : constraint
         -verbose
 Design : IP_DAEC_8LC_encoder
 Version: Q-2019.12-SP5-5
-Date   : Wed Sep 13 22:51:54 2023
+Date   : Sun Sep 17 23:53:34 2023
 ****************************************
 
 
@@ -77,17 +77,17 @@ Date   : Wed Sep 13 22:51:54 2023
     Design: IP_DAEC_8LC_encoder
 
     max_area           0.0000000000
-  - Current Area       86.6879959106
+  - Current Area       95.4239959717
   ------------------------------
-    Slack              -86.6879959106  (VIOLATED)
+    Slack              -95.4239959717  (VIOLATED)
 
 
     Design: IP_DAEC_8LC_encoder
 
     max_leakage_power      0.0000000000
-  - Current Leakage Power  2339.2136230469
+  - Current Leakage Power  2640.1184082031
   ----------------------------------
-    Slack                  -2339.2136230469  (VIOLATED)
+    Slack                  -2640.1184082031  (VIOLATED)
 
 
 1

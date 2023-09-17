@@ -3,7 +3,7 @@
 Report : area
 Design : SCC_4LC_decoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 21:13:47 2023
+Date   : Sun Sep 17 23:43:20 2023
 ****************************************
 
 Library(s) Used:
@@ -11,21 +11,21 @@ Library(s) Used:
     um28nchslogl35hsl140f_ssgwc0p9v125c (File: /media/0/LogicLibraries/UMC/28nm/35hs/hsl/svt/latest/liberty/logic_synth/um28nchslogl35hsl140f_ssgwc0p9v125c.db)
 
 Number of ports:                          137
-Number of nets:                           665
-Number of cells:                          594
-Number of combinational cells:            594
+Number of nets:                           847
+Number of cells:                          776
+Number of combinational cells:            776
 Number of sequential cells:                 0
 Number of macros/black boxes:               0
-Number of buf/inv:                         99
-Number of references:                      90
+Number of buf/inv:                        177
+Number of references:                     179
 
-Combinational area:                598.079992
-Buf/Inv area:                       40.992000
+Combinational area:               1528.127983
+Buf/Inv area:                      196.727999
 Noncombinational area:               0.000000
 Macro/Black Box area:                0.000000
 Net Interconnect area:      undefined  (Wire load has zero net area)
 
-Total cell area:                   598.079992
+Total cell area:                  1528.127983
 Total area:                 undefined
 
 The above information was reported from the logical library. The following are from the physical library:
@@ -34,12 +34,12 @@ Hierarchical area distribution
 ------------------------------
 
                                   Global cell area          Local cell area
-                                  ------------------  --------------------------- 
-Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
-                                  Total      Total    national  national   boxes   Design
---------------------------------  ---------  -------  --------  ---------  ------  ---------
-SCC_4LC_decoder                    598.0800    100.0  598.0800     0.0000  0.0000  SCC_4LC_decoder
---------------------------------  ---------  -------  --------  ---------  ------  ---------
-Total                                                 598.0800     0.0000  0.0000
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------
+SCC_4LC_decoder                   1528.1280    100.0  1528.1280     0.0000  0.0000  SCC_4LC_decoder
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------
+Total                                                 1528.1280     0.0000  0.0000
 
 1

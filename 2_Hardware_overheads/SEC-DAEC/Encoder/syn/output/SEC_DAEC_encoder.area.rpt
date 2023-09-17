@@ -3,7 +3,7 @@
 Report : area
 Design : SEC_DAEC_encoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:05:05 2023
+Date   : Sun Sep 17 22:29:04 2023
 ****************************************
 
 Library(s) Used:
@@ -11,21 +11,21 @@ Library(s) Used:
     um28nchslogl35hsl140f_ssgwc0p9v125c (File: /media/0/LogicLibraries/UMC/28nm/35hs/hsl/svt/latest/liberty/logic_synth/um28nchslogl35hsl140f_ssgwc0p9v125c.db)
 
 Number of ports:                          136
-Number of nets:                           149
-Number of cells:                           85
-Number of combinational cells:             85
+Number of nets:                           157
+Number of cells:                           93
+Number of combinational cells:             93
 Number of sequential cells:                 0
 Number of macros/black boxes:               0
-Number of buf/inv:                          2
-Number of references:                       7
+Number of buf/inv:                          4
+Number of references:                      13
 
-Combinational area:                116.423998
-Buf/Inv area:                        0.672000
+Combinational area:                135.071997
+Buf/Inv area:                        1.344000
 Noncombinational area:               0.000000
 Macro/Black Box area:                0.000000
 Net Interconnect area:      undefined  (Wire load has zero net area)
 
-Total cell area:                   116.423998
+Total cell area:                   135.071997
 Total area:                 undefined
 
 The above information was reported from the logical library. The following are from the physical library:
@@ -38,8 +38,8 @@ Hierarchical area distribution
 Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
                                   Total      Total    national  national   boxes   Design
 --------------------------------  ---------  -------  --------  ---------  ------  ---------
-SEC_DAEC_encoder                   116.4240    100.0  116.4240     0.0000  0.0000  SEC_DAEC_encoder
+SEC_DAEC_encoder                   135.0720    100.0  135.0720     0.0000  0.0000  SEC_DAEC_encoder
 --------------------------------  ---------  -------  --------  ---------  ------  ---------
-Total                                                 116.4240     0.0000  0.0000
+Total                                                 135.0720     0.0000  0.0000
 
 1

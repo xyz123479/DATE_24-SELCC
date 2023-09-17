@@ -3,7 +3,7 @@
 Report : cell
 Design : SEC_DAEC_encoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:05:05 2023
+Date   : Sun Sep 17 22:29:04 2023
 ****************************************
 
 Attributes:
@@ -15,108 +15,108 @@ Attributes:
 
 Cell                      Reference       Library             Area  Attributes
 --------------------------------------------------------------------------------
-U121                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
+U121                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U122                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U123                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U124                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U125                      STP_AO2BB2_1    um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.008000  
-U122                      STP_OA2BB2_1    um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.008000  
-U123                      STP_OA2BB2_1    um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.008000  
-U124                      STP_INV_S_0P65  um28nchslogl35hsl140f_ssgwc0p9v125c
+U126                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U127                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U128                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U129                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U130                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U131                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U132                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U133                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U134                      STP_INV_S_1     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           0.336000  
-U125                      STP_OA2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
+U135                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U136                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U137                      STP_AO2BB2_V3_1 um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.008000  
-U126                      STP_EO3_1       um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          2.184000  
-U127                      STP_OA2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
+U138                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U139                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U140                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U141                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U142                      STP_INV_S_1     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          0.336000  
+U143                      STP_EO2_1       um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U144                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U145                      STP_EO2_1       um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U146                      STP_OA2BB2_1    um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.008000  
-U128                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+U147                      STP_EO2_1       um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
-U129                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
+U148                      STP_EO2_1       um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U149                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.008000  
-U130                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
-U131                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
-U132                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.008000  
-U133                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
-U134                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
-U135                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.008000  
-U136                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
-U137                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
-U138                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
-U139                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
-U140                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.008000  
-U141                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.008000  
-U142                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.008000  
-U143                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.008000  
-U144                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.008000  
-U145                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
-U146                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
-U147                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.008000  
-U148                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
-U149                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
-U150                      STP_EO3_2       um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          2.688000  
+U150                      STP_INV_S_0P65  um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          0.336000  
 U151                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
-U152                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
-U153                      STP_INV_S_0P65  um28nchslogl35hsl140f_ssgwc0p9v125c
+U152                      STP_INV_S_0P65  um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           0.336000  
+U153                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
 U154                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
-U155                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.008000  
+U155                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
 U156                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
-U157                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.008000  
+U157                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
 U158                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
 U159                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
-U160                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+U160                      STP_EO2_S_2     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
-U161                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+U161                      STP_EO2_S_2     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
-U162                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+U162                      STP_EO3_2       um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          2.688000  
+U163                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
-U163                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
+U164                      STP_EO2_S_0P5   um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U165                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.008000  
-U164                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
-U165                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
 U166                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
-U167                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.008000  
-U168                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.008000  
+U167                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U168                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
 U169                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
 U170                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
-U171                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.008000  
+U171                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
 U172                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
 U173                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
@@ -127,20 +127,20 @@ U175                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
 U176                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
-U177                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
+U177                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U178                      STP_EO3_1       um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          2.184000  
+U179                      STP_EO3_2       um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          2.688000  
+U180                      STP_EN2_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.344000  
+U181                      STP_EN2_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.344000  
+U182                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.008000  
-U178                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+U183                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
-U179                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
-U180                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
-U181                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.008000  
-U182                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.512000  
-U183                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
-                                                          1.008000  
 U184                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
 U185                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
@@ -185,6 +185,22 @@ U204                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
 U205                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
                                                           1.512000  
+U206                      STP_AO2BB2_0P5  um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.008000  
+U207                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U208                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U209                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U210                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U211                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U212                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
+U213                      STP_EO3_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                                          1.512000  
 --------------------------------------------------------------------------------
-Total 85 cells                                            116.423998
+Total 93 cells                                            135.071997
 1

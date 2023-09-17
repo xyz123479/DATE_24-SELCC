@@ -3,7 +3,7 @@
 # ---------------------------------------
 set topmodule_name      SCC_4LC_decoder
 set clk_port_name       clk
-set clk_freq            1000
+set clk_freq            1500
 
 # ---------------------------------------
 # Read Libraries

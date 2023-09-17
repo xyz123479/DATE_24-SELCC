@@ -3,7 +3,7 @@
 Report : reference
 Design : SEC_DED_encoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:06:15 2023
+Date   : Sun Sep 17 23:43:48 2023
 ****************************************
 
 Attributes:
@@ -20,15 +20,29 @@ Attributes:
 Reference          Library       Unit Area   Count    Total Area   Attributes
 -----------------------------------------------------------------------------
 STP_AO2BB2_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                  1.008000      11     11.088000  
-STP_AOI22_0P5      um28nchslogl35hsl140f_ssgwc0p9v125c
-                                  0.840000       1      0.840000  
+                                  1.008000       5      5.040000  
+STP_AO2BB2_V3_1    um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  1.008000       1      1.008000  
+STP_EN2_S_2        um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  1.680000       1      1.680000  
+STP_EO2_1          um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  1.512000       1      1.512000  
+STP_EO2_S_0P5      um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  1.512000       8     12.096000  
 STP_EO3_0P5        um28nchslogl35hsl140f_ssgwc0p9v125c
-                                  1.512000      60     90.719998  
+                                  1.512000      56     84.671998  
+STP_EO3_1          um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  2.184000       2      4.368000  
 STP_INV_S_0P65     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                  0.336000       3      1.008000  
+                                  0.336000       2      0.672000  
+STP_INV_S_1        um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  0.336000       4      1.344000  
+STP_MUXI2_MG_0P75  um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  1.008000       1      1.008000  
 STP_OA2BB2_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                  1.008000       3      3.024000  
+                                  1.008000       1      1.008000  
+STP_OA2BB2_1       um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  1.008000       1      1.008000  
 -----------------------------------------------------------------------------
-Total 5 references                                    106.679998
+Total 12 references                                   115.415998
 1

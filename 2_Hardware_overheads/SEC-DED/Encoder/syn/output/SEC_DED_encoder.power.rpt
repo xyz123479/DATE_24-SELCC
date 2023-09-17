@@ -6,7 +6,7 @@ Report : power
         -analysis_effort high
 Design : SEC_DED_encoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:06:16 2023
+Date   : Sun Sep 17 23:43:48 2023
 ****************************************
 
 
@@ -32,12 +32,12 @@ Power-specific unit information :
     Leakage Power Units = 1nW
 
 
-  Cell Internal Power  = 118.3522 uW   (86%)
-  Net Switching Power  =  19.3695 uW   (14%)
+  Cell Internal Power  = 176.5094 uW   (85%)
+  Net Switching Power  =  32.2002 uW   (15%)
                          ---------
-Total Dynamic Power    = 137.7216 uW  (100%)
+Total Dynamic Power    = 208.7097 uW  (100%)
 
-Cell Leakage Power     =   2.3591 uW
+Cell Leakage Power     =   2.5288 uW
 
 Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
 
@@ -50,7 +50,7 @@ black_box          0.0000            0.0000            0.0000            0.0000 
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
 register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational      0.1184        1.9369e-02        2.3591e+03            0.1401  ( 100.00%)
+combinational      0.1765        3.2200e-02        2.5288e+03            0.2112  ( 100.00%)
 --------------------------------------------------------------------------------------------------
-Total              0.1184 mW     1.9369e-02 mW     2.3591e+03 nW         0.1401 mW
+Total              0.1765 mW     3.2200e-02 mW     2.5288e+03 nW         0.2112 mW
 1

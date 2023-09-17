@@ -3,7 +3,7 @@
 Report : area
 Design : IP_DAEC_8LC_encoder
 Version: Q-2019.12-SP5-5
-Date   : Wed Sep 13 22:51:54 2023
+Date   : Sun Sep 17 23:53:34 2023
 ****************************************
 
 Library(s) Used:
@@ -11,21 +11,21 @@ Library(s) Used:
     um28nchslogl35hsl140f_ssgwc0p9v125c (File: /media/0/LogicLibraries/UMC/28nm/35hs/hsl/svt/latest/liberty/logic_synth/um28nchslogl35hsl140f_ssgwc0p9v125c.db)
 
 Number of ports:                          136
-Number of nets:                           130
-Number of cells:                           66
-Number of combinational cells:             66
+Number of nets:                           132
+Number of cells:                           68
+Number of combinational cells:             68
 Number of sequential cells:                 0
 Number of macros/black boxes:               0
 Number of buf/inv:                          3
-Number of references:                       5
+Number of references:                      12
 
-Combinational area:                 86.687999
+Combinational area:                 95.423998
 Buf/Inv area:                        1.008000
 Noncombinational area:               0.000000
 Macro/Black Box area:                0.000000
 Net Interconnect area:      undefined  (Wire load has zero net area)
 
-Total cell area:                    86.687999
+Total cell area:                    95.423998
 Total area:                 undefined
 
 The above information was reported from the logical library. The following are from the physical library:
@@ -38,8 +38,8 @@ Hierarchical area distribution
 Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
                                   Total      Total    national  national   boxes   Design
 --------------------------------  ---------  -------  --------  ---------  ------  ---------
-IP_DAEC_8LC_encoder                 86.6880    100.0   86.6880     0.0000  0.0000  IP_DAEC_8LC_encoder
+IP_DAEC_8LC_encoder                 95.4240    100.0   95.4240     0.0000  0.0000  IP_DAEC_8LC_encoder
 --------------------------------  ---------  -------  --------  ---------  ------  ---------
-Total                                                  86.6880     0.0000  0.0000
+Total                                                  95.4240     0.0000  0.0000
 
 1

@@ -4,13 +4,22 @@ Report : hierarchy
         -full
 Design : SCC_8LC_encoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:04:06 2023
+Date   : Sun Sep 17 23:42:27 2023
 ****************************************
 
 SCC_8LC_encoder
-    STP_AO2BB2_0P5         um28nchslogl35hsl140f_ssgwc0p9v125c
-    STP_AOI22_0P5          um28nchslogl35hsl140f_ssgwc0p9v125c
-    STP_EO3_0P5            um28nchslogl35hsl140f_ssgwc0p9v125c
-    STP_INV_S_0P65         um28nchslogl35hsl140f_ssgwc0p9v125c
-    STP_OA2BB2_0P5         um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_AO2BB2_0P5          um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_AO2BB2_1            um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_AO2BB2_V3_1         um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_AOI22_0P5           um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_EN2_0P5             um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_EO2_1               um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_EO2_S_0P5           um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_EO2_S_2             um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_EO3_0P5             um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_EO3_1               um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_EO3_2               um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_INV_S_0P65          um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_INV_S_1             um28nchslogl35hsl140f_ssgwc0p9v125c
+    STP_OA2BB2_0P5          um28nchslogl35hsl140f_ssgwc0p9v125c
 1

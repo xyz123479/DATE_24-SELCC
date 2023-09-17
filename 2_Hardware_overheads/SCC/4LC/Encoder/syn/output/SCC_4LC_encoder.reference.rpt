@@ -3,7 +3,7 @@
 Report : reference
 Design : SCC_4LC_encoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:03:27 2023
+Date   : Sun Sep 17 23:40:56 2023
 ****************************************
 
 Attributes:
@@ -20,13 +20,31 @@ Attributes:
 Reference          Library       Unit Area   Count    Total Area   Attributes
 -----------------------------------------------------------------------------
 STP_AO2BB2_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                  1.008000      18     18.144000  
+                                  1.008000       5      5.040000  
+STP_AO2BB2_V3_1    um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  1.008000       4      4.032000  
+STP_EN2_0P5        um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  1.344000       4      5.376000  
+STP_EN3_1          um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  2.184000       3      6.552000  
+STP_EO2_1          um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  1.512000       2      3.024000  
+STP_EO2_S_0P5      um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  1.512000       6      9.072000  
 STP_EO3_0P5        um28nchslogl35hsl140f_ssgwc0p9v125c
-                                  1.512000      56     84.671998  
+                                  1.512000      47     71.063998  
+STP_EO3_1          um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  2.184000       1      2.184000  
+STP_EO3_2          um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  2.688000       3      8.064000  
+STP_EO3_3          um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  4.200000       1      4.200000  
 STP_INV_S_0P65     um28nchslogl35hsl140f_ssgwc0p9v125c
+                                  0.336000       1      0.336000  
+STP_INV_S_1        um28nchslogl35hsl140f_ssgwc0p9v125c
                                   0.336000       2      0.672000  
 STP_OA2BB2_0P5     um28nchslogl35hsl140f_ssgwc0p9v125c
-                                  1.008000       2      2.016000  
+                                  1.008000       1      1.008000  
 -----------------------------------------------------------------------------
-Total 4 references                                    105.503998
+Total 13 references                                   120.623998
 1

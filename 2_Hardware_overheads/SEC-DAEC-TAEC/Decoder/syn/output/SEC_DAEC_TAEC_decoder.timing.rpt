@@ -7,15 +7,16 @@ Report : timing
         -max_paths 10
 Design : SEC_DAEC_TAEC_decoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:06:15 2023
+Date   : Sun Sep 17 23:50:52 2023
 ****************************************
 
 Operating Conditions: SSGWC0P9V125C   Library: um28nchslogl35hsl140f_ssgwc0p9v125c
 Wire Load Model Mode: enclosed
 
-  Startpoint: codeword[8]
+  Startpoint: codeword[25]
               (input port clocked by vclk)
-  Endpoint: message[4] (output port clocked by vclk)
+  Endpoint: message[54]
+            (output port clocked by vclk)
   Path Group: vclk
   Path Type: max
 
@@ -29,45 +30,47 @@ Wire Load Model Mode: enclosed
   clock vclk (rise edge)                   0.00       0.00
   clock network delay (ideal)              0.00       0.00
   input external delay                     0.00       0.00 r
-  codeword[8] (in)                         0.00       0.00 r
-  U1339/X (STP_EN2_3)                      0.05       0.05 f
-  U1859/X (STP_EO3_3)                      0.04       0.09 r
-  U1427/X (STP_INV_1P5)                    0.01       0.11 f
-  U1886/X (STP_EO3_3)                      0.07       0.18 f
-  U1556/X (STP_EO3_3)                      0.04       0.22 r
-  U1213/X (STP_INV_2)                      0.03       0.24 f
-  U1278/X (STP_ND2_G_4)                    0.02       0.26 r
-  U1193/X (STP_INV_S_1)                    0.03       0.29 f
-  U1315/X (STP_NR2_G_0P8)                  0.02       0.31 r
-  U2020/X (STP_OAI22_0P5)                  0.03       0.34 f
-  U2022/X (STP_AOI211_0P75)                0.03       0.37 r
-  U2027/X (STP_AOAI211_2)                  0.04       0.41 f
-  U2030/X (STP_NR4B_4)                     0.04       0.45 r
-  U1267/X (STP_INV_2P5)                    0.02       0.46 f
-  U1175/X (STP_NR2_G_2)                    0.02       0.48 r
-  U1262/X (STP_ND2_S_6)                    0.02       0.50 f
-  U1158/X (STP_NR2_1)                      0.03       0.53 r
-  U2166/X (STP_ND2_S_0P8)                  0.02       0.55 f
-  U1346/X (STP_OAI31_G_0P5)                0.01       0.56 r
-  U2167/X (STP_AOI21_0P75)                 0.02       0.58 f
-  U2170/X (STP_MUXI2_MG_0P5)               0.02       0.60 r
-  message[4] (out)                         0.00       0.60 r
-  data arrival time                                   0.60
+  codeword[25] (in)                        0.00       0.00 r
+  U2336/X (STP_EN3_6)                      0.08       0.08 f
+  U2335/X (STP_EO3_3)                      0.07       0.15 r
+  U2377/X (STP_EN3_3)                      0.05       0.20 f
+  U2100/X (STP_INV_6)                      0.02       0.22 r
+  U2099/X (STP_INV_18)                     0.02       0.24 f
+  U2285/X (STP_ND2_5)                      0.01       0.25 r
+  U1921/X (STP_INV_2)                      0.01       0.26 f
+  U1952/X (STP_ND2_1P5)                    0.01       0.26 r
+  U1950/X (STP_INV_1P5)                    0.01       0.28 f
+  U2138/X (STP_NR4_4)                      0.02       0.30 r
+  U1925/X (STP_AOI21_2)                    0.02       0.31 f
+  U1947/X (STP_NR3_G_2)                    0.02       0.33 r
+  U2319/X (STP_ND2_S_5)                    0.02       0.35 f
+  U1843/X (STP_NR2_8)                      0.02       0.37 r
+  U1900/X (STP_INV_18)                     0.02       0.39 f
+  U1336/X (STP_BUF_5)                      0.02       0.41 f
+  U2314/X (STP_NR2B_16)                    0.02       0.43 r
+  U1298/X (STP_INV_6P5)                    0.01       0.44 f
+  U1782/X (STP_ND2_7)                      0.01       0.45 r
+  U1767/X (STP_NR2_G_3P5)                  0.01       0.45 f
+  U2220/X (STP_NR3_G_2)                    0.01       0.47 r
+  U2205/X (STP_MUXI2_MG_0P75)              0.01       0.48 f
+  message[54] (out)                        0.00       0.48 f
+  data arrival time                                   0.48
 
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
   -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.60
+  data required time                                  0.40
+  data arrival time                                  -0.48
   -----------------------------------------------------------
-  slack (MET)                                         0.00
+  slack (VIOLATED)                                   -0.08
 
 
-  Startpoint: codeword[8]
+  Startpoint: codeword[25]
               (input port clocked by vclk)
-  Endpoint: message[4] (output port clocked by vclk)
+  Endpoint: message[54]
+            (output port clocked by vclk)
   Path Group: vclk
   Path Type: max
 
@@ -81,45 +84,47 @@ Wire Load Model Mode: enclosed
   clock vclk (rise edge)                   0.00       0.00
   clock network delay (ideal)              0.00       0.00
   input external delay                     0.00       0.00 r
-  codeword[8] (in)                         0.00       0.00 r
-  U1339/X (STP_EN2_3)                      0.05       0.05 f
-  U1859/X (STP_EO3_3)                      0.04       0.09 r
-  U1427/X (STP_INV_1P5)                    0.01       0.11 f
-  U1886/X (STP_EO3_3)                      0.07       0.18 f
-  U1556/X (STP_EO3_3)                      0.04       0.22 r
-  U1213/X (STP_INV_2)                      0.03       0.24 f
-  U1278/X (STP_ND2_G_4)                    0.02       0.26 r
-  U1193/X (STP_INV_S_1)                    0.03       0.29 f
-  U1315/X (STP_NR2_G_0P8)                  0.02       0.31 r
-  U2020/X (STP_OAI22_0P5)                  0.03       0.34 f
-  U2022/X (STP_AOI211_0P75)                0.03       0.37 r
-  U2027/X (STP_AOAI211_2)                  0.04       0.41 f
-  U2030/X (STP_NR4B_4)                     0.04       0.45 r
-  U1267/X (STP_INV_2P5)                    0.02       0.46 f
-  U1175/X (STP_NR2_G_2)                    0.02       0.48 r
-  U1262/X (STP_ND2_S_6)                    0.02       0.50 f
-  U1158/X (STP_NR2_1)                      0.03       0.53 r
-  U2166/X (STP_ND2_S_0P8)                  0.02       0.55 f
-  U1346/X (STP_OAI31_G_0P5)                0.01       0.56 r
-  U2167/X (STP_AOI21_0P75)                 0.02       0.58 f
-  U2170/X (STP_MUXI2_MG_0P5)               0.02       0.60 r
-  message[4] (out)                         0.00       0.60 r
-  data arrival time                                   0.60
+  codeword[25] (in)                        0.00       0.00 r
+  U2336/X (STP_EN3_6)                      0.08       0.08 f
+  U2335/X (STP_EO3_3)                      0.07       0.15 r
+  U2377/X (STP_EN3_3)                      0.05       0.20 f
+  U2100/X (STP_INV_6)                      0.02       0.22 r
+  U2099/X (STP_INV_18)                     0.02       0.24 f
+  U2285/X (STP_ND2_5)                      0.01       0.25 r
+  U1921/X (STP_INV_2)                      0.01       0.26 f
+  U1952/X (STP_ND2_1P5)                    0.01       0.26 r
+  U1950/X (STP_INV_1P5)                    0.01       0.28 f
+  U2138/X (STP_NR4_4)                      0.02       0.30 r
+  U1925/X (STP_AOI21_2)                    0.02       0.31 f
+  U1947/X (STP_NR3_G_2)                    0.02       0.33 r
+  U2319/X (STP_ND2_S_5)                    0.02       0.35 f
+  U1843/X (STP_NR2_8)                      0.02       0.37 r
+  U1900/X (STP_INV_18)                     0.02       0.39 f
+  U1336/X (STP_BUF_5)                      0.02       0.41 f
+  U2314/X (STP_NR2B_16)                    0.02       0.43 r
+  U1298/X (STP_INV_6P5)                    0.01       0.44 f
+  U1782/X (STP_ND2_7)                      0.01       0.45 r
+  U1767/X (STP_NR2_G_3P5)                  0.01       0.45 f
+  U2220/X (STP_NR3_G_2)                    0.01       0.47 r
+  U2205/X (STP_MUXI2_MG_0P75)              0.01       0.48 f
+  message[54] (out)                        0.00       0.48 f
+  data arrival time                                   0.48
 
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
   -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.60
+  data required time                                  0.40
+  data arrival time                                  -0.48
   -----------------------------------------------------------
-  slack (MET)                                         0.00
+  slack (VIOLATED)                                   -0.08
 
 
-  Startpoint: codeword[8]
+  Startpoint: codeword[25]
               (input port clocked by vclk)
-  Endpoint: message[4] (output port clocked by vclk)
+  Endpoint: message[54]
+            (output port clocked by vclk)
   Path Group: vclk
   Path Type: max
 
@@ -133,45 +138,46 @@ Wire Load Model Mode: enclosed
   clock vclk (rise edge)                   0.00       0.00
   clock network delay (ideal)              0.00       0.00
   input external delay                     0.00       0.00 r
-  codeword[8] (in)                         0.00       0.00 r
-  U1339/X (STP_EN2_3)                      0.05       0.05 f
-  U1859/X (STP_EO3_3)                      0.04       0.09 r
-  U1427/X (STP_INV_1P5)                    0.01       0.11 f
-  U1886/X (STP_EO3_3)                      0.07       0.18 f
-  U1556/X (STP_EO3_3)                      0.04       0.22 r
-  U1213/X (STP_INV_2)                      0.03       0.24 f
-  U1278/X (STP_ND2_G_4)                    0.02       0.26 r
-  U1193/X (STP_INV_S_1)                    0.03       0.29 f
-  U1315/X (STP_NR2_G_0P8)                  0.02       0.31 r
-  U2020/X (STP_OAI22_0P5)                  0.03       0.34 f
-  U2022/X (STP_AOI211_0P75)                0.03       0.37 r
-  U2027/X (STP_AOAI211_2)                  0.04       0.41 f
-  U2030/X (STP_NR4B_4)                     0.04       0.45 r
-  U1267/X (STP_INV_2P5)                    0.02       0.46 f
-  U1175/X (STP_NR2_G_2)                    0.02       0.48 r
-  U1262/X (STP_ND2_S_6)                    0.02       0.50 f
-  U1158/X (STP_NR2_1)                      0.03       0.53 r
-  U2166/X (STP_ND2_S_0P8)                  0.02       0.55 f
-  U1346/X (STP_OAI31_G_0P5)                0.01       0.56 r
-  U2167/X (STP_AOI21_0P75)                 0.02       0.58 f
-  U2170/X (STP_MUXI2_MG_0P5)               0.02       0.60 r
-  message[4] (out)                         0.00       0.60 r
-  data arrival time                                   0.60
+  codeword[25] (in)                        0.00       0.00 r
+  U2336/X (STP_EN3_6)                      0.08       0.08 f
+  U2335/X (STP_EO3_3)                      0.07       0.15 r
+  U2377/X (STP_EN3_3)                      0.05       0.20 f
+  U1804/X (STP_BUF_S_12)                   0.02       0.23 f
+  U1805/X (STP_INV_S_14)                   0.01       0.24 r
+  U2429/X (STP_NR2_G_16)                   0.01       0.25 f
+  U2113/X (STP_AO2BB2_8)                   0.03       0.28 f
+  U1899/X (STP_AOI22_5)                    0.01       0.30 r
+  U2338/X (STP_AOI21_2)                    0.02       0.31 f
+  U2157/X (STP_NR3_G_2)                    0.02       0.33 r
+  U2397/X (STP_ND2_S_5)                    0.02       0.35 f
+  U2406/X (STP_NR2_8)                      0.02       0.37 r
+  U2416/X (STP_INV_18)                     0.02       0.39 f
+  U1803/X (STP_INV_18)                     0.01       0.40 r
+  U2274/X (STP_NR2_S_20)                   0.01       0.41 f
+  U2314/X (STP_NR2B_16)                    0.02       0.43 f
+  U1298/X (STP_INV_6P5)                    0.01       0.44 r
+  U1782/X (STP_ND2_7)                      0.01       0.45 f
+  U1767/X (STP_NR2_G_3P5)                  0.01       0.46 r
+  U2220/X (STP_NR3_G_2)                    0.01       0.47 f
+  U2205/X (STP_MUXI2_MG_0P75)              0.01       0.48 r
+  message[54] (out)                        0.00       0.48 r
+  data arrival time                                   0.48
 
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
   -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.60
+  data required time                                  0.40
+  data arrival time                                  -0.48
   -----------------------------------------------------------
-  slack (MET)                                         0.00
+  slack (VIOLATED)                                   -0.08
 
 
-  Startpoint: codeword[8]
+  Startpoint: codeword[25]
               (input port clocked by vclk)
-  Endpoint: message[4] (output port clocked by vclk)
+  Endpoint: message[54]
+            (output port clocked by vclk)
   Path Group: vclk
   Path Type: max
 
@@ -185,45 +191,46 @@ Wire Load Model Mode: enclosed
   clock vclk (rise edge)                   0.00       0.00
   clock network delay (ideal)              0.00       0.00
   input external delay                     0.00       0.00 r
-  codeword[8] (in)                         0.00       0.00 r
-  U1339/X (STP_EN2_3)                      0.05       0.05 f
-  U1859/X (STP_EO3_3)                      0.04       0.09 r
-  U1427/X (STP_INV_1P5)                    0.01       0.11 f
-  U1886/X (STP_EO3_3)                      0.07       0.18 f
-  U1556/X (STP_EO3_3)                      0.04       0.22 r
-  U1213/X (STP_INV_2)                      0.03       0.24 f
-  U1278/X (STP_ND2_G_4)                    0.02       0.26 r
-  U1193/X (STP_INV_S_1)                    0.03       0.29 f
-  U1315/X (STP_NR2_G_0P8)                  0.02       0.31 r
-  U2020/X (STP_OAI22_0P5)                  0.03       0.34 f
-  U2022/X (STP_AOI211_0P75)                0.03       0.37 r
-  U2027/X (STP_AOAI211_2)                  0.04       0.41 f
-  U2030/X (STP_NR4B_4)                     0.04       0.45 r
-  U1267/X (STP_INV_2P5)                    0.02       0.46 f
-  U1175/X (STP_NR2_G_2)                    0.02       0.48 r
-  U1262/X (STP_ND2_S_6)                    0.02       0.50 f
-  U1158/X (STP_NR2_1)                      0.03       0.53 r
-  U2166/X (STP_ND2_S_0P8)                  0.02       0.55 f
-  U1346/X (STP_OAI31_G_0P5)                0.01       0.56 r
-  U2167/X (STP_AOI21_0P75)                 0.02       0.58 f
-  U2170/X (STP_MUXI2_MG_0P5)               0.02       0.60 r
-  message[4] (out)                         0.00       0.60 r
-  data arrival time                                   0.60
+  codeword[25] (in)                        0.00       0.00 r
+  U2336/X (STP_EN3_6)                      0.08       0.08 f
+  U2335/X (STP_EO3_3)                      0.07       0.15 r
+  U2377/X (STP_EN3_3)                      0.05       0.20 f
+  U1804/X (STP_BUF_S_12)                   0.02       0.23 f
+  U1805/X (STP_INV_S_14)                   0.01       0.24 r
+  U2429/X (STP_NR2_G_16)                   0.01       0.25 f
+  U2113/X (STP_AO2BB2_8)                   0.03       0.28 f
+  U1899/X (STP_AOI22_5)                    0.01       0.30 r
+  U2338/X (STP_AOI21_2)                    0.02       0.31 f
+  U2157/X (STP_NR3_G_2)                    0.02       0.33 r
+  U2397/X (STP_ND2_S_5)                    0.02       0.35 f
+  U2406/X (STP_NR2_8)                      0.02       0.37 r
+  U2416/X (STP_INV_18)                     0.02       0.39 f
+  U1803/X (STP_INV_18)                     0.01       0.40 r
+  U2274/X (STP_NR2_S_20)                   0.01       0.41 f
+  U2314/X (STP_NR2B_16)                    0.02       0.43 f
+  U1298/X (STP_INV_6P5)                    0.01       0.44 r
+  U1782/X (STP_ND2_7)                      0.01       0.45 f
+  U1767/X (STP_NR2_G_3P5)                  0.01       0.46 r
+  U2220/X (STP_NR3_G_2)                    0.01       0.47 f
+  U2205/X (STP_MUXI2_MG_0P75)              0.01       0.48 r
+  message[54] (out)                        0.00       0.48 r
+  data arrival time                                   0.48
 
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
   -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.60
+  data required time                                  0.40
+  data arrival time                                  -0.48
   -----------------------------------------------------------
-  slack (MET)                                         0.00
+  slack (VIOLATED)                                   -0.08
 
 
-  Startpoint: codeword[8]
+  Startpoint: codeword[25]
               (input port clocked by vclk)
-  Endpoint: message[4] (output port clocked by vclk)
+  Endpoint: message[22]
+            (output port clocked by vclk)
   Path Group: vclk
   Path Type: max
 
@@ -237,45 +244,45 @@ Wire Load Model Mode: enclosed
   clock vclk (rise edge)                   0.00       0.00
   clock network delay (ideal)              0.00       0.00
   input external delay                     0.00       0.00 r
-  codeword[8] (in)                         0.00       0.00 r
-  U1339/X (STP_EN2_3)                      0.05       0.05 f
-  U1859/X (STP_EO3_3)                      0.04       0.09 r
-  U1427/X (STP_INV_1P5)                    0.01       0.11 f
-  U1886/X (STP_EO3_3)                      0.07       0.18 f
-  U1556/X (STP_EO3_3)                      0.04       0.22 r
-  U1213/X (STP_INV_2)                      0.03       0.24 f
-  U1278/X (STP_ND2_G_4)                    0.02       0.26 r
-  U1193/X (STP_INV_S_1)                    0.03       0.29 f
-  U1315/X (STP_NR2_G_0P8)                  0.02       0.31 r
-  U2020/X (STP_OAI22_0P5)                  0.03       0.34 f
-  U2022/X (STP_AOI211_0P75)                0.03       0.37 r
-  U2027/X (STP_AOAI211_2)                  0.04       0.41 f
-  U2030/X (STP_NR4B_4)                     0.04       0.45 r
-  U1267/X (STP_INV_2P5)                    0.02       0.46 f
-  U1175/X (STP_NR2_G_2)                    0.02       0.48 r
-  U1262/X (STP_ND2_S_6)                    0.02       0.50 f
-  U1158/X (STP_NR2_1)                      0.03       0.53 r
-  U2166/X (STP_ND2_S_0P8)                  0.02       0.55 f
-  U1346/X (STP_OAI31_G_0P5)                0.01       0.56 r
-  U2167/X (STP_AOI21_0P75)                 0.02       0.58 f
-  U2170/X (STP_MUXI2_MG_0P5)               0.02       0.60 r
-  message[4] (out)                         0.00       0.60 r
-  data arrival time                                   0.60
+  codeword[25] (in)                        0.00       0.00 r
+  U2336/X (STP_EN3_6)                      0.08       0.08 f
+  U2335/X (STP_EO3_3)                      0.07       0.15 r
+  U2377/X (STP_EN3_3)                      0.05       0.20 f
+  U2100/X (STP_INV_6)                      0.02       0.22 r
+  U2099/X (STP_INV_18)                     0.02       0.24 f
+  U2285/X (STP_ND2_5)                      0.01       0.25 r
+  U1921/X (STP_INV_2)                      0.01       0.26 f
+  U1952/X (STP_ND2_1P5)                    0.01       0.26 r
+  U1950/X (STP_INV_1P5)                    0.01       0.28 f
+  U2138/X (STP_NR4_4)                      0.02       0.30 r
+  U1925/X (STP_AOI21_2)                    0.02       0.31 f
+  U1947/X (STP_NR3_G_2)                    0.02       0.33 r
+  U2319/X (STP_ND2_S_5)                    0.02       0.35 f
+  U1843/X (STP_NR2_8)                      0.02       0.37 r
+  U1900/X (STP_INV_18)                     0.02       0.39 f
+  U2083/X (STP_ND2_24)                     0.01       0.40 r
+  U2096/X (STP_NR2B_16)                    0.02       0.42 r
+  U2198/X (STP_AOAI211_4)                  0.03       0.45 f
+  U1145/X (STP_NR2_G_0P5)                  0.02       0.47 r
+  U2256/X (STP_MUXI2_MG_0P75)              0.02       0.48 f
+  message[22] (out)                        0.00       0.48 f
+  data arrival time                                   0.48
 
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
   -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.60
+  data required time                                  0.40
+  data arrival time                                  -0.48
   -----------------------------------------------------------
-  slack (MET)                                         0.00
+  slack (VIOLATED)                                   -0.08
 
 
-  Startpoint: codeword[8]
+  Startpoint: codeword[25]
               (input port clocked by vclk)
-  Endpoint: message[4] (output port clocked by vclk)
+  Endpoint: message[22]
+            (output port clocked by vclk)
   Path Group: vclk
   Path Type: max
 
@@ -289,45 +296,45 @@ Wire Load Model Mode: enclosed
   clock vclk (rise edge)                   0.00       0.00
   clock network delay (ideal)              0.00       0.00
   input external delay                     0.00       0.00 r
-  codeword[8] (in)                         0.00       0.00 r
-  U1339/X (STP_EN2_3)                      0.05       0.05 f
-  U1859/X (STP_EO3_3)                      0.04       0.09 r
-  U1427/X (STP_INV_1P5)                    0.01       0.11 f
-  U1886/X (STP_EO3_3)                      0.07       0.18 f
-  U1556/X (STP_EO3_3)                      0.04       0.22 r
-  U1213/X (STP_INV_2)                      0.03       0.24 f
-  U1278/X (STP_ND2_G_4)                    0.02       0.26 r
-  U1193/X (STP_INV_S_1)                    0.03       0.29 f
-  U1315/X (STP_NR2_G_0P8)                  0.02       0.31 r
-  U2020/X (STP_OAI22_0P5)                  0.03       0.34 f
-  U2022/X (STP_AOI211_0P75)                0.03       0.37 r
-  U2027/X (STP_AOAI211_2)                  0.04       0.41 f
-  U2030/X (STP_NR4B_4)                     0.04       0.45 r
-  U1267/X (STP_INV_2P5)                    0.02       0.46 f
-  U1175/X (STP_NR2_G_2)                    0.02       0.48 r
-  U1262/X (STP_ND2_S_6)                    0.02       0.50 f
-  U1158/X (STP_NR2_1)                      0.03       0.53 r
-  U2166/X (STP_ND2_S_0P8)                  0.02       0.55 f
-  U1346/X (STP_OAI31_G_0P5)                0.01       0.56 r
-  U2167/X (STP_AOI21_0P75)                 0.02       0.58 f
-  U2170/X (STP_MUXI2_MG_0P5)               0.02       0.60 r
-  message[4] (out)                         0.00       0.60 r
-  data arrival time                                   0.60
+  codeword[25] (in)                        0.00       0.00 r
+  U2336/X (STP_EN3_6)                      0.08       0.08 f
+  U2335/X (STP_EO3_3)                      0.07       0.15 r
+  U2377/X (STP_EN3_3)                      0.05       0.20 f
+  U2100/X (STP_INV_6)                      0.02       0.22 r
+  U2099/X (STP_INV_18)                     0.02       0.24 f
+  U2285/X (STP_ND2_5)                      0.01       0.25 r
+  U1921/X (STP_INV_2)                      0.01       0.26 f
+  U1952/X (STP_ND2_1P5)                    0.01       0.26 r
+  U1950/X (STP_INV_1P5)                    0.01       0.28 f
+  U2138/X (STP_NR4_4)                      0.02       0.30 r
+  U1925/X (STP_AOI21_2)                    0.02       0.31 f
+  U1947/X (STP_NR3_G_2)                    0.02       0.33 r
+  U2319/X (STP_ND2_S_5)                    0.02       0.35 f
+  U1843/X (STP_NR2_8)                      0.02       0.37 r
+  U1900/X (STP_INV_18)                     0.02       0.39 f
+  U2083/X (STP_ND2_24)                     0.01       0.40 r
+  U2096/X (STP_NR2B_16)                    0.02       0.42 r
+  U2198/X (STP_AOAI211_4)                  0.03       0.45 f
+  U1145/X (STP_NR2_G_0P5)                  0.02       0.47 r
+  U2256/X (STP_MUXI2_MG_0P75)              0.02       0.48 f
+  message[22] (out)                        0.00       0.48 f
+  data arrival time                                   0.48
 
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
   -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.60
+  data required time                                  0.40
+  data arrival time                                  -0.48
   -----------------------------------------------------------
-  slack (MET)                                         0.00
+  slack (VIOLATED)                                   -0.08
 
 
-  Startpoint: codeword[8]
+  Startpoint: codeword[25]
               (input port clocked by vclk)
-  Endpoint: message[4] (output port clocked by vclk)
+  Endpoint: message[46]
+            (output port clocked by vclk)
   Path Group: vclk
   Path Type: max
 
@@ -341,45 +348,47 @@ Wire Load Model Mode: enclosed
   clock vclk (rise edge)                   0.00       0.00
   clock network delay (ideal)              0.00       0.00
   input external delay                     0.00       0.00 r
-  codeword[8] (in)                         0.00       0.00 r
-  U1339/X (STP_EN2_3)                      0.05       0.05 f
-  U1859/X (STP_EO3_3)                      0.04       0.09 r
-  U1427/X (STP_INV_1P5)                    0.01       0.11 f
-  U1886/X (STP_EO3_3)                      0.07       0.18 f
-  U1556/X (STP_EO3_3)                      0.04       0.22 r
-  U1213/X (STP_INV_2)                      0.03       0.24 f
-  U1278/X (STP_ND2_G_4)                    0.02       0.26 r
-  U1193/X (STP_INV_S_1)                    0.03       0.29 f
-  U1315/X (STP_NR2_G_0P8)                  0.02       0.31 r
-  U2020/X (STP_OAI22_0P5)                  0.03       0.34 f
-  U2022/X (STP_AOI211_0P75)                0.03       0.37 r
-  U2027/X (STP_AOAI211_2)                  0.04       0.41 f
-  U2030/X (STP_NR4B_4)                     0.04       0.45 r
-  U1267/X (STP_INV_2P5)                    0.02       0.46 f
-  U1175/X (STP_NR2_G_2)                    0.02       0.48 r
-  U1262/X (STP_ND2_S_6)                    0.02       0.50 f
-  U1158/X (STP_NR2_1)                      0.03       0.53 r
-  U2166/X (STP_ND2_S_0P8)                  0.02       0.55 f
-  U1346/X (STP_OAI31_G_0P5)                0.01       0.56 r
-  U2167/X (STP_AOI21_0P75)                 0.02       0.58 f
-  U2170/X (STP_MUXI2_MG_0P5)               0.02       0.60 r
-  message[4] (out)                         0.00       0.60 r
-  data arrival time                                   0.60
+  codeword[25] (in)                        0.00       0.00 r
+  U2336/X (STP_EN3_6)                      0.08       0.08 f
+  U2335/X (STP_EO3_3)                      0.07       0.15 r
+  U2377/X (STP_EN3_3)                      0.05       0.20 f
+  U2100/X (STP_INV_6)                      0.02       0.22 r
+  U2099/X (STP_INV_18)                     0.02       0.24 f
+  U2285/X (STP_ND2_5)                      0.01       0.25 r
+  U1921/X (STP_INV_2)                      0.01       0.26 f
+  U1952/X (STP_ND2_1P5)                    0.01       0.26 r
+  U1950/X (STP_INV_1P5)                    0.01       0.28 f
+  U2138/X (STP_NR4_4)                      0.02       0.30 r
+  U1925/X (STP_AOI21_2)                    0.02       0.31 f
+  U1947/X (STP_NR3_G_2)                    0.02       0.33 r
+  U2319/X (STP_ND2_S_5)                    0.02       0.35 f
+  U1843/X (STP_NR2_8)                      0.02       0.37 r
+  U1900/X (STP_INV_18)                     0.02       0.39 f
+  U1336/X (STP_BUF_5)                      0.02       0.41 f
+  U2314/X (STP_NR2B_16)                    0.02       0.43 r
+  U1835/X (STP_NR2_G_6)                    0.01       0.44 f
+  U1808/X (STP_INV_3P5)                    0.01       0.45 r
+  U1868/X (STP_ND2_S_6)                    0.01       0.46 f
+  U2295/X (STP_NR3_G_2)                    0.01       0.47 r
+  U1831/X (STP_MUXI2_MG_0P75)              0.01       0.48 f
+  message[46] (out)                        0.00       0.48 f
+  data arrival time                                   0.48
 
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
   -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.60
+  data required time                                  0.40
+  data arrival time                                  -0.48
   -----------------------------------------------------------
-  slack (MET)                                         0.00
+  slack (VIOLATED)                                   -0.08
 
 
-  Startpoint: codeword[8]
+  Startpoint: codeword[25]
               (input port clocked by vclk)
-  Endpoint: message[4] (output port clocked by vclk)
+  Endpoint: message[46]
+            (output port clocked by vclk)
   Path Group: vclk
   Path Type: max
 
@@ -393,45 +402,47 @@ Wire Load Model Mode: enclosed
   clock vclk (rise edge)                   0.00       0.00
   clock network delay (ideal)              0.00       0.00
   input external delay                     0.00       0.00 r
-  codeword[8] (in)                         0.00       0.00 r
-  U1339/X (STP_EN2_3)                      0.05       0.05 f
-  U1859/X (STP_EO3_3)                      0.04       0.09 r
-  U1427/X (STP_INV_1P5)                    0.01       0.11 f
-  U1886/X (STP_EO3_3)                      0.07       0.18 f
-  U1556/X (STP_EO3_3)                      0.04       0.22 r
-  U1213/X (STP_INV_2)                      0.03       0.24 f
-  U1278/X (STP_ND2_G_4)                    0.02       0.26 r
-  U1193/X (STP_INV_S_1)                    0.03       0.29 f
-  U1315/X (STP_NR2_G_0P8)                  0.02       0.31 r
-  U2020/X (STP_OAI22_0P5)                  0.03       0.34 f
-  U2022/X (STP_AOI211_0P75)                0.03       0.37 r
-  U2027/X (STP_AOAI211_2)                  0.04       0.41 f
-  U2030/X (STP_NR4B_4)                     0.04       0.45 r
-  U1267/X (STP_INV_2P5)                    0.02       0.46 f
-  U1175/X (STP_NR2_G_2)                    0.02       0.48 r
-  U1262/X (STP_ND2_S_6)                    0.02       0.50 f
-  U1158/X (STP_NR2_1)                      0.03       0.53 r
-  U2166/X (STP_ND2_S_0P8)                  0.02       0.55 f
-  U1346/X (STP_OAI31_G_0P5)                0.01       0.56 r
-  U2167/X (STP_AOI21_0P75)                 0.02       0.58 f
-  U2170/X (STP_MUXI2_MG_0P5)               0.02       0.60 r
-  message[4] (out)                         0.00       0.60 r
-  data arrival time                                   0.60
+  codeword[25] (in)                        0.00       0.00 r
+  U2336/X (STP_EN3_6)                      0.08       0.08 f
+  U2335/X (STP_EO3_3)                      0.07       0.15 r
+  U2377/X (STP_EN3_3)                      0.05       0.20 f
+  U2100/X (STP_INV_6)                      0.02       0.22 r
+  U2099/X (STP_INV_18)                     0.02       0.24 f
+  U2285/X (STP_ND2_5)                      0.01       0.25 r
+  U1921/X (STP_INV_2)                      0.01       0.26 f
+  U1952/X (STP_ND2_1P5)                    0.01       0.26 r
+  U1950/X (STP_INV_1P5)                    0.01       0.28 f
+  U2138/X (STP_NR4_4)                      0.02       0.30 r
+  U1925/X (STP_AOI21_2)                    0.02       0.31 f
+  U1947/X (STP_NR3_G_2)                    0.02       0.33 r
+  U2319/X (STP_ND2_S_5)                    0.02       0.35 f
+  U1843/X (STP_NR2_8)                      0.02       0.37 r
+  U1900/X (STP_INV_18)                     0.02       0.39 f
+  U1336/X (STP_BUF_5)                      0.02       0.41 f
+  U2314/X (STP_NR2B_16)                    0.02       0.43 r
+  U1835/X (STP_NR2_G_6)                    0.01       0.44 f
+  U1808/X (STP_INV_3P5)                    0.01       0.45 r
+  U1868/X (STP_ND2_S_6)                    0.01       0.46 f
+  U2295/X (STP_NR3_G_2)                    0.01       0.47 r
+  U1831/X (STP_MUXI2_MG_0P75)              0.01       0.48 f
+  message[46] (out)                        0.00       0.48 f
+  data arrival time                                   0.48
 
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
   -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.60
+  data required time                                  0.40
+  data arrival time                                  -0.48
   -----------------------------------------------------------
-  slack (MET)                                         0.00
+  slack (VIOLATED)                                   -0.08
 
 
-  Startpoint: codeword[8]
+  Startpoint: codeword[25]
               (input port clocked by vclk)
-  Endpoint: message[4] (output port clocked by vclk)
+  Endpoint: message[36]
+            (output port clocked by vclk)
   Path Group: vclk
   Path Type: max
 
@@ -445,45 +456,46 @@ Wire Load Model Mode: enclosed
   clock vclk (rise edge)                   0.00       0.00
   clock network delay (ideal)              0.00       0.00
   input external delay                     0.00       0.00 r
-  codeword[8] (in)                         0.00       0.00 r
-  U1339/X (STP_EN2_3)                      0.05       0.05 f
-  U1859/X (STP_EO3_3)                      0.04       0.09 r
-  U1427/X (STP_INV_1P5)                    0.01       0.11 f
-  U1886/X (STP_EO3_3)                      0.07       0.18 f
-  U1556/X (STP_EO3_3)                      0.04       0.22 r
-  U1213/X (STP_INV_2)                      0.03       0.24 f
-  U1278/X (STP_ND2_G_4)                    0.02       0.26 r
-  U1193/X (STP_INV_S_1)                    0.03       0.29 f
-  U1315/X (STP_NR2_G_0P8)                  0.02       0.31 r
-  U2020/X (STP_OAI22_0P5)                  0.03       0.34 f
-  U2022/X (STP_AOI211_0P75)                0.03       0.37 r
-  U2027/X (STP_AOAI211_2)                  0.04       0.41 f
-  U2030/X (STP_NR4B_4)                     0.04       0.45 r
-  U1267/X (STP_INV_2P5)                    0.02       0.46 f
-  U1175/X (STP_NR2_G_2)                    0.02       0.48 r
-  U1262/X (STP_ND2_S_6)                    0.02       0.50 f
-  U1158/X (STP_NR2_1)                      0.03       0.53 r
-  U2166/X (STP_ND2_S_0P8)                  0.02       0.55 f
-  U1346/X (STP_OAI31_G_0P5)                0.01       0.56 r
-  U2167/X (STP_AOI21_0P75)                 0.02       0.58 f
-  U2170/X (STP_MUXI2_MG_0P5)               0.02       0.60 r
-  message[4] (out)                         0.00       0.60 r
-  data arrival time                                   0.60
+  codeword[25] (in)                        0.00       0.00 r
+  U2336/X (STP_EN3_6)                      0.08       0.08 f
+  U2335/X (STP_EO3_3)                      0.07       0.15 r
+  U2377/X (STP_EN3_3)                      0.05       0.20 f
+  U2100/X (STP_INV_6)                      0.02       0.22 r
+  U2099/X (STP_INV_18)                     0.02       0.24 f
+  U1894/X (STP_INV_18)                     0.01       0.25 r
+  U2048/X (STP_NR2_6)                      0.01       0.26 f
+  U2125/X (STP_ND2_5)                      0.01       0.27 r
+  U1528/X (STP_INV_4)                      0.01       0.28 f
+  U2118/X (STP_AOI21_6)                    0.02       0.29 r
+  U2236/X (STP_AOI21_4)                    0.01       0.31 f
+  U2119/X (STP_NR2_S_3)                    0.01       0.32 r
+  U2545/X (STP_OAI211_4)                   0.03       0.35 f
+  U2309/X (STP_NR2_6)                      0.03       0.38 r
+  U2457/X (STP_INV_7P5)                    0.02       0.40 f
+  U2122/X (STP_ND2_S_16)                   0.01       0.41 r
+  U2121/X (STP_NR2_S_20)                   0.01       0.43 f
+  U1307/X (STP_INV_S_5)                    0.01       0.44 r
+  U1720/X (STP_NR2_6)                      0.01       0.44 f
+  U1150/X (STP_AOI22_1)                    0.02       0.46 r
+  U1859/X (STP_OAI22_V3S_1)                0.02       0.48 f
+  message[36] (out)                        0.00       0.48 f
+  data arrival time                                   0.48
 
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
   -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.60
+  data required time                                  0.40
+  data arrival time                                  -0.48
   -----------------------------------------------------------
-  slack (MET)                                         0.00
+  slack (VIOLATED)                                   -0.08
 
 
-  Startpoint: codeword[8]
+  Startpoint: codeword[25]
               (input port clocked by vclk)
-  Endpoint: message[4] (output port clocked by vclk)
+  Endpoint: message[54]
+            (output port clocked by vclk)
   Path Group: vclk
   Path Type: max
 
@@ -497,40 +509,39 @@ Wire Load Model Mode: enclosed
   clock vclk (rise edge)                   0.00       0.00
   clock network delay (ideal)              0.00       0.00
   input external delay                     0.00       0.00 r
-  codeword[8] (in)                         0.00       0.00 r
-  U1339/X (STP_EN2_3)                      0.05       0.05 f
-  U1859/X (STP_EO3_3)                      0.04       0.09 r
-  U1427/X (STP_INV_1P5)                    0.01       0.11 f
-  U1886/X (STP_EO3_3)                      0.07       0.18 f
-  U1556/X (STP_EO3_3)                      0.04       0.22 r
-  U1213/X (STP_INV_2)                      0.03       0.24 f
-  U1278/X (STP_ND2_G_4)                    0.02       0.26 r
-  U1193/X (STP_INV_S_1)                    0.03       0.29 f
-  U1315/X (STP_NR2_G_0P8)                  0.02       0.31 r
-  U2020/X (STP_OAI22_0P5)                  0.03       0.34 f
-  U2022/X (STP_AOI211_0P75)                0.03       0.37 r
-  U2027/X (STP_AOAI211_2)                  0.04       0.41 f
-  U2030/X (STP_NR4B_4)                     0.04       0.45 r
-  U1267/X (STP_INV_2P5)                    0.02       0.46 f
-  U1175/X (STP_NR2_G_2)                    0.02       0.48 r
-  U1262/X (STP_ND2_S_6)                    0.02       0.50 f
-  U1158/X (STP_NR2_1)                      0.03       0.53 r
-  U2166/X (STP_ND2_S_0P8)                  0.02       0.55 f
-  U1346/X (STP_OAI31_G_0P5)                0.01       0.56 r
-  U2167/X (STP_AOI21_0P75)                 0.02       0.58 f
-  U2170/X (STP_MUXI2_MG_0P5)               0.02       0.60 r
-  message[4] (out)                         0.00       0.60 r
-  data arrival time                                   0.60
+  codeword[25] (in)                        0.00       0.00 r
+  U2336/X (STP_EN3_6)                      0.08       0.08 f
+  U2335/X (STP_EO3_3)                      0.07       0.15 r
+  U2377/X (STP_EN3_3)                      0.05       0.20 f
+  U1804/X (STP_BUF_S_12)                   0.02       0.23 f
+  U1805/X (STP_INV_S_14)                   0.01       0.24 r
+  U2429/X (STP_NR2_G_16)                   0.01       0.25 f
+  U1536/X (STP_OAI21B_2)                   0.03       0.28 f
+  U2574/X (STP_AO21B_2)                    0.03       0.31 f
+  U2288/X (STP_NR4_4)                      0.02       0.33 r
+  U1353/X (STP_ND2_G_3)                    0.02       0.35 f
+  U2406/X (STP_NR2_8)                      0.02       0.37 r
+  U2416/X (STP_INV_18)                     0.02       0.39 f
+  U1803/X (STP_INV_18)                     0.01       0.40 r
+  U2274/X (STP_NR2_S_20)                   0.01       0.41 f
+  U2314/X (STP_NR2B_16)                    0.02       0.43 f
+  U1298/X (STP_INV_6P5)                    0.01       0.44 r
+  U1782/X (STP_ND2_7)                      0.01       0.45 f
+  U1767/X (STP_NR2_G_3P5)                  0.01       0.46 r
+  U2220/X (STP_NR3_G_2)                    0.01       0.47 f
+  U2205/X (STP_MUXI2_MG_0P75)              0.01       0.48 r
+  message[54] (out)                        0.00       0.48 r
+  data arrival time                                   0.48
 
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
   -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.60
+  data required time                                  0.40
+  data arrival time                                  -0.48
   -----------------------------------------------------------
-  slack (MET)                                         0.00
+  slack (VIOLATED)                                   -0.08
 
 
 1

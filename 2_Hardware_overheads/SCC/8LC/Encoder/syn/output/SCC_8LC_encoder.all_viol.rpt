@@ -6,7 +6,7 @@ Report : constraint
         -verbose
 Design : SCC_8LC_encoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:04:06 2023
+Date   : Sun Sep 17 23:42:27 2023
 ****************************************
 
 
@@ -77,17 +77,17 @@ Date   : Mon Sep 11 18:04:06 2023
     Design: SCC_8LC_encoder
 
     max_area           0.0000000000
-  - Current Area       127.3440017700
+  - Current Area       147.1679992676
   ------------------------------
-    Slack              -127.3440017700  (VIOLATED)
+    Slack              -147.1679992676  (VIOLATED)
 
 
     Design: SCC_8LC_encoder
 
     max_leakage_power      0.0000000000
-  - Current Leakage Power  3370.2324218750
+  - Current Leakage Power  3969.9152832031
   ----------------------------------
-    Slack                  -3370.2324218750  (VIOLATED)
+    Slack                  -3969.9152832031  (VIOLATED)
 
 
 1

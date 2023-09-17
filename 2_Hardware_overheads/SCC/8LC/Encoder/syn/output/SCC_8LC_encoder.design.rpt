@@ -3,7 +3,7 @@
 Report : design
 Design : SCC_8LC_encoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:04:06 2023
+Date   : Sun Sep 17 23:42:27 2023
 ****************************************
 
 Design allows ideal nets on clock nets.

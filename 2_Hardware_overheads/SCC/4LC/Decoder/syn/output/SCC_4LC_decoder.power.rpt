@@ -6,7 +6,7 @@ Report : power
         -analysis_effort high
 Design : SCC_4LC_decoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 21:13:47 2023
+Date   : Sun Sep 17 23:43:20 2023
 ****************************************
 
 
@@ -32,12 +32,12 @@ Power-specific unit information :
     Leakage Power Units = 1nW
 
 
-  Cell Internal Power  = 601.5287 uW   (56%)
-  Net Switching Power  = 463.9673 uW   (44%)
+  Cell Internal Power  =   3.1468 mW   (51%)
+  Net Switching Power  =   2.9780 mW   (49%)
                          ---------
-Total Dynamic Power    =   1.0655 mW  (100%)
+Total Dynamic Power    =   6.1248 mW  (100%)
 
-Cell Leakage Power     =  12.0970 uW
+Cell Leakage Power     =  48.4522 uW
 
 Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
 
@@ -50,7 +50,7 @@ black_box          0.0000            0.0000            0.0000            0.0000 
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
 register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational      0.6015            0.4640        1.2097e+04            1.0776  ( 100.00%)
+combinational      3.1468            2.9780        4.8452e+04            6.1732  ( 100.00%)
 --------------------------------------------------------------------------------------------------
-Total              0.6015 mW         0.4640 mW     1.2097e+04 nW         1.0776 mW
+Total              3.1468 mW         2.9780 mW     4.8452e+04 nW         6.1732 mW
 1

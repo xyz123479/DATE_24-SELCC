@@ -6,7 +6,7 @@ Report : constraint
         -verbose
 Design : SEC_DED_encoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:06:15 2023
+Date   : Sun Sep 17 23:43:48 2023
 ****************************************
 
 
@@ -77,17 +77,17 @@ Date   : Mon Sep 11 18:06:15 2023
     Design: SEC_DED_encoder
 
     max_area           0.0000000000
-  - Current Area       106.6800003052
+  - Current Area       115.4160003662
   ------------------------------
-    Slack              -106.6800003052  (VIOLATED)
+    Slack              -115.4160003662  (VIOLATED)
 
 
     Design: SEC_DED_encoder
 
     max_leakage_power      0.0000000000
-  - Current Leakage Power  2941.4748535156
+  - Current Leakage Power  3165.7031250000
   ----------------------------------
-    Slack                  -2941.4748535156  (VIOLATED)
+    Slack                  -3165.7031250000  (VIOLATED)
 
 
 1

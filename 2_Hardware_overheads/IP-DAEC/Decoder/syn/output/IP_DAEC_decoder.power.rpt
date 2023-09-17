@@ -6,7 +6,7 @@ Report : power
         -analysis_effort high
 Design : IP_DAEC_decoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 19:11:28 2023
+Date   : Sun Sep 17 23:42:41 2023
 ****************************************
 
 
@@ -32,12 +32,12 @@ Power-specific unit information :
     Leakage Power Units = 1nW
 
 
-  Cell Internal Power  = 712.0460 uW   (57%)
-  Net Switching Power  = 537.4830 uW   (43%)
+  Cell Internal Power  =   3.4471 mW   (52%)
+  Net Switching Power  =   3.2090 mW   (48%)
                          ---------
-Total Dynamic Power    =   1.2495 mW  (100%)
+Total Dynamic Power    =   6.6562 mW  (100%)
 
-Cell Leakage Power     =  13.8649 uW
+Cell Leakage Power     =  53.3179 uW
 
 Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
 
@@ -50,7 +50,7 @@ black_box          0.0000            0.0000            0.0000            0.0000 
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
 register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational      0.7120            0.5375        1.3865e+04            1.2634  ( 100.00%)
+combinational      3.4471            3.2090        5.3318e+04            6.7095  ( 100.00%)
 --------------------------------------------------------------------------------------------------
-Total              0.7120 mW         0.5375 mW     1.3865e+04 nW         1.2634 mW
+Total              3.4471 mW         3.2090 mW     5.3318e+04 nW         6.7095 mW
 1

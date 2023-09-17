@@ -3,7 +3,7 @@
 Report : design
 Design : SEC_DAEC_TAEC_decoder
 Version: Q-2019.12-SP5-5
-Date   : Mon Sep 11 18:06:15 2023
+Date   : Sun Sep 17 23:50:52 2023
 ****************************************
 
 Design allows ideal nets on clock nets.

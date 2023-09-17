@@ -7,15 +7,163 @@ Report : timing
         -max_paths 10
 Design : IP_DAEC_8LC_encoder
 Version: Q-2019.12-SP5-5
-Date   : Wed Sep 13 22:51:54 2023
+Date   : Sun Sep 17 23:53:34 2023
 ****************************************
 
 Operating Conditions: SSGWC0P9V125C   Library: um28nchslogl35hsl140f_ssgwc0p9v125c
 Wire Load Model Mode: enclosed
 
-  Startpoint: message[54]
+  Startpoint: message[17]
               (input port clocked by vclk)
-  Endpoint: IP (output port clocked by vclk)
+  Endpoint: codeword[3]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IP_DAEC_8LC_encoder
+                     ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 r
+  message[17] (in)                         0.00       0.00 r
+  U79/X (STP_EN2_S_2)                      0.06       0.06 f
+  U97/X (STP_EO3_3)                        0.07       0.13 f
+  U133/X (STP_EO3_0P5)                     0.09       0.22 f
+  U98/X (STP_EO3_0P5)                      0.10       0.32 f
+  U139/X (STP_EO3_0P5)                     0.08       0.40 f
+  codeword[3] (out)                        0.00       0.40 f
+  data arrival time                                   0.40
+
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
+  -----------------------------------------------------------
+  data required time                                  0.40
+  data arrival time                                  -0.40
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+  Startpoint: message[17]
+              (input port clocked by vclk)
+  Endpoint: codeword[0]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IP_DAEC_8LC_encoder
+                     ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 r
+  message[17] (in)                         0.00       0.00 r
+  U79/X (STP_EN2_S_2)                      0.06       0.06 f
+  U97/X (STP_EO3_3)                        0.07       0.13 f
+  U133/X (STP_EO3_0P5)                     0.09       0.22 f
+  U98/X (STP_EO3_0P5)                      0.10       0.32 f
+  U134/X (STP_EO3_0P5)                     0.08       0.40 f
+  codeword[0] (out)                        0.00       0.40 f
+  data arrival time                                   0.40
+
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
+  -----------------------------------------------------------
+  data required time                                  0.40
+  data arrival time                                  -0.40
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+  Startpoint: message[17]
+              (input port clocked by vclk)
+  Endpoint: codeword[3]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IP_DAEC_8LC_encoder
+                     ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 r
+  message[17] (in)                         0.00       0.00 r
+  U79/X (STP_EN2_S_2)                      0.06       0.06 f
+  U97/X (STP_EO3_3)                        0.07       0.13 f
+  U133/X (STP_EO3_0P5)                     0.09       0.22 f
+  U98/X (STP_EO3_0P5)                      0.10       0.32 f
+  U139/X (STP_EO3_0P5)                     0.08       0.40 f
+  codeword[3] (out)                        0.00       0.40 f
+  data arrival time                                   0.40
+
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
+  -----------------------------------------------------------
+  data required time                                  0.40
+  data arrival time                                  -0.40
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+  Startpoint: message[17]
+              (input port clocked by vclk)
+  Endpoint: codeword[0]
+            (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IP_DAEC_8LC_encoder
+                     ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 r
+  message[17] (in)                         0.00       0.00 r
+  U79/X (STP_EN2_S_2)                      0.06       0.06 f
+  U97/X (STP_EO3_3)                        0.07       0.13 f
+  U133/X (STP_EO3_0P5)                     0.09       0.22 f
+  U98/X (STP_EO3_0P5)                      0.10       0.32 f
+  U134/X (STP_EO3_0P5)                     0.08       0.40 f
+  codeword[0] (out)                        0.00       0.40 f
+  data arrival time                                   0.40
+
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
+  -----------------------------------------------------------
+  data required time                                  0.40
+  data arrival time                                  -0.40
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+  Startpoint: message[2] (input port clocked by vclk)
+  Endpoint: codeword[3]
+            (output port clocked by vclk)
   Path Group: vclk
   Path Type: max
 
@@ -29,31 +177,29 @@ Wire Load Model Mode: enclosed
   clock vclk (rise edge)                   0.00       0.00
   clock network delay (ideal)              0.00       0.00
   input external delay                     0.00       0.00 f
-  message[54] (in)                         0.00       0.00 f
-  U97/S (STP_ADDH_0P5)                     0.08       0.08 r
-  U98/X (STP_EO3_0P5)                      0.04       0.12 f
-  U99/X (STP_EO3_0P5)                      0.09       0.21 f
-  U100/X (STP_EO3_0P5)                     0.09       0.30 f
-  U101/X (STP_EO3_0P5)                     0.09       0.39 f
-  U102/X (STP_EO3_0P5)                     0.09       0.48 f
-  U103/X (STP_EO3_0P5)                     0.08       0.57 f
-  IP (out)                                 0.00       0.57 f
-  data arrival time                                   0.57
+  message[2] (in)                          0.00       0.00 f
+  U78/X (STP_AO2BB2_V3_1)                  0.06       0.06 f
+  U97/X (STP_EO3_3)                        0.07       0.13 f
+  U133/X (STP_EO3_0P5)                     0.09       0.22 f
+  U98/X (STP_EO3_0P5)                      0.10       0.32 f
+  U139/X (STP_EO3_0P5)                     0.08       0.40 f
+  codeword[3] (out)                        0.00       0.40 f
+  data arrival time                                   0.40
 
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
   -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.57
+  data required time                                  0.40
+  data arrival time                                  -0.40
   -----------------------------------------------------------
-  slack (MET)                                         0.03
+  slack (MET)                                         0.00
 
 
-  Startpoint: message[54]
-              (input port clocked by vclk)
-  Endpoint: IP (output port clocked by vclk)
+  Startpoint: message[2] (input port clocked by vclk)
+  Endpoint: codeword[0]
+            (output port clocked by vclk)
   Path Group: vclk
   Path Type: max
 
@@ -67,31 +213,29 @@ Wire Load Model Mode: enclosed
   clock vclk (rise edge)                   0.00       0.00
   clock network delay (ideal)              0.00       0.00
   input external delay                     0.00       0.00 f
-  message[54] (in)                         0.00       0.00 f
-  U97/S (STP_ADDH_0P5)                     0.08       0.08 r
-  U98/X (STP_EO3_0P5)                      0.04       0.12 f
-  U99/X (STP_EO3_0P5)                      0.09       0.21 f
-  U100/X (STP_EO3_0P5)                     0.09       0.30 f
-  U101/X (STP_EO3_0P5)                     0.09       0.39 f
-  U102/X (STP_EO3_0P5)                     0.09       0.48 f
-  U103/X (STP_EO3_0P5)                     0.08       0.57 f
-  IP (out)                                 0.00       0.57 f
-  data arrival time                                   0.57
+  message[2] (in)                          0.00       0.00 f
+  U78/X (STP_AO2BB2_V3_1)                  0.06       0.06 f
+  U97/X (STP_EO3_3)                        0.07       0.13 f
+  U133/X (STP_EO3_0P5)                     0.09       0.22 f
+  U98/X (STP_EO3_0P5)                      0.10       0.32 f
+  U134/X (STP_EO3_0P5)                     0.08       0.40 f
+  codeword[0] (out)                        0.00       0.40 f
+  data arrival time                                   0.40
 
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
   -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.57
+  data required time                                  0.40
+  data arrival time                                  -0.40
   -----------------------------------------------------------
-  slack (MET)                                         0.03
+  slack (MET)                                         0.00
 
 
-  Startpoint: message[33]
-              (input port clocked by vclk)
-  Endpoint: IP (output port clocked by vclk)
+  Startpoint: message[2] (input port clocked by vclk)
+  Endpoint: codeword[3]
+            (output port clocked by vclk)
   Path Group: vclk
   Path Type: max
 
@@ -105,31 +249,29 @@ Wire Load Model Mode: enclosed
   clock vclk (rise edge)                   0.00       0.00
   clock network delay (ideal)              0.00       0.00
   input external delay                     0.00       0.00 f
-  message[33] (in)                         0.00       0.00 f
-  U97/S (STP_ADDH_0P5)                     0.08       0.08 r
-  U98/X (STP_EO3_0P5)                      0.04       0.12 f
-  U99/X (STP_EO3_0P5)                      0.09       0.21 f
-  U100/X (STP_EO3_0P5)                     0.09       0.30 f
-  U101/X (STP_EO3_0P5)                     0.09       0.39 f
-  U102/X (STP_EO3_0P5)                     0.09       0.48 f
-  U103/X (STP_EO3_0P5)                     0.08       0.57 f
-  IP (out)                                 0.00       0.57 f
-  data arrival time                                   0.57
+  message[2] (in)                          0.00       0.00 f
+  U78/X (STP_AO2BB2_V3_1)                  0.06       0.06 f
+  U97/X (STP_EO3_3)                        0.07       0.13 f
+  U133/X (STP_EO3_0P5)                     0.09       0.22 f
+  U98/X (STP_EO3_0P5)                      0.10       0.32 f
+  U139/X (STP_EO3_0P5)                     0.08       0.40 f
+  codeword[3] (out)                        0.00       0.40 f
+  data arrival time                                   0.40
 
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
   -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.57
+  data required time                                  0.40
+  data arrival time                                  -0.40
   -----------------------------------------------------------
-  slack (MET)                                         0.03
+  slack (MET)                                         0.00
 
 
-  Startpoint: message[33]
-              (input port clocked by vclk)
-  Endpoint: IP (output port clocked by vclk)
+  Startpoint: message[2] (input port clocked by vclk)
+  Endpoint: codeword[0]
+            (output port clocked by vclk)
   Path Group: vclk
   Path Type: max
 
@@ -143,31 +285,30 @@ Wire Load Model Mode: enclosed
   clock vclk (rise edge)                   0.00       0.00
   clock network delay (ideal)              0.00       0.00
   input external delay                     0.00       0.00 f
-  message[33] (in)                         0.00       0.00 f
-  U97/S (STP_ADDH_0P5)                     0.08       0.08 r
-  U98/X (STP_EO3_0P5)                      0.04       0.12 f
-  U99/X (STP_EO3_0P5)                      0.09       0.21 f
-  U100/X (STP_EO3_0P5)                     0.09       0.30 f
-  U101/X (STP_EO3_0P5)                     0.09       0.39 f
-  U102/X (STP_EO3_0P5)                     0.09       0.48 f
-  U103/X (STP_EO3_0P5)                     0.08       0.57 f
-  IP (out)                                 0.00       0.57 f
-  data arrival time                                   0.57
+  message[2] (in)                          0.00       0.00 f
+  U78/X (STP_AO2BB2_V3_1)                  0.06       0.06 f
+  U97/X (STP_EO3_3)                        0.07       0.13 f
+  U133/X (STP_EO3_0P5)                     0.09       0.22 f
+  U98/X (STP_EO3_0P5)                      0.10       0.32 f
+  U134/X (STP_EO3_0P5)                     0.08       0.40 f
+  codeword[0] (out)                        0.00       0.40 f
+  data arrival time                                   0.40
 
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
   -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.57
+  data required time                                  0.40
+  data arrival time                                  -0.40
   -----------------------------------------------------------
-  slack (MET)                                         0.03
+  slack (MET)                                         0.00
 
 
-  Startpoint: message[54]
+  Startpoint: message[38]
               (input port clocked by vclk)
-  Endpoint: IP (output port clocked by vclk)
+  Endpoint: codeword[3]
+            (output port clocked by vclk)
   Path Group: vclk
   Path Type: max
 
@@ -181,31 +322,30 @@ Wire Load Model Mode: enclosed
   clock vclk (rise edge)                   0.00       0.00
   clock network delay (ideal)              0.00       0.00
   input external delay                     0.00       0.00 f
-  message[54] (in)                         0.00       0.00 f
-  U97/S (STP_ADDH_0P5)                     0.08       0.08 r
-  U98/X (STP_EO3_0P5)                      0.04       0.12 f
-  U99/X (STP_EO3_0P5)                      0.09       0.21 f
-  U100/X (STP_EO3_0P5)                     0.09       0.30 f
-  U101/X (STP_EO3_0P5)                     0.09       0.39 f
-  U102/X (STP_EO3_0P5)                     0.09       0.48 f
-  U103/X (STP_EO3_0P5)                     0.08       0.56 f
-  IP (out)                                 0.00       0.56 f
-  data arrival time                                   0.56
+  message[38] (in)                         0.00       0.00 f
+  U78/X (STP_AO2BB2_V3_1)                  0.06       0.06 f
+  U97/X (STP_EO3_3)                        0.07       0.13 f
+  U133/X (STP_EO3_0P5)                     0.09       0.22 f
+  U98/X (STP_EO3_0P5)                      0.10       0.32 f
+  U139/X (STP_EO3_0P5)                     0.08       0.40 f
+  codeword[3] (out)                        0.00       0.40 f
+  data arrival time                                   0.40
 
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
   -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.56
+  data required time                                  0.40
+  data arrival time                                  -0.40
   -----------------------------------------------------------
-  slack (MET)                                         0.04
+  slack (MET)                                         0.00
 
 
-  Startpoint: message[54]
+  Startpoint: message[38]
               (input port clocked by vclk)
-  Endpoint: IP (output port clocked by vclk)
+  Endpoint: codeword[0]
+            (output port clocked by vclk)
   Path Group: vclk
   Path Type: max
 
@@ -219,178 +359,24 @@ Wire Load Model Mode: enclosed
   clock vclk (rise edge)                   0.00       0.00
   clock network delay (ideal)              0.00       0.00
   input external delay                     0.00       0.00 f
-  message[54] (in)                         0.00       0.00 f
-  U97/S (STP_ADDH_0P5)                     0.08       0.08 r
-  U98/X (STP_EO3_0P5)                      0.04       0.12 f
-  U99/X (STP_EO3_0P5)                      0.09       0.21 f
-  U100/X (STP_EO3_0P5)                     0.09       0.30 f
-  U101/X (STP_EO3_0P5)                     0.09       0.39 f
-  U102/X (STP_EO3_0P5)                     0.09       0.48 f
-  U103/X (STP_EO3_0P5)                     0.08       0.56 f
-  IP (out)                                 0.00       0.56 f
-  data arrival time                                   0.56
+  message[38] (in)                         0.00       0.00 f
+  U78/X (STP_AO2BB2_V3_1)                  0.06       0.06 f
+  U97/X (STP_EO3_3)                        0.07       0.13 f
+  U133/X (STP_EO3_0P5)                     0.09       0.22 f
+  U98/X (STP_EO3_0P5)                      0.10       0.32 f
+  U134/X (STP_EO3_0P5)                     0.08       0.40 f
+  codeword[0] (out)                        0.00       0.40 f
+  data arrival time                                   0.40
 
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
+  clock vclk (rise edge)                   0.40       0.40
+  clock network delay (ideal)              0.00       0.40
+  output external delay                    0.00       0.40
+  data required time                                  0.40
   -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.56
+  data required time                                  0.40
+  data arrival time                                  -0.40
   -----------------------------------------------------------
-  slack (MET)                                         0.04
-
-
-  Startpoint: message[54]
-              (input port clocked by vclk)
-  Endpoint: IP (output port clocked by vclk)
-  Path Group: vclk
-  Path Type: max
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  IP_DAEC_8LC_encoder
-                     ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
-
-  Point                                    Incr       Path
-  -----------------------------------------------------------
-  clock vclk (rise edge)                   0.00       0.00
-  clock network delay (ideal)              0.00       0.00
-  input external delay                     0.00       0.00 f
-  message[54] (in)                         0.00       0.00 f
-  U97/S (STP_ADDH_0P5)                     0.08       0.08 r
-  U98/X (STP_EO3_0P5)                      0.04       0.12 f
-  U99/X (STP_EO3_0P5)                      0.09       0.21 f
-  U100/X (STP_EO3_0P5)                     0.09       0.30 f
-  U101/X (STP_EO3_0P5)                     0.09       0.39 f
-  U102/X (STP_EO3_0P5)                     0.09       0.48 f
-  U103/X (STP_EO3_0P5)                     0.08       0.56 f
-  IP (out)                                 0.00       0.56 f
-  data arrival time                                   0.56
-
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
-  -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.56
-  -----------------------------------------------------------
-  slack (MET)                                         0.04
-
-
-  Startpoint: message[54]
-              (input port clocked by vclk)
-  Endpoint: IP (output port clocked by vclk)
-  Path Group: vclk
-  Path Type: max
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  IP_DAEC_8LC_encoder
-                     ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
-
-  Point                                    Incr       Path
-  -----------------------------------------------------------
-  clock vclk (rise edge)                   0.00       0.00
-  clock network delay (ideal)              0.00       0.00
-  input external delay                     0.00       0.00 f
-  message[54] (in)                         0.00       0.00 f
-  U97/S (STP_ADDH_0P5)                     0.08       0.08 r
-  U98/X (STP_EO3_0P5)                      0.04       0.12 f
-  U99/X (STP_EO3_0P5)                      0.09       0.21 f
-  U100/X (STP_EO3_0P5)                     0.09       0.30 f
-  U101/X (STP_EO3_0P5)                     0.09       0.39 f
-  U102/X (STP_EO3_0P5)                     0.09       0.48 f
-  U103/X (STP_EO3_0P5)                     0.08       0.56 f
-  IP (out)                                 0.00       0.56 f
-  data arrival time                                   0.56
-
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
-  -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.56
-  -----------------------------------------------------------
-  slack (MET)                                         0.04
-
-
-  Startpoint: message[54]
-              (input port clocked by vclk)
-  Endpoint: IP (output port clocked by vclk)
-  Path Group: vclk
-  Path Type: max
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  IP_DAEC_8LC_encoder
-                     ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
-
-  Point                                    Incr       Path
-  -----------------------------------------------------------
-  clock vclk (rise edge)                   0.00       0.00
-  clock network delay (ideal)              0.00       0.00
-  input external delay                     0.00       0.00 f
-  message[54] (in)                         0.00       0.00 f
-  U97/S (STP_ADDH_0P5)                     0.08       0.08 r
-  U98/X (STP_EO3_0P5)                      0.04       0.12 f
-  U99/X (STP_EO3_0P5)                      0.09       0.21 f
-  U100/X (STP_EO3_0P5)                     0.09       0.30 f
-  U101/X (STP_EO3_0P5)                     0.09       0.39 f
-  U102/X (STP_EO3_0P5)                     0.09       0.48 f
-  U103/X (STP_EO3_0P5)                     0.08       0.56 f
-  IP (out)                                 0.00       0.56 f
-  data arrival time                                   0.56
-
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
-  -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.56
-  -----------------------------------------------------------
-  slack (MET)                                         0.04
-
-
-  Startpoint: message[54]
-              (input port clocked by vclk)
-  Endpoint: IP (output port clocked by vclk)
-  Path Group: vclk
-  Path Type: max
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  IP_DAEC_8LC_encoder
-                     ZeroWLM               um28nchslogl35hsl140f_ssgwc0p9v125c
-
-  Point                                    Incr       Path
-  -----------------------------------------------------------
-  clock vclk (rise edge)                   0.00       0.00
-  clock network delay (ideal)              0.00       0.00
-  input external delay                     0.00       0.00 f
-  message[54] (in)                         0.00       0.00 f
-  U97/S (STP_ADDH_0P5)                     0.08       0.08 r
-  U98/X (STP_EO3_0P5)                      0.04       0.12 f
-  U99/X (STP_EO3_0P5)                      0.09       0.21 f
-  U100/X (STP_EO3_0P5)                     0.09       0.30 f
-  U101/X (STP_EO3_0P5)                     0.09       0.39 f
-  U102/X (STP_EO3_0P5)                     0.09       0.48 f
-  U103/X (STP_EO3_0P5)                     0.08       0.56 f
-  IP (out)                                 0.00       0.56 f
-  data arrival time                                   0.56
-
-  clock vclk (rise edge)                   0.60       0.60
-  clock network delay (ideal)              0.00       0.60
-  output external delay                    0.00       0.60
-  data required time                                  0.60
-  -----------------------------------------------------------
-  data required time                                  0.60
-  data arrival time                                  -0.56
-  -----------------------------------------------------------
-  slack (MET)                                         0.04
+  slack (MET)                                         0.00
 
 
 1
