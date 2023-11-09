@@ -1,4 +1,4 @@
-# DATE24_SCC
+# DATE24_SELCC
 
 # This project is licensed under the terms of the MIT license
 
