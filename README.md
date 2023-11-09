@@ -1,5 +1,7 @@
 # DATE24_SCC
 
+# This project is licensed under the terms of the MIT license
+
 # Author
 
 **Yujin Lim**
