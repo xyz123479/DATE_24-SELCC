@@ -18,4 +18,6 @@ Paper URL: **(To be updated later!)**
 
 # Overview (H-matrix in multiplicative form)
 ![Multiplicative form](https://github.com/xyz123479/DATE_24-SCC/blob/main/SELCC_multiplicative%20form.PNG)
-![An Overview of the evaluation](https://github.com/xyz123479/JOK_23-DNN_Retraining_Method_Reducing_Accuracy_Degradation/blob/master/DNN%20Retraining_comparison.png)
+
+# Overview (H-matrix in binary form)
+![Binary form](https://github.com/xyz123479/DATE_24-SCC/blob/main/SELCC_H-matrix.PNG)
