@@ -16,5 +16,6 @@ Paper title: [DATE'24] SELCC: Enhancing MLC Reliability and Endurance with Singl
 
 Paper URL: **(To be updated later!)**
 
-# Overview (Prior work [2] vs Our work)
+# Overview (H-matrix in multiplicative form)
+![Multiplicative form](https://github.com/xyz123479/DATE_24-SCC/blob/main/SELCC_multiplicative%20form.PNG)
 ![An Overview of the evaluation](https://github.com/xyz123479/JOK_23-DNN_Retraining_Method_Reducing_Accuracy_Degradation/blob/master/DNN%20Retraining_comparison.png)
