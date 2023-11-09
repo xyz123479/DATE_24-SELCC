@@ -12,7 +12,7 @@
 - [```ORCiD```](https://orcid.org/0009-0007-1673-1931?fbclid=PAAabkpwNHesKweJ6F2eGZDnFa2sch2211hf6ZY825YKuli5V7lcN7VIfT0CA)
 - [```LinkedIn```](https://www.linkedin.com/in/dongwhee-kim-5753a8290)
 
-Paper title: [DATE'24] SC-ECC: An Optimal Error Correction Codes for Enhancing Reliability of MLC PCM
+Paper title: [DATE'24] SELCC: Enhancing MLC Reliability and Endurance with Single Cell Error Correction Codes
 
 Paper URL: **(To be updated later!)**
 
