@@ -21,3 +21,10 @@ Paper URL: **(To be updated later!)**
 
 # Overview (H-matrix in binary form)
 ![Binary form](https://github.com/xyz123479/DATE_24-SELCC/blob/main/SELCC_H-matrix.PNG)
+
+# 1_Reliability
+- Table 2
+- Table 3
+
+# 2_Hardware_Overheads
+- Table 4
