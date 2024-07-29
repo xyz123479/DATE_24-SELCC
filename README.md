@@ -14,7 +14,7 @@
 
 Paper title: [DATE'24] SELCC: Enhancing MLC Reliability and Endurance with Single Cell Error Correction Codes
 
-Paper URL: **(To be updated later!)**
+Paper URL: https://ieeexplore.ieee.org/abstract/document/10546752?casa_token=PeYKWkzEZ4UAAAAA:NST_QJo1ecfijAhQhWGTCiKLR7Yas1wZLFKj5Gy7EfgZVCpLAVFvXE6KVcKvzkZ8pZVO45PGo-Y
 
 # Overview (H-matrix in multiplicative form)
 ![Multiplicative form](https://github.com/xyz123479/DATE_24-SELCC/blob/main/SELCC_multiplicative%20form.PNG)
